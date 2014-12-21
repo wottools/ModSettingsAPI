@@ -639,7 +639,7 @@ package net.wg.gui.lobby.settings
       private function sendData(param1:Boolean) : void
       {
          var _loc5_:String = null;
-         var _loc6_:GraphicSettings = null;
+         var _loc6_:net.wg.gui.lobby.settings.GraphicSettings = null;
          this.cancelBtn.enabled = this.applyBtn.enabled = this.submitBtn.enabled = false;
          var _loc2_:net.wg.gui.lobby.settings.SoundSettings = net.wg.gui.lobby.settings.SoundSettings(this.tryGetView(SettingsConfig.SOUND_SETTINGS));
          if(_loc2_)
@@ -853,7 +853,7 @@ package net.wg.gui.lobby.settings
       private function onAutodetectQuality(param1:SettingViewEvent) : void
       {
          var _loc2_:Number = autodetectQualityS();
-         var _loc3_:GraphicSettings = net.wg.gui.lobby.settings.GraphicSettings(this.tryGetView(SettingsConfig.GRAPHIC_SETTINGS));
+         var _loc3_:net.wg.gui.lobby.settings.GraphicSettings = net.wg.gui.lobby.settings.GraphicSettings(this.tryGetView(SettingsConfig.GRAPHIC_SETTINGS));
          if(_loc3_ != null)
          {
             _loc3_.setPresetAfterAutoDetect(_loc2_);

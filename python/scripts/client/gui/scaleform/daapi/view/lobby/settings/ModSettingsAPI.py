@@ -350,7 +350,7 @@ defset = {
     "language" : helpers.getClientLanguage(),
     "debugMode" : False
 }
-msa = ModSettingsAPI2(modname="ModSettings", authors="4lCapwn, CS2001",localversion="1.2.2", defaultsettings=defset,updateurl="http://mods.wottools.com/files/MSA/MSAVersion.php",homeurl="http://forum.worldoftanks.eu/index.php?/topic/363138-092-modsettings-api-v115-beta-release-by-4lcapwn-and-cs2001/")
+msa = ModSettingsAPI2(modname="ModSettings", authors="4lCapwn, CS2001",localversion="1.2.3", defaultsettings=defset,updateurl="http://mods.wottools.com/files/MSA/MSAVersion.php",homeurl="http://forum.worldoftanks.eu/index.php?/topic/363138-092-modsettings-api-v115-beta-release-by-4lcapwn-and-cs2001/")
 initPostHooks()
 
 print "[ModSettings] initialized"
