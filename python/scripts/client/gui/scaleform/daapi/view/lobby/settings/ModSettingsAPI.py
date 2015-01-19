@@ -36,7 +36,7 @@ class ModSettingsAPI():
     
     
     def __init__(self, modname, authors, defaultsettings, layout={}, languageStrings={},localversion=None,updateurl="",homeurl=None):
-        print '[ModSettingsAPI]['+modname+'] initializing'
+        #print '[ModSettingsAPI]['+modname+'] initializing'
         self.modname = modname
         self.authors = authors
         self.defaultsettings = defaultsettings
@@ -117,7 +117,7 @@ class ModSettingsAPI():
 
 class ModSettingsAPI2():
     def __init__(self, modname="yet another WoT mod", authors="unknown", defaultsettings={}, layout={}, languageStrings={},localversion=None,updateurl=None,homeurl=None):
-        print '[ModSettingsAPI2]['+modname+'] initializing'
+        #print '[ModSettingsAPI2]['+modname+'] initializing'
         self.writeLock = threading.Lock()
         if updateurl==None:
             raise ValueError("updateurl must be set")
@@ -255,14 +255,14 @@ def writeModDataToDisk(self, newdata, fromIngame=0):
     #print newdata
     #ModSettingsAPI.mods = newdata #DICKES TODO: UNION statt replacement
     for key in ModSettingsAPI.mods:
-        print 'saving mod '+key
+        #print 'saving mod '+key
         ModSettingsAPI.mods[key] = newdata[key]
-    print '[ModsSettings] saving all configs to disk'#, newdata
+    #print '[ModsSettings] saving all configs to disk'#, newdata
     
     if not os.path.exists(ModSettingsAPI.MODSETTINGSPATH):
         os.makedirs(ModSettingsAPI.MODSETTINGSPATH)
     for modname in newdata:
-        print '[ModsSettings] saving mod',modname
+        #print '[ModsSettings] saving mod',modname
         with open(ModSettingsAPI.MODSETTINGSPATH+modname+'.cfg', 'w') as outfile:
             # Settings are stored in [modname][2]
             json.dump(flashObject2Dict(newdata[modname]['modsettings']), outfile, sort_keys=True, indent=4, separators=(',', ': '),ensure_ascii=True)
@@ -343,7 +343,7 @@ a = a.split('#')[0][2:-1]
 #print a
 #ModSettingsAPI.WoTVersion = WoTVersion[2:-5]
 ModSettingsAPI.WoTVersion = a
-print "[ModSettingsAPI] fetching updates for",ModSettingsAPI.WoTVersion
+#print "[ModSettingsAPI] fetching updates for",ModSettingsAPI.WoTVersion
 
 defset = {
     "FlashSettingsFile" : "ModSettingsPanel.swf",

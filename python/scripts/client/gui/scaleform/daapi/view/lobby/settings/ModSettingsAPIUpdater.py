@@ -31,17 +31,17 @@ class ModSettingsAPIUpdaterInstance:
         #if self.ModSettingsAPI.mods['ModSettings']['modsettings']['debugMode']:
         
         try:
-            print "[ModSettingsAPIUpdaterInstance]["+self.modname+"] checking "+self.updateurl
+            #print "[ModSettingsAPIUpdaterInstance]["+self.modname+"] checking "+self.updateurl
             #check for update
             try:
                 userid = self.ModSettingsAPI.mods['ModSettings']['modsettings']['userid']
             except:
-                print "[ModSettingsAPIUpdaterInstance] fallback -1"
+                #print "[ModSettingsAPIUpdaterInstance] fallback -1"
                 userid=-1
                 
             #print "[ModSettingsAPIUpdaterInstance] checking "+str(userid)
             target = self.updateurl+"?userid="+str(userid)
-            print "urllib2.urlopen",target
+            #print "urllib2.urlopen",target
             serverresponse = urllib2.urlopen(target)
             html = serverresponse.read()
             
@@ -103,11 +103,12 @@ class ModSettingsAPIUpdaterInstance:
                     self.setState(UpdaterState.UPDATE_AVAILABLE)
             
         except:
-            print "[ModSettingsAPIUpdaterInstance] crashed"
-            print sys.exc_info()[0]
-            print sys.exc_info()[1]
-            traceback.print_tb(sys.exc_info()[2])
-            self.setState(UpdaterState.FAILURE)
+            if self.ModSettingsAPI.mods['ModSettings']['modsettings']['debugMode']:
+                print "[ModSettingsAPIUpdaterInstance] crashed"
+                print sys.exc_info()[0]
+                print sys.exc_info()[1]
+                traceback.print_tb(sys.exc_info()[2])
+                self.setState(UpdaterState.FAILURE)
             
     def readMSAV(self):
         #TODO
