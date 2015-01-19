@@ -21,7 +21,7 @@ package
 	import flash.events.TextEvent;
 	import flash.utils.*;
 	import net.wg.gui.components.advanced.*;
-	import net.wg.gui.components.controls.*;
+	//import net.wg.gui.components.controls.*;
 	import net.wg.gui.lobby.settings.*;
 	import scaleform.clik.core.*;
 	import scaleform.clik.controls.*;
@@ -214,7 +214,7 @@ package
 				var modsprite = swf.getSprite(this.modsettings[swf.getModname()]['modsettings'], this.modsettings['ModSettings']['modsettings']['language']);
 				if (modsprite != null)
 				{
-					//SettingsWindowUI.send("adding sprite", 1); //#			
+					//SettingsWindowUI.send("adding sprite", 1); //#
 					var fs = new FieldSet();
 					
 					this.labelprefix[modname] = '<b>' + modname + '</b> v' +this.modsettings[modname]['localversion']+ ' (' + this.modsettings[modname]['authors'] + ')'; // swf.getVersionString() //swf.getAuthors()
@@ -239,6 +239,17 @@ package
 					
 					fs.width = 500;
 					fs.textField.width = 500;
+					
+					
+					
+					
+					var aabox = new CheckBox();
+					aabox.label = "auto-update"
+					//aabox.y = 50;
+					aabox.x = 500;
+					aabox.visible = true;
+					
+					fs.addChild(aabox);
 					
 					fs.addChild(modsprite);
 					fs.x = 10;
