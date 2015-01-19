@@ -31,10 +31,17 @@ bool validateInput()
 {
 	if (filename == NULL)
 	{
+		printf("no file specified.\n");
+		return false;
+	}
+	if (_waccess(filename, 0) == -1)
+	{
+		printf("file not found.\n");
 		return false;
 	}
 	if (volume <0 || volume > 100)
 	{
+		printf("invalid volume set.\n");
 		return false;
 	}
 	return true;
@@ -130,6 +137,10 @@ int wmain(int argc, wchar_t* argv[])
 	if (validateInput())
 	{
 		play();
+	}
+	else
+	{
+		exit(1);
 	}
 }
 

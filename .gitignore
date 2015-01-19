@@ -51,7 +51,7 @@ Thumbs.db
 bin/
 obj/
 *.bat
-
+*.wav
 
 #wuschelstudio
 *.sdf
@@ -62,3 +62,4 @@ obj/
 *.idb
 *.pdb
 *.ilk
+*.opensdf
