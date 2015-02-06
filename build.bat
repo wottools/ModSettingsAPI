@@ -23,12 +23,12 @@ rm -f "bin\SettingsWindow.pyc"
 rm -f "bin\SettingsWindow.swf"
 
 echo abcexport from compiled swf...
-.\..\..\tools\RABCDAsm\abcexport "bin\SettingsWindowC.swf"
+RABCDAsm\abcexport "bin\SettingsWindowC.swf"
 
 xcopy "originalFiles\settingsWindow.swf" "bin\" /Y
 
 echo abcreplacing into original SWF...
-.\..\..\tools\RABCDAsm\abcreplace "bin\settingsWindow.swf" 0 "bin\SettingsWindowC-0.abc"
+RABCDAsm\abcreplace "bin\settingsWindow.swf" 0 "bin\SettingsWindowC-0.abc"
 
 echo "%ModSettingsOutputFolder%\res_mods\%WoTVersion%\gui\flash\"
 xcopy "bin\SettingsWindow.swf" "%ModSettingsOutputFolder%\res_mods\%WoTVersion%\gui\flash\" /Y
@@ -37,9 +37,9 @@ xcopy "bin\ModSettingsPanel.swf" "%ModSettingsOutputFolder%\res_mods\%WoTVersion
 echo Compiling Python files...
 
 REM Compile new files.
-python2.7 ..\..\tools\compilePython.py python\scripts\client\gui\scaleform\daapi\view\lobby\settings\__init__.py bin\__init__.pyc
-python2.7 ..\..\tools\compilePython.py python\scripts\client\gui\scaleform\daapi\view\lobby\settings\ModSettingsAPI.py bin\ModSettingsAPI.pyc
-python2.7 ..\..\tools\compilePython.py python\scripts\client\gui\scaleform\daapi\view\lobby\settings\ModSettingsAPIUpdater.py bin\ModSettingsAPIUpdater.pyc
+python2.7 compilePython.py python\scripts\client\gui\scaleform\daapi\view\lobby\settings\__init__.py bin\__init__.pyc
+python2.7 compilePython.py python\scripts\client\gui\scaleform\daapi\view\lobby\settings\ModSettingsAPI.py bin\ModSettingsAPI.pyc
+python2.7 compilePython.py python\scripts\client\gui\scaleform\daapi\view\lobby\settings\ModSettingsAPIUpdater.py bin\ModSettingsAPIUpdater.pyc
 
 REM Copy files to new location.
 xcopy "bin\__init__.pyc" "%ModSettingsOutputFolder%\res_mods\%WoTVersion%\scripts\client\gui\scaleform\daapi\view\lobby\settings\" /Y
