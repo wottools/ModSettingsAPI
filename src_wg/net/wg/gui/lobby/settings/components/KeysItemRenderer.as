@@ -169,7 +169,7 @@ package net.wg.gui.lobby.settings.components
          {
             return null;
          }
-         var _loc2_:IDataProvider = KeysScrollingList(owner).dataProvider;
+         var _loc2_:IDataProvider = net.wg.gui.lobby.settings.components.KeysScrollingList(owner).dataProvider;
          var _loc3_:uint = _loc2_.length;
          var _loc4_:uint = 0;
          while(_loc4_ < _loc3_)
