@@ -17,33 +17,41 @@ echo
 echo Setting Envoirement Variables
 call setEnv
 
+
+REM cleaning up
 rm -f "bin\SettingsWindowC-0.abc"
 rm -rf "bin\SettingsWindowC-0"
 rm -f "bin\SettingsWindow.pyc"
 rm -f "bin\SettingsWindow.swf"
 
+REM extract ABC chunk from compiled settingsWindow.swf
 echo abcexport from compiled swf...
 RABCDAsm\abcexport "bin\SettingsWindowC.swf"
 
+REM use abcreplace to move the chunk into the original settingsWindow.swf
 xcopy "originalFiles\settingsWindow.swf" "bin\" /Y
-
 echo abcreplacing into original SWF...
 RABCDAsm\abcreplace "bin\settingsWindow.swf" 0 "bin\SettingsWindowC-0.abc"
 
+REM deploy flash files
 echo "%ModSettingsOutputFolder%\res_mods\%WoTVersion%\gui\flash\"
 xcopy "bin\SettingsWindow.swf" "%ModSettingsOutputFolder%\res_mods\%WoTVersion%\gui\flash\" /Y
 xcopy "bin\ModSettingsPanel.swf" "%ModSettingsOutputFolder%\res_mods\%WoTVersion%\gui\flash\" /Y
 
-echo Compiling Python files...
 
-REM Compile new files.
+REM Compile python
+echo Compiling Python files...
 python2.7 compilePython.py python\scripts\client\gui\scaleform\daapi\view\lobby\settings\__init__.py bin\__init__.pyc
 python2.7 compilePython.py python\scripts\client\gui\scaleform\daapi\view\lobby\settings\ModSettingsAPI.py bin\ModSettingsAPI.pyc
 python2.7 compilePython.py python\scripts\client\gui\scaleform\daapi\view\lobby\settings\ModSettingsAPIUpdater.py bin\ModSettingsAPIUpdater.pyc
 
-REM Copy files to new location.
+REM deploy python
 xcopy "bin\__init__.pyc" "%ModSettingsOutputFolder%\res_mods\%WoTVersion%\scripts\client\gui\scaleform\daapi\view\lobby\settings\" /Y
 xcopy "bin\ModSettingsAPI.pyc" "%ModSettingsOutputFolder%\res_mods\%WoTVersion%\scripts\client\gui\scaleform\daapi\view\lobby\settings\" /Y
 xcopy "bin\ModSettingsAPIUpdater.pyc" "%ModSettingsOutputFolder%\res_mods\%WoTVersion%\scripts\client\gui\scaleform\daapi\view\lobby\settings\" /Y
+
+REM compile APIs
+
+REM deploy APIs
 
 echo Build finished.
