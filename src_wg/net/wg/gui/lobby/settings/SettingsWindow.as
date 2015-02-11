@@ -104,7 +104,7 @@ package net.wg.gui.lobby.settings
       
       public function as_setCaptureDevices(param1:Number, param2:Array) : void
       {
-         var _loc3_:net.wg.gui.lobby.settings.SoundSettings = net.wg.gui.lobby.settings.SoundSettings(this.tryGetView(SettingsConfig.SOUND_SETTINGS));
+         var _loc3_: net.wg.gui.lobby.settings.SoundSettings =  net.wg.gui.lobby.settings.SoundSettings(this.tryGetView(SettingsConfig.SOUND_SETTINGS));
          if(_loc3_ != null)
          {
             _loc3_.setCaptureDevices(param1,param2);
@@ -187,7 +187,7 @@ package net.wg.gui.lobby.settings
       {
          var _loc3_:Object = null;
          var _loc4_:SettingsControlProp = null;
-         var _loc5_:net.wg.gui.lobby.settings.SoundSettings = null;
+         var _loc5_: net.wg.gui.lobby.settings.SoundSettings = null;
          var _loc6_:* = NaN;
          this.updateSettingsConfig(param1);
          if(param1)
@@ -197,7 +197,7 @@ package net.wg.gui.lobby.settings
                _loc3_ = SettingsConfig.settingsData[SettingsConfig.SOUND_SETTINGS];
                _loc4_ = SettingsControlProp(_loc3_["alternativeVoices"]);
                _loc4_.current = 0;
-               _loc5_ = net.wg.gui.lobby.settings.SoundSettings(this.tryGetView(SettingsConfig.SOUND_SETTINGS));
+               _loc5_ =  net.wg.gui.lobby.settings.SoundSettings(this.tryGetView(SettingsConfig.SOUND_SETTINGS));
                if(!(_loc5_ == null) && !(_loc5_.alternativeVoicesDropDown == null))
                {
                   _loc5_.alternativeVoicesDropDown.selectedIndex = 0;
@@ -641,7 +641,7 @@ package net.wg.gui.lobby.settings
          var _loc5_:String = null;
          var _loc6_:net.wg.gui.lobby.settings.GraphicSettings = null;
          this.cancelBtn.enabled = this.applyBtn.enabled = this.submitBtn.enabled = false;
-         var _loc2_:net.wg.gui.lobby.settings.SoundSettings = net.wg.gui.lobby.settings.SoundSettings(this.tryGetView(SettingsConfig.SOUND_SETTINGS));
+         var _loc2_: net.wg.gui.lobby.settings.SoundSettings =  net.wg.gui.lobby.settings.SoundSettings(this.tryGetView(SettingsConfig.SOUND_SETTINGS));
          if(_loc2_)
          {
             _loc2_.breakSoundCheck();
@@ -781,7 +781,7 @@ package net.wg.gui.lobby.settings
       {
          __currentTab = param1.index;
          App.toolTipMgr.hide();
-         var _loc2_:net.wg.gui.lobby.settings.SoundSettings = net.wg.gui.lobby.settings.SoundSettings(this.tryGetView(SettingsConfig.SOUND_SETTINGS));
+         var _loc2_: net.wg.gui.lobby.settings.SoundSettings =  net.wg.gui.lobby.settings.SoundSettings(this.tryGetView(SettingsConfig.SOUND_SETTINGS));
          if(_loc2_)
          {
             _loc2_.onViewChanged();
@@ -822,7 +822,7 @@ package net.wg.gui.lobby.settings
       {
          var _loc2_:SettingsControlProp = SettingsControlProp(SettingsConfig.settingsData[SettingsConfig.SOUND_SETTINGS][SettingsConfig.PTT]);
          _loc2_.current = param1.controlValue;
-         var _loc3_:net.wg.gui.lobby.settings.SoundSettings = net.wg.gui.lobby.settings.SoundSettings(this.tryGetView(SettingsConfig.SOUND_SETTINGS));
+         var _loc3_: net.wg.gui.lobby.settings.SoundSettings =  net.wg.gui.lobby.settings.SoundSettings(this.tryGetView(SettingsConfig.SOUND_SETTINGS));
          if(_loc3_)
          {
             _loc3_.updatePTTControl(_loc2_.current);
@@ -843,7 +843,7 @@ package net.wg.gui.lobby.settings
       {
          var _loc2_:Boolean = Boolean(param1.controlValue);
          var _loc3_:Boolean = startVOIPTestS(_loc2_);
-         var _loc4_:net.wg.gui.lobby.settings.SoundSettings = net.wg.gui.lobby.settings.SoundSettings(this.tryGetView(SettingsConfig.SOUND_SETTINGS));
+         var _loc4_: net.wg.gui.lobby.settings.SoundSettings =  net.wg.gui.lobby.settings.SoundSettings(this.tryGetView(SettingsConfig.SOUND_SETTINGS));
          if(_loc4_ != null)
          {
             _loc4_.setVoiceTestState(!((_loc3_) || !_loc2_));
@@ -867,7 +867,7 @@ package net.wg.gui.lobby.settings
       
       private function onAlternativeVoice(param1:AlternativeVoiceEvent) : void
       {
-         var _loc2_:net.wg.gui.lobby.settings.SoundSettings = null;
+         var _loc2_: net.wg.gui.lobby.settings.SoundSettings = null;
          var _loc3_:* = NaN;
          var _loc4_:* = NaN;
          var _loc5_:Point = null;
@@ -879,7 +879,7 @@ package net.wg.gui.lobby.settings
          }
          else
          {
-            _loc2_ = net.wg.gui.lobby.settings.SoundSettings(this.tryGetView(SettingsConfig.SOUND_SETTINGS));
+            _loc2_ =  net.wg.gui.lobby.settings.SoundSettings(this.tryGetView(SettingsConfig.SOUND_SETTINGS));
             _loc3_ = _loc2_.testAlternativeVoicesButton.x;
             _loc4_ = _loc2_.testAlternativeVoicesButton.y;
             _loc5_ = this.localToGlobal(new Point(_loc3_,_loc4_));
@@ -891,7 +891,7 @@ package net.wg.gui.lobby.settings
       
       private function cancelBtnClickHandler(param1:ButtonEvent) : void
       {
-         var _loc2_:net.wg.gui.lobby.settings.SoundSettings = net.wg.gui.lobby.settings.SoundSettings(this.tryGetView(SettingsConfig.SOUND_SETTINGS));
+         var _loc2_: net.wg.gui.lobby.settings.SoundSettings =  net.wg.gui.lobby.settings.SoundSettings(this.tryGetView(SettingsConfig.SOUND_SETTINGS));
          if(_loc2_)
          {
             _loc2_.breakSoundCheck();

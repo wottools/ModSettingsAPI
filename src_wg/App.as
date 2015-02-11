@@ -17,11 +17,11 @@ package
    import net.wg.infrastructure.managers.IContainerManager;
    import net.wg.utils.IGameInputManager;
    import net.wg.infrastructure.managers.IEventLogManager;
+   import net.wg.infrastructure.managers.ICacheManager;
    import net.wg.data.constants.LobbyMetrics;
    import net.wg.utils.IHelpLayout;
    import flash.display.Stage;
    import flash.display.DisplayObjectContainer;
-   import net.wg.infrastructure.helpers.ILibraryLoader;
    
    public class App extends Object
    {
@@ -33,6 +33,11 @@ package
       
       private static var ms_instance:IApplication;
       
+      public static function get instance() : IApplication
+      {
+         return ms_instance;
+      }
+      
       public static function set instance(param1:IApplication) : void
       {
          if(ms_instance == null)
@@ -43,11 +48,6 @@ package
          {
             DebugUtils.LOG_ERROR("Application already set to App!");
          }
-      }
-      
-      public static function get instance() : IApplication
-      {
-         return ms_instance;
       }
       
       public static function get globalVarsMgr() : IGlobalVarsMgrMeta
@@ -130,6 +130,11 @@ package
          return instance.eventLogManager;
       }
       
+      public static function get cacheMgr() : ICacheManager
+      {
+         return instance.cacheMgr;
+      }
+      
       public static function get appWidth() : Number
       {
          return instance != null?instance.appWidth:LobbyMetrics.MIN_STAGE_WIDTH;
@@ -155,14 +160,14 @@ package
          return instance.browserBgClass;
       }
       
+      public static function get altBrowserBgClass() : Class
+      {
+         return instance.altBrowserBgClass;
+      }
+      
       public static function get systemMessages() : DisplayObjectContainer
       {
          return instance.systemMessages;
-      }
-      
-      public static function get libraryLoader() : ILibraryLoader
-      {
-         return instance.libraryLoader;
       }
    }
 }

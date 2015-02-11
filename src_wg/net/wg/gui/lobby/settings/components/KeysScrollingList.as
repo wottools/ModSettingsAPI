@@ -249,7 +249,7 @@ package net.wg.gui.lobby.settings.components
          var _loc2_:uint = 0;
          while(_loc2_ < _loc1_)
          {
-            _loc3_ = getRendererAt(_loc2_) as net.wg.gui.lobby.settings.components.KeysItemRenderer;
+            _loc3_ = getRendererAt(_loc2_) as net.wg.gui.components.KeysItemRenderer;
             if(_loc3_.isSelected())
             {
                return true;

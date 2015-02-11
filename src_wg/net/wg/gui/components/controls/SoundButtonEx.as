@@ -1,6 +1,7 @@
 package net.wg.gui.components.controls
 {
    import net.wg.gui.interfaces.ISoundButtonEx;
+   import net.wg.data.managers.IToolTipParams;
    import scaleform.clik.utils.Padding;
    import flash.display.DisplayObject;
    import flash.text.TextField;
@@ -25,6 +26,8 @@ package net.wg.gui.components.controls
       }
       
       protected var _tooltip:String = null;
+      
+      protected var _tooltipParams:IToolTipParams = null;
       
       private var _helpText:String = "";
       
@@ -62,9 +65,9 @@ package net.wg.gui.components.controls
                constraints.addElement("textField1",this.textField1,Constraints.ALL);
             }
          }
-         addEventListener(MouseEvent.ROLL_OVER,this.showTooltip);
-         addEventListener(MouseEvent.ROLL_OUT,this.hideTooltip);
-         addEventListener(MouseEvent.MOUSE_DOWN,this.handleMouseDown);
+         addEventListener(MouseEvent.ROLL_OVER,this.onMouseRollOverHandler);
+         addEventListener(MouseEvent.ROLL_OUT,this.onMouseRollOutHandler);
+         addEventListener(MouseEvent.MOUSE_DOWN,this.onMouseDownHandler);
          if(!(focusIndicator == null) && !_focused && focusIndicator.totalFrames == 1)
          {
             focusIndicator.visible = false;
@@ -73,9 +76,14 @@ package net.wg.gui.components.controls
       
       override protected function onDispose() : void
       {
-         removeEventListener(MouseEvent.ROLL_OVER,this.showTooltip);
-         removeEventListener(MouseEvent.ROLL_OUT,this.hideTooltip);
-         removeEventListener(MouseEvent.MOUSE_DOWN,this.handleMouseDown);
+         removeEventListener(MouseEvent.ROLL_OVER,this.onMouseRollOverHandler);
+         removeEventListener(MouseEvent.ROLL_OUT,this.onMouseRollOutHandler);
+         removeEventListener(MouseEvent.MOUSE_DOWN,this.onMouseDownHandler);
+         if(this._tooltipParams)
+         {
+            this._tooltipParams.dispose();
+            this._tooltipParams = null;
+         }
          this._helpLayout = null;
          this.blurTextField = null;
          this.textField1 = null;
@@ -119,15 +127,22 @@ package net.wg.gui.components.controls
          this._helpConnectorLength = param1;
       }
       
-      public function showTooltip(param1:MouseEvent) : void
+      public function showTooltip() : void
       {
          if((this._tooltip) && (App.toolTipMgr))
          {
-            App.toolTipMgr.showComplex(this._tooltip);
+            if(this._tooltipParams)
+            {
+               App.toolTipMgr.showComplexWithParams(this._tooltip,this._tooltipParams);
+            }
+            else
+            {
+               App.toolTipMgr.showComplex(this._tooltip);
+            }
          }
       }
       
-      public function hideTooltip(param1:MouseEvent) : void
+      public function hideTooltip() : void
       {
          if(App.toolTipMgr)
          {
@@ -135,9 +150,19 @@ package net.wg.gui.components.controls
          }
       }
       
-      public function handleMouseDown(param1:MouseEvent) : void
+      protected function handleMouseDown(param1:MouseEvent) : void
       {
-         this.hideTooltip(param1);
+         this.hideTooltip();
+      }
+      
+      protected function handleRollOut(param1:MouseEvent) : void
+      {
+         this.hideTooltip();
+      }
+      
+      protected function handleRollOver(param1:MouseEvent) : void
+      {
+         this.showTooltip();
       }
       
       override protected function updateText() : void
@@ -183,6 +208,16 @@ package net.wg.gui.components.controls
          {
             App.toolTipMgr.hide();
          }
+      }
+      
+      public function get tooltipParams() : IToolTipParams
+      {
+         return this._tooltipParams;
+      }
+      
+      public function set tooltipParams(param1:IToolTipParams) : void
+      {
+         this._tooltipParams = param1;
       }
       
       public function showHelpLayout() : void
@@ -369,6 +404,21 @@ package net.wg.gui.components.controls
             }
          }
          this.updateDisable();
+      }
+      
+      private function onMouseDownHandler(param1:MouseEvent) : void
+      {
+         this.handleMouseDown(param1);
+      }
+      
+      private function onMouseRollOverHandler(param1:MouseEvent) : void
+      {
+         this.handleRollOver(param1);
+      }
+      
+      private function onMouseRollOutHandler(param1:MouseEvent) : void
+      {
+         this.handleRollOut(param1);
       }
    }
 }

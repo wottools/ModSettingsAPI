@@ -242,7 +242,7 @@ package
 					
 					
 					
-					
+					/*
 					var aabox = new CheckBox();
 					aabox.label = "auto-update"
 					//aabox.y = 50;
@@ -250,7 +250,7 @@ package
 					aabox.visible = true;
 					
 					fs.addChild(aabox);
-					
+					*/
 					fs.addChild(modsprite);
 					fs.x = 10;
 					fs.y = this.mody + 10;

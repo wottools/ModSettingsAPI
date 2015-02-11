@@ -8,6 +8,14 @@ package
          super();
       }
       
+      public static const ACHIEVEMENT_PARAMS:String = "#tooltips:achievement/params";
+      
+      public static const BATTLERESULTS_FORTRESOURCE_TEAMINFLUENCETOTAL:String = "#tooltips:battleResults/FortResource/teamInfluenceTotal";
+      
+      public static const BATTLERESULTS_FORTRESOURCE_TEAMRESOURCETOTAL:String = "#tooltips:battleResults/FortResource/teamResourceTotal";
+      
+      public static const BATTLERESULTS_FORTRESOURCE_RESULTSSHAREBTN:String = "#tooltips:battleResults/FortResource/resultsShareBtn";
+      
       public static const SHOWVECTORONMAP:String = "#tooltips:showVectorOnMap";
       
       public static const SHOWSECTORONMAP:String = "#tooltips:showSectorOnMap";
@@ -63,6 +71,14 @@ package
       public static const SQUADWINDOW_BATTLETYPEINFO:String = "#tooltips:squadWindow/battleTypeInfo";
       
       public static const LOGIN_LEGAL:String = "#tooltips:login/legal";
+      
+      public static const LOGIN_REMEMBERPASSWORD:String = "#tooltips:login/rememberPassword";
+      
+      public static const LOGIN_BYSOCIAL:String = "#tooltips:login/bySocial";
+      
+      public static const LOGIN_SOCIAL_ENTER:String = "#tooltips:login/social/enter";
+      
+      public static const LOGIN_CHANGEACCOUNT:String = "#tooltips:login/changeAccount";
       
       public static const LOBBYMENU_VERSIONINFOBUTTON:String = "#tooltips:lobbyMenu/versionInfoButton";
       
@@ -242,7 +258,9 @@ package
       
       public static const CYBERSPORT_INTRO_CREATE_BTN:String = "#tooltips:cyberSport/intro/create/btn";
       
-      public static const CYBERSPORT_INTRO_CHOOSEVEHICLES:String = "#tooltips:cyberSport/intro/chooseVehicles";
+      public static const CYBERSPORT_INTRO_SELECTEDVEHICLEWARN_INCOMPATIBLETYPE:String = "#tooltips:cyberSport/intro/selectedVehicleWarn/incompatibleType";
+      
+      public static const CYBERSPORT_INTRO_SELECTEDVEHICLEWARN_INCOMPATIBLELEVEL:String = "#tooltips:cyberSport/intro/selectedVehicleWarn/incompatibleLevel";
       
       public static const CYBERSPORT_UNITLIST_REFRESH:String = "#tooltips:cyberSport/unitList/refresh";
       
@@ -267,6 +285,8 @@ package
       public static const CYBERSPORT_VEHICLESELECTOR_OVERFLOWLEVEL:String = "#tooltips:cyberSport/vehicleSelector/overflowLevel";
       
       public static const CYBERSPORT_UNIT_INVITEBTN:String = "#tooltips:cyberSport/unit/inviteBtn";
+      
+      public static const CYBERSPORT_WAITINGPLAYERS_CONFIGALERT:String = "#tooltips:cyberSport/waitingPlayers/configAlert";
       
       public static const USEFREEXP:String = "#tooltips:useFreeXP";
       
@@ -303,6 +323,8 @@ package
       public static const FORTIFICATION_DEFRESICONINFO:String = "#tooltips:fortification/defResIconInfo";
       
       public static const FORTIFICATION_MODERNIZATION:String = "#tooltips:fortification/modernization";
+      
+      public static const FORTIFICATION_MODERNIZATION_DESCRIPTIONLINK:String = FORTIFICATION_MODERNIZATION + "/descriptionLink";
       
       public static const FORTIFICATION_POPOVER_UPGRADEFOUNDATIONBTN:String = "#tooltips:fortification/popOver/upgradeFoundationBtn";
       
@@ -395,6 +417,8 @@ package
       public static const VEHICLESELECTOR_SORTING_VEHNAME:String = "#tooltips:vehicleSelector/sorting/vehName";
       
       public static const VEHICLESELECTOR_OVERFLOWLEVEL:String = "#tooltips:vehicleSelector/overflowLevel";
+      
+      public static const VEHICLESELECTOR_INCOMPATIBLETYPE:String = "#tooltips:vehicleSelector/incompatibleType";
       
       public static const FORTIFICATION_FIXEDPLAYERS_WEEK:String = "#tooltips:fortification/fixedPlayers/week";
       
@@ -517,6 +541,102 @@ package
       public static const FORTIFICATION_FORTSETTINGSWINDOW_VACATIONDESCRIPTION:String = "#tooltips:fortification/fortSettingsWindow/vacationDescription";
       
       public static const FORTIFICATION_FORTSETTINGSWINDOW_PERIPHERYDESCRIPTION:String = "#tooltips:fortification/fortSettingsWindow/peripheryDescription";
+      
+      public static const FORTIFICATION_FORTBATTLEDIRECTIONPOPOVER_JOINBTN:String = "#tooltips:fortification/fortBattleDirectionPopover/joinBtn";
+      
+      public static const STATICFORMATIONSUMMARYVIEW_STATS_BATTLES:String = "#tooltips:StaticFormationSummaryView/stats/battles";
+      
+      public static const STATICFORMATIONSUMMARYVIEW_STATS_WINSPERCENT:String = "#tooltips:StaticFormationSummaryView/stats/winsPercent";
+      
+      public static const STATICFORMATIONSUMMARYVIEW_STATS_WINSBYCAPTURE:String = "#tooltips:StaticFormationSummaryView/stats/winsByCapture";
+      
+      public static const STATICFORMATIONSTATSVIEW_MAINSTATS_BATTLES:String = "#tooltips:StaticFormationStatsView/mainStats/battles";
+      
+      public static const STATICFORMATIONSTATSVIEW_MAINSTATS_WINSPERCENT:String = "#tooltips:StaticFormationStatsView/mainStats/winsPercent";
+      
+      public static const STATICFORMATIONSTATSVIEW_MAINSTATS_TECHDEFEATSPERCENT:String = "#tooltips:StaticFormationStatsView/mainStats/techDefeatsPercent";
+      
+      public static const STATICFORMATIONSTATSVIEW_MAINSTATS_TECHDEFEATSNUMBER:String = "#tooltips:StaticFormationStatsView/mainStats/techDefeatsNumber";
+      
+      public static const STATICFORMATIONSUMMARYVIEW_STATS_TECHDEFEATS:String = "#tooltips:StaticFormationSummaryView/stats/techDefeats";
+      
+      public static const STATICFORMATIONSTAFFVIEW_TABLE_HEADERCOUNT:String = "#tooltips:StaticFormationStaffView/table/headerCount";
+      
+      public static const STATICFORMATIONSTAFFVIEW_TABLE_HEADERAPPOINTMENT:String = "#tooltips:StaticFormationStaffView/table/headerAppointment";
+      
+      public static const STATICFORMATIONSTAFFVIEW_TABLE_HEADERNAME:String = "#tooltips:StaticFormationStaffView/table/headerName";
+      
+      public static const STATICFORMATIONSTAFFVIEW_TABLE_HEADERRATING:String = "#tooltips:StaticFormationStaffView/table/headerRating";
+      
+      public static const STATICFORMATIONSTAFFVIEW_TABLE_HEADERBATTLESCOUNT:String = "#tooltips:StaticFormationStaffView/table/headerBattlesCount";
+      
+      public static const STATICFORMATIONSTAFFVIEW_TABLE_HEADERDAMAGECOEF:String = "#tooltips:StaticFormationStaffView/table/headerDamageCoef";
+      
+      public static const STATICFORMATIONSTAFFVIEW_TABLE_HEADERAVRDAMAGE:String = "#tooltips:StaticFormationStaffView/table/headerAvrDamage";
+      
+      public static const STATICFORMATIONSTAFFVIEW_TABLE_HEADERAVRASSISTDAMAGE:String = "#tooltips:StaticFormationStaffView/table/headerAvrAssistDamage";
+      
+      public static const STATICFORMATIONSTAFFVIEW_TABLE_HEADERAVREXPIRIENCE:String = "#tooltips:StaticFormationStaffView/table/headerAvrExpirience";
+      
+      public static const STATICFORMATIONSTAFFVIEW_TABLE_HEADERTAUNT:String = "#tooltips:StaticFormationStaffView/table/headerTaunt";
+      
+      public static const STATICFORMATIONSTAFFVIEW_TABLE_HEADERJOINDATE:String = "#tooltips:StaticFormationStaffView/table/headerJoinDate";
+      
+      public static const STATICFORMATIONSTAFFVIEW_TABLE_HEADERREMOVEMEMBER:String = "#tooltips:StaticFormationStaffView/table/headerRemoveMember";
+      
+      public static const STATICFORMATIONSTAFFVIEW_REMOVEMEMBERBTN:String = "#tooltips:StaticFormationStaffView/removeMemberBtn";
+      
+      public static const STATICFORMATIONSTAFFVIEW_INVITEBTN:String = "#tooltips:StaticFormationStaffView/inviteBtn";
+      
+      public static const STATICFORMATIONSTAFFVIEW_RECRUITMENTBTN:String = "#tooltips:StaticFormationStaffView/recruitmentBtn";
+      
+      public static const STATICFORMATION_OWNERICON:String = "#tooltips:StaticFormation/ownerIcon";
+      
+      public static const STATICFORMATION_OFFICERICON:String = "#tooltips:StaticFormation/officerIcon";
+      
+      public static const STATICFORMATION_DEMOTEBTN:String = "#tooltips:StaticFormation/demoteBtn";
+      
+      public static const STATICFORMATION_PROMOTEBTN:String = "#tooltips:StaticFormation/promoteBtn";
+      
+      public static const STATICFORMATIONLADDERVIEW_TABLE_HEADERPLACE:String = "#tooltips:StaticFormationLadderView/table/headerPlace";
+      
+      public static const STATICFORMATIONLADDERVIEW_TABLE_HEADERPOINTS:String = "#tooltips:StaticFormationLadderView/table/headerPoints";
+      
+      public static const STATICFORMATIONLADDERVIEW_TABLE_HEADERFORMATIONNAME:String = "#tooltips:StaticFormationLadderView/table/headerFormationName";
+      
+      public static const STATICFORMATIONLADDERVIEW_TABLE_HEADERBATTLESCOUNT:String = "#tooltips:StaticFormationLadderView/table/headerBattlesCount";
+      
+      public static const STATICFORMATIONLADDERVIEW_TABLE_HEADERWINPERCENT:String = "#tooltips:StaticFormationLadderView/table/headerWinPercent";
+      
+      public static const STATICFORMATIONLADDERVIEW_TABLE_HEADERSHOWFORMATIONPROFILE:String = "#tooltips:StaticFormationLadderView/table/headerShowFormationProfile";
+      
+      public static const STATICFORMATIONLADDERVIEW_SHOWFORMATIONPROFILEBTN:String = "#tooltips:StaticFormationLadderView/showFormationProfileBtn";
+      
+      public static const ROLECHANGE_CURRENTROLEWARNING:String = "#tooltips:RoleChange/currentRoleWarning";
+      
+      public static const ROLECHANGE_ROLETAKEN:String = "#tooltips:RoleChange/roleTaken";
+      
+      public static const ROLECHANGE_ROLEANDVEHICLETAKEN:String = "#tooltips:RoleChange/roleAndVehicleTaken";
+      
+      public static const ROLECHANGE_FOOTERINFO:String = "#tooltips:RoleChange/footerInfo";
+      
+      public static const PERSONAL_CASE_TRAINING_LIGHT_TANK_BTN:String = "#tooltips:personal_case/training/light_tank_btn";
+      
+      public static const PERSONAL_CASE_TRAINING_MEDIUM_TANK_BTN:String = "#tooltips:personal_case/training/medium_tank_btn";
+      
+      public static const PERSONAL_CASE_TRAINING_HEAVY_TANK_BTN:String = "#tooltips:personal_case/training/heavy_tank_btn";
+      
+      public static const PERSONAL_CASE_TRAINING_AT_SPG_BTN:String = "#tooltips:personal_case/training/at_spg_btn";
+      
+      public static const PERSONAL_CASE_TRAINING_SPG_BTN:String = "#tooltips:personal_case/training/spg_btn";
+      
+      public static const PERSONAL_CASE_TRAINING_CURRENT_TANK:String = "#tooltips:personal_case/training/current_tank";
+      
+      public static const PERSONAL_CASE_TRAINING_TANK:String = "#tooltips:personal_case/training/tank";
+      
+      public static const FORTIFICATION_CONSUMABLES_ORDER_ARTILLERY:String = "#tooltips:fortification/consumables_order/artillery";
+      
+      public static const FORTIFICATION_CONSUMABLES_ORDER_BOMBER:String = "#tooltips:fortification/consumables_order/bomber";
       
       public static const PRIVATEQUESTS_AWARDSBUTTON_HEADER:String = PRIVATEQUESTS_AWARDSBUTTON + "/header";
       
@@ -691,6 +811,34 @@ package
       public static const SQUADWINDOW_STATUS_INBATTLE:String = "#tooltips:squadWindow/status/inBattle";
       
       public static const SQUADWINDOW_STATUS_LOCKED:String = "#tooltips:squadWindow/status/locked";
+      
+      public static const LOGIN_REMEMBERPASSWORD_HEADER:String = LOGIN_REMEMBERPASSWORD + "/header";
+      
+      public static const LOGIN_REMEMBERPASSWORD_BODY:String = LOGIN_REMEMBERPASSWORD + "/body";
+      
+      public static const LOGIN_BYSOCIAL_HEADER:String = LOGIN_BYSOCIAL + "/header";
+      
+      public static const LOGIN_BYSOCIAL_BODY:String = LOGIN_BYSOCIAL + "/body";
+      
+      public static const LOGIN_SOCIAL_ENTER_HEADER:String = LOGIN_SOCIAL_ENTER + "/header";
+      
+      public static const LOGIN_SOCIAL_ENTER_BODY:String = LOGIN_SOCIAL_ENTER + "/body";
+      
+      public static const LOGIN_SOCIAL_FACEBOOK:String = "#tooltips:login/social/facebook";
+      
+      public static const LOGIN_SOCIAL_GOOGLE:String = "#tooltips:login/social/google";
+      
+      public static const LOGIN_SOCIAL_YAHOO:String = "#tooltips:login/social/yahoo";
+      
+      public static const LOGIN_SOCIAL_TWITTER:String = "#tooltips:login/social/twitter";
+      
+      public static const LOGIN_SOCIAL_VKONTAKTE:String = "#tooltips:login/social/vkontakte";
+      
+      public static const LOGIN_SOCIAL_ODNOKLASSNIKI:String = "#tooltips:login/social/odnoklassniki";
+      
+      public static const LOGIN_CHANGEACCOUNT_HEADER:String = LOGIN_CHANGEACCOUNT + "/header";
+      
+      public static const LOGIN_CHANGEACCOUNT_BODY:String = LOGIN_CHANGEACCOUNT + "/body";
       
       public static const LOGIN_LEGAL_BODY:String = LOGIN_LEGAL + "/body";
       
@@ -946,67 +1094,67 @@ package
       
       public static const ACHIEVEMENT_RECORDONVEHICLE:String = "#tooltips:achievement/recordOnVehicle";
       
-      public static const ACHIEVEMENT_PARAMS_MAXSNIPERSERIES:String = "#tooltips:achievement/params/maxSniperSeries";
+      public static const ACHIEVEMENT_PARAMS_MAXSNIPERSERIES:String = ACHIEVEMENT_PARAMS + "/maxSniperSeries";
       
-      public static const ACHIEVEMENT_PARAMS_MAXINVINCIBLESERIES:String = "#tooltips:achievement/params/maxInvincibleSeries";
+      public static const ACHIEVEMENT_PARAMS_MAXINVINCIBLESERIES:String = ACHIEVEMENT_PARAMS + "/maxInvincibleSeries";
       
-      public static const ACHIEVEMENT_PARAMS_MAXDIEHARDSERIES:String = "#tooltips:achievement/params/maxDiehardSeries";
+      public static const ACHIEVEMENT_PARAMS_MAXDIEHARDSERIES:String = ACHIEVEMENT_PARAMS + "/maxDiehardSeries";
       
-      public static const ACHIEVEMENT_PARAMS_MAXKILLINGSERIES:String = "#tooltips:achievement/params/maxKillingSeries";
+      public static const ACHIEVEMENT_PARAMS_MAXKILLINGSERIES:String = ACHIEVEMENT_PARAMS + "/maxKillingSeries";
       
-      public static const ACHIEVEMENT_PARAMS_MAXRELIABLECOMRADESERIES:String = "#tooltips:achievement/params/maxReliableComradeSeries";
+      public static const ACHIEVEMENT_PARAMS_MAXRELIABLECOMRADESERIES:String = ACHIEVEMENT_PARAMS + "/maxReliableComradeSeries";
       
-      public static const ACHIEVEMENT_PARAMS_MAXAIMERSERIES:String = "#tooltips:achievement/params/maxAimerSeries";
+      public static const ACHIEVEMENT_PARAMS_MAXAIMERSERIES:String = ACHIEVEMENT_PARAMS + "/maxAimerSeries";
       
-      public static const ACHIEVEMENT_PARAMS_MAXWFC2014WINSERIES:String = "#tooltips:achievement/params/maxWFC2014WinSeries";
+      public static const ACHIEVEMENT_PARAMS_MAXWFC2014WINSERIES:String = ACHIEVEMENT_PARAMS + "/maxWFC2014WinSeries";
       
-      public static const ACHIEVEMENT_PARAMS_MAXDEATHTRACKWINSERIES:String = "#tooltips:achievement/params/maxDeathTrackWinSeries";
+      public static const ACHIEVEMENT_PARAMS_MAXDEATHTRACKWINSERIES:String = ACHIEVEMENT_PARAMS + "/maxDeathTrackWinSeries";
       
-      public static const ACHIEVEMENT_PARAMS_MAXPIERCINGSERIES:String = "#tooltips:achievement/params/maxPiercingSeries";
+      public static const ACHIEVEMENT_PARAMS_MAXPIERCINGSERIES:String = ACHIEVEMENT_PARAMS + "/maxPiercingSeries";
       
-      public static const ACHIEVEMENT_PARAMS_MAXTACTICALBREAKTHROUGHSERIES:String = "#tooltips:achievement/params/maxTacticalBreakthroughSeries";
+      public static const ACHIEVEMENT_PARAMS_MAXTACTICALBREAKTHROUGHSERIES:String = ACHIEVEMENT_PARAMS + "/maxTacticalBreakthroughSeries";
       
-      public static const ACHIEVEMENT_PARAMS_NO_CLASS_ACHIEVEMENT_LEFT:String = "#tooltips:achievement/params/no_class_achievement_left";
+      public static const ACHIEVEMENT_PARAMS_NO_CLASS_ACHIEVEMENT_LEFT:String = ACHIEVEMENT_PARAMS + "/no_class_achievement_left";
       
-      public static const ACHIEVEMENT_PARAMS_LEFT4:String = "#tooltips:achievement/params/left4";
+      public static const ACHIEVEMENT_PARAMS_LEFT4:String = ACHIEVEMENT_PARAMS + "/left4";
       
-      public static const ACHIEVEMENT_PARAMS_LEFT3:String = "#tooltips:achievement/params/left3";
+      public static const ACHIEVEMENT_PARAMS_LEFT3:String = ACHIEVEMENT_PARAMS + "/left3";
       
-      public static const ACHIEVEMENT_PARAMS_LEFT2:String = "#tooltips:achievement/params/left2";
+      public static const ACHIEVEMENT_PARAMS_LEFT2:String = ACHIEVEMENT_PARAMS + "/left2";
       
-      public static const ACHIEVEMENT_PARAMS_LEFT1:String = "#tooltips:achievement/params/left1";
+      public static const ACHIEVEMENT_PARAMS_LEFT1:String = ACHIEVEMENT_PARAMS + "/left1";
       
-      public static const ACHIEVEMENT_PARAMS_HEROESLEFT:String = "#tooltips:achievement/params/heroesLeft";
+      public static const ACHIEVEMENT_PARAMS_HEROESLEFT:String = ACHIEVEMENT_PARAMS + "/heroesLeft";
       
-      public static const ACHIEVEMENT_PARAMS_PAIRWINSLEFT:String = "#tooltips:achievement/params/pairWinsLeft";
+      public static const ACHIEVEMENT_PARAMS_PAIRWINSLEFT:String = ACHIEVEMENT_PARAMS + "/pairWinsLeft";
       
-      public static const ACHIEVEMENT_PARAMS_VEHICLESLEFT:String = "#tooltips:achievement/params/vehiclesLeft";
+      public static const ACHIEVEMENT_PARAMS_VEHICLESLEFT:String = ACHIEVEMENT_PARAMS + "/vehiclesLeft";
       
-      public static const ACHIEVEMENT_PARAMS_QUESTSLEFT:String = "#tooltips:achievement/params/questsLeft";
+      public static const ACHIEVEMENT_PARAMS_QUESTSLEFT:String = ACHIEVEMENT_PARAMS + "/questsLeft";
       
-      public static const ACHIEVEMENT_PARAMS_TANKWOMENLEFT:String = "#tooltips:achievement/params/tankwomenLeft";
+      public static const ACHIEVEMENT_PARAMS_TANKWOMENLEFT:String = ACHIEVEMENT_PARAMS + "/tankwomenLeft";
       
-      public static const ACHIEVEMENT_PARAMS_DAMAGELEFT:String = "#tooltips:achievement/params/damageLeft";
+      public static const ACHIEVEMENT_PARAMS_DAMAGELEFT:String = ACHIEVEMENT_PARAMS + "/damageLeft";
       
-      public static const ACHIEVEMENT_PARAMS_BATTLESLEFT:String = "#tooltips:achievement/params/battlesLeft";
+      public static const ACHIEVEMENT_PARAMS_BATTLESLEFT:String = ACHIEVEMENT_PARAMS + "/battlesLeft";
       
-      public static const ACHIEVEMENT_PARAMS_CAPTUREPOINTSLEFT:String = "#tooltips:achievement/params/capturePointsLeft";
+      public static const ACHIEVEMENT_PARAMS_CAPTUREPOINTSLEFT:String = ACHIEVEMENT_PARAMS + "/capturePointsLeft";
       
-      public static const ACHIEVEMENT_PARAMS_DROPPOINTSLEFT:String = "#tooltips:achievement/params/dropPointsLeft";
+      public static const ACHIEVEMENT_PARAMS_DROPPOINTSLEFT:String = ACHIEVEMENT_PARAMS + "/dropPointsLeft";
       
-      public static const ACHIEVEMENT_PARAMS_WINSLEFT:String = "#tooltips:achievement/params/winsLeft";
+      public static const ACHIEVEMENT_PARAMS_WINSLEFT:String = ACHIEVEMENT_PARAMS + "/winsLeft";
       
-      public static const ACHIEVEMENT_PARAMS_ACHIEVESLEFT:String = "#tooltips:achievement/params/achievesLeft";
+      public static const ACHIEVEMENT_PARAMS_ACHIEVESLEFT:String = ACHIEVEMENT_PARAMS + "/achievesLeft";
       
-      public static const ACHIEVEMENT_PARAMS_FORTDEFRESLEFT:String = "#tooltips:achievement/params/fortDefResLeft";
+      public static const ACHIEVEMENT_PARAMS_FORTDEFRESLEFT:String = ACHIEVEMENT_PARAMS + "/fortDefResLeft";
       
-      public static const ACHIEVEMENT_PARAMS_VEHICLESTAKEPART:String = "#tooltips:achievement/params/vehiclesTakePart";
+      public static const ACHIEVEMENT_PARAMS_VEHICLESTAKEPART:String = ACHIEVEMENT_PARAMS + "/vehiclesTakePart";
       
-      public static const ACHIEVEMENT_PARAMS_VEHICLESTOKILL:String = "#tooltips:achievement/params/vehiclesToKill";
+      public static const ACHIEVEMENT_PARAMS_VEHICLESTOKILL:String = ACHIEVEMENT_PARAMS + "/vehiclesToKill";
       
-      public static const ACHIEVEMENT_PARAMS_VEHICLESTORESEARCH:String = "#tooltips:achievement/params/vehiclesToResearch";
+      public static const ACHIEVEMENT_PARAMS_VEHICLESTORESEARCH:String = ACHIEVEMENT_PARAMS + "/vehiclesToResearch";
       
-      public static const ACHIEVEMENT_PARAMS_VEHICLES:String = "#tooltips:achievement/params/vehicles";
+      public static const ACHIEVEMENT_PARAMS_VEHICLES:String = ACHIEVEMENT_PARAMS + "/vehicles";
       
       public static const ACHIEVEMENT_ACTION_UNAVAILABLE_DESCR:String = "#tooltips:achievement/action/unavailable/descr";
       
@@ -1104,53 +1252,53 @@ package
       
       public static const PERSONAL_CASE_SKILLS_NEW_BODY:String = "#tooltips:personal_case/skills/new/body";
       
-      public static const PERSONAL_CASE_TRAINING_LIGHT_TANK_BTN_HEADER:String = "#tooltips:personal_case/training/light_tank_btn/header";
+      public static const PERSONAL_CASE_TRAINING_LIGHT_TANK_BTN_HEADER:String = PERSONAL_CASE_TRAINING_LIGHT_TANK_BTN + "/header";
       
-      public static const PERSONAL_CASE_TRAINING_LIGHT_TANK_BTN_BODY:String = "#tooltips:personal_case/training/light_tank_btn/body";
+      public static const PERSONAL_CASE_TRAINING_LIGHT_TANK_BTN_BODY:String = PERSONAL_CASE_TRAINING_LIGHT_TANK_BTN + "/body";
       
-      public static const PERSONAL_CASE_TRAINING_LIGHT_TANK_BTN_DISABLED_HEADER:String = "#tooltips:personal_case/training/light_tank_btn_disabled/header";
+      public static const PERSONAL_CASE_TRAINING_LIGHT_TANK_BTN_DISABLED_HEADER:String = PERSONAL_CASE_TRAINING_LIGHT_TANK_BTN + "_disabled/header";
       
-      public static const PERSONAL_CASE_TRAINING_LIGHT_TANK_BTN_DISABLED_BODY:String = "#tooltips:personal_case/training/light_tank_btn_disabled/body";
+      public static const PERSONAL_CASE_TRAINING_LIGHT_TANK_BTN_DISABLED_BODY:String = PERSONAL_CASE_TRAINING_LIGHT_TANK_BTN + "_disabled/body";
       
-      public static const PERSONAL_CASE_TRAINING_MEDIUM_TANK_BTN_HEADER:String = "#tooltips:personal_case/training/medium_tank_btn/header";
+      public static const PERSONAL_CASE_TRAINING_MEDIUM_TANK_BTN_HEADER:String = PERSONAL_CASE_TRAINING_MEDIUM_TANK_BTN + "/header";
       
-      public static const PERSONAL_CASE_TRAINING_MEDIUM_TANK_BTN_BODY:String = "#tooltips:personal_case/training/medium_tank_btn/body";
+      public static const PERSONAL_CASE_TRAINING_MEDIUM_TANK_BTN_BODY:String = PERSONAL_CASE_TRAINING_MEDIUM_TANK_BTN + "/body";
       
-      public static const PERSONAL_CASE_TRAINING_MEDIUM_TANK_BTN_DISABLED_HEADER:String = "#tooltips:personal_case/training/medium_tank_btn_disabled/header";
+      public static const PERSONAL_CASE_TRAINING_MEDIUM_TANK_BTN_DISABLED_HEADER:String = PERSONAL_CASE_TRAINING_MEDIUM_TANK_BTN + "_disabled/header";
       
-      public static const PERSONAL_CASE_TRAINING_MEDIUM_TANK_BTN_DISABLED_BODY:String = "#tooltips:personal_case/training/medium_tank_btn_disabled/body";
+      public static const PERSONAL_CASE_TRAINING_MEDIUM_TANK_BTN_DISABLED_BODY:String = PERSONAL_CASE_TRAINING_MEDIUM_TANK_BTN + "_disabled/body";
       
-      public static const PERSONAL_CASE_TRAINING_HEAVY_TANK_BTN_HEADER:String = "#tooltips:personal_case/training/heavy_tank_btn/header";
+      public static const PERSONAL_CASE_TRAINING_HEAVY_TANK_BTN_HEADER:String = PERSONAL_CASE_TRAINING_HEAVY_TANK_BTN + "/header";
       
-      public static const PERSONAL_CASE_TRAINING_HEAVY_TANK_BTN_BODY:String = "#tooltips:personal_case/training/heavy_tank_btn/body";
+      public static const PERSONAL_CASE_TRAINING_HEAVY_TANK_BTN_BODY:String = PERSONAL_CASE_TRAINING_HEAVY_TANK_BTN + "/body";
       
-      public static const PERSONAL_CASE_TRAINING_HEAVY_TANK_BTN_DISABLED_HEADER:String = "#tooltips:personal_case/training/heavy_tank_btn_disabled/header";
+      public static const PERSONAL_CASE_TRAINING_HEAVY_TANK_BTN_DISABLED_HEADER:String = PERSONAL_CASE_TRAINING_HEAVY_TANK_BTN + "_disabled/header";
       
-      public static const PERSONAL_CASE_TRAINING_HEAVY_TANK_BTN_DISABLED_BODY:String = "#tooltips:personal_case/training/heavy_tank_btn_disabled/body";
+      public static const PERSONAL_CASE_TRAINING_HEAVY_TANK_BTN_DISABLED_BODY:String = PERSONAL_CASE_TRAINING_HEAVY_TANK_BTN + "_disabled/body";
       
-      public static const PERSONAL_CASE_TRAINING_AT_SPG_BTN_HEADER:String = "#tooltips:personal_case/training/at_spg_btn/header";
+      public static const PERSONAL_CASE_TRAINING_AT_SPG_BTN_HEADER:String = PERSONAL_CASE_TRAINING_AT_SPG_BTN + "/header";
       
-      public static const PERSONAL_CASE_TRAINING_AT_SPG_BTN_BODY:String = "#tooltips:personal_case/training/at_spg_btn/body";
+      public static const PERSONAL_CASE_TRAINING_AT_SPG_BTN_BODY:String = PERSONAL_CASE_TRAINING_AT_SPG_BTN + "/body";
       
-      public static const PERSONAL_CASE_TRAINING_AT_SPG_BTN_DISABLED_HEADER:String = "#tooltips:personal_case/training/at_spg_btn_disabled/header";
+      public static const PERSONAL_CASE_TRAINING_AT_SPG_BTN_DISABLED_HEADER:String = PERSONAL_CASE_TRAINING_AT_SPG_BTN + "_disabled/header";
       
-      public static const PERSONAL_CASE_TRAINING_AT_SPG_BTN_DISABLED_BODY:String = "#tooltips:personal_case/training/at_spg_btn_disabled/body";
+      public static const PERSONAL_CASE_TRAINING_AT_SPG_BTN_DISABLED_BODY:String = PERSONAL_CASE_TRAINING_AT_SPG_BTN + "_disabled/body";
       
-      public static const PERSONAL_CASE_TRAINING_SPG_BTN_HEADER:String = "#tooltips:personal_case/training/spg_btn/header";
+      public static const PERSONAL_CASE_TRAINING_SPG_BTN_HEADER:String = PERSONAL_CASE_TRAINING_SPG_BTN + "/header";
       
-      public static const PERSONAL_CASE_TRAINING_SPG_BTN_BODY:String = "#tooltips:personal_case/training/spg_btn/body";
+      public static const PERSONAL_CASE_TRAINING_SPG_BTN_BODY:String = PERSONAL_CASE_TRAINING_SPG_BTN + "/body";
       
-      public static const PERSONAL_CASE_TRAINING_SPG_BTN_DISABLED_HEADER:String = "#tooltips:personal_case/training/spg_btn_disabled/header";
+      public static const PERSONAL_CASE_TRAINING_SPG_BTN_DISABLED_HEADER:String = PERSONAL_CASE_TRAINING_SPG_BTN + "_disabled/header";
       
-      public static const PERSONAL_CASE_TRAINING_SPG_BTN_DISABLED_BODY:String = "#tooltips:personal_case/training/spg_btn_disabled/body";
+      public static const PERSONAL_CASE_TRAINING_SPG_BTN_DISABLED_BODY:String = PERSONAL_CASE_TRAINING_SPG_BTN + "_disabled/body";
       
-      public static const PERSONAL_CASE_TRAINING_TANK_HEADER:String = "#tooltips:personal_case/training/tank/header";
+      public static const PERSONAL_CASE_TRAINING_TANK_HEADER:String = PERSONAL_CASE_TRAINING_TANK + "/header";
       
-      public static const PERSONAL_CASE_TRAINING_TANK_BODY:String = "#tooltips:personal_case/training/tank/body";
+      public static const PERSONAL_CASE_TRAINING_TANK_BODY:String = PERSONAL_CASE_TRAINING_TANK + "/body";
       
-      public static const PERSONAL_CASE_TRAINING_CURRENT_TANK_HEADER:String = "#tooltips:personal_case/training/current_tank/header";
+      public static const PERSONAL_CASE_TRAINING_CURRENT_TANK_HEADER:String = PERSONAL_CASE_TRAINING_CURRENT_TANK + "/header";
       
-      public static const PERSONAL_CASE_TRAINING_CURRENT_TANK_BODY:String = "#tooltips:personal_case/training/current_tank/body";
+      public static const PERSONAL_CASE_TRAINING_CURRENT_TANK_BODY:String = PERSONAL_CASE_TRAINING_CURRENT_TANK + "/body";
       
       public static const HANGAR_AMMO_PANEL_DEVICE_EMPTY_HEADER:String = HANGAR_AMMO_PANEL_DEVICE_EMPTY + "/header";
       
@@ -1850,9 +1998,13 @@ package
       
       public static const CYBERSPORT_INTRO_CREATE_BTN_BODY:String = CYBERSPORT_INTRO_CREATE_BTN + "/body";
       
-      public static const CYBERSPORT_INTRO_CHOOSEVEHICLES_HEADER:String = CYBERSPORT_INTRO_CHOOSEVEHICLES + "/header";
+      public static const CYBERSPORT_INTRO_SELECTEDVEHICLEWARN_INCOMPATIBLETYPE_HEADER:String = CYBERSPORT_INTRO_SELECTEDVEHICLEWARN_INCOMPATIBLETYPE + "/header";
       
-      public static const CYBERSPORT_INTRO_CHOOSEVEHICLES_BODY:String = CYBERSPORT_INTRO_CHOOSEVEHICLES + "/body";
+      public static const CYBERSPORT_INTRO_SELECTEDVEHICLEWARN_INCOMPATIBLETYPE_BODY:String = CYBERSPORT_INTRO_SELECTEDVEHICLEWARN_INCOMPATIBLETYPE + "/body";
+      
+      public static const CYBERSPORT_INTRO_SELECTEDVEHICLEWARN_INCOMPATIBLELEVEL_HEADER:String = CYBERSPORT_INTRO_SELECTEDVEHICLEWARN_INCOMPATIBLELEVEL + "/header";
+      
+      public static const CYBERSPORT_INTRO_SELECTEDVEHICLEWARN_INCOMPATIBLELEVEL_BODY:String = CYBERSPORT_INTRO_SELECTEDVEHICLEWARN_INCOMPATIBLELEVEL + "/body";
       
       public static const CYBERSPORT_COMMANDER_STATS:String = "#tooltips:cyberSport/commander/stats";
       
@@ -1929,6 +2081,10 @@ package
       public static const CYBERSPORT_UNIT_SLOT_VEHICLE_NOTREADY_TEMPORALLY_BODY:String = "#tooltips:cyberSport/unit/slot/vehicle/notReady/temporally/body";
       
       public static const CYBERSPORT_UNIT_SLOT_VEHICLE_NOTREADY_PERMANENTLY_BODY:String = "#tooltips:cyberSport/unit/slot/vehicle/notReady/permanently/body";
+      
+      public static const CYBERSPORT_WAITINGPLAYERS_CONFIGALERT_HEADER:String = CYBERSPORT_WAITINGPLAYERS_CONFIGALERT + "/header";
+      
+      public static const CYBERSPORT_WAITINGPLAYERS_CONFIGALERT_BODY:String = CYBERSPORT_WAITINGPLAYERS_CONFIGALERT + "/body";
       
       public static const HISTORICALBATTLES_SHOWBATTLEHISTORY_HEADER:String = "#tooltips:historicalBattles/showBattleHistory/header";
       
@@ -2011,6 +2167,10 @@ package
       public static const FORTIFICATION_MODERNIZATION_APPLYBUTTON_NETENOUGHRESOURCE:String = FORTIFICATION_MODERNIZATION + "/applyButton/netEnoughResource";
       
       public static const FORTIFICATION_MODERNIZATION_APPLYBUTTON_LOWLEVELANDRESOURCE:String = FORTIFICATION_MODERNIZATION + "/applyButton/lowLevelAndResource";
+      
+      public static const FORTIFICATION_MODERNIZATION_DESCRIPTIONLINK_HEADER:String = FORTIFICATION_MODERNIZATION + "/descriptionLink/header";
+      
+      public static const FORTIFICATION_MODERNIZATION_DESCRIPTIONLINK_BODY:String = FORTIFICATION_MODERNIZATION + "/descriptionLink/body";
       
       public static const FORTIFICATION_DEFRESICONINFO_HEADER:String = FORTIFICATION_DEFRESICONINFO + "/header";
       
@@ -2129,6 +2289,32 @@ package
       public static const FORTIFICATION_ORDERPOPOVER_PERMANENTORDER_INFO:String = "#tooltips:fortification/orderPopover/permanentOrder/info";
       
       public static const FORTIFICATION_ORDERSPANEL_CANTUSEORDER:String = "#tooltips:fortification/ordersPanel/cantUseOrder";
+      
+      public static const FORTIFICATION_CONSUMABLES_ORDER_BOMBER_SHOTSCOUNT:String = FORTIFICATION_CONSUMABLES_ORDER_BOMBER + "/shotsCount";
+      
+      public static const FORTIFICATION_CONSUMABLES_ORDER_BOMBER_AREA:String = FORTIFICATION_CONSUMABLES_ORDER_BOMBER + "/area";
+      
+      public static const FORTIFICATION_CONSUMABLES_ORDER_BOMBER_DELAY:String = FORTIFICATION_CONSUMABLES_ORDER_BOMBER + "/delay";
+      
+      public static const FORTIFICATION_CONSUMABLES_ORDER_BOMBER_DAMAGE:String = FORTIFICATION_CONSUMABLES_ORDER_BOMBER + "/damage";
+      
+      public static const FORTIFICATION_CONSUMABLES_ORDER_BOMBER_PIERCINGPOWER:String = FORTIFICATION_CONSUMABLES_ORDER_BOMBER + "/piercingPower";
+      
+      public static const FORTIFICATION_CONSUMABLES_ORDER_ARTILLERY_SHOTSCOUNT:String = FORTIFICATION_CONSUMABLES_ORDER_ARTILLERY + "/shotsCount";
+      
+      public static const FORTIFICATION_CONSUMABLES_ORDER_ARTILLERY_AREA:String = FORTIFICATION_CONSUMABLES_ORDER_ARTILLERY + "/area";
+      
+      public static const FORTIFICATION_CONSUMABLES_ORDER_ARTILLERY_DELAY:String = FORTIFICATION_CONSUMABLES_ORDER_ARTILLERY + "/delay";
+      
+      public static const FORTIFICATION_CONSUMABLES_ORDER_ARTILLERY_DAMAGE:String = FORTIFICATION_CONSUMABLES_ORDER_ARTILLERY + "/damage";
+      
+      public static const FORTIFICATION_CONSUMABLES_ORDER_ARTILLERY_PIERCINGPOWER:String = FORTIFICATION_CONSUMABLES_ORDER_ARTILLERY + "/piercingPower";
+      
+      public static const FORTIFICATION_CONSUMABLES_ORDER_ARTILLERY_CALIBER:String = FORTIFICATION_CONSUMABLES_ORDER_ARTILLERY + "/caliber";
+      
+      public static const FORTIFICATION_CONSUMABLES_ORDER_ARTILLERY_EXPLOSIONRADIUS:String = FORTIFICATION_CONSUMABLES_ORDER_ARTILLERY + "/explosionRadius";
+      
+      public static const FORTIFICATION_CONSUMABLES_ORDER_LEVEL_LBL:String = "#tooltips:fortification/consumables_order/level_lbl";
       
       public static const FORTIFICATION_POPOVER_UPGRADEFOUNDATIONBTN_HEADER:String = FORTIFICATION_POPOVER_UPGRADEFOUNDATIONBTN + "/header";
       
@@ -2482,6 +2668,10 @@ package
       
       public static const VEHICLESELECTOR_OVERFLOWLEVEL_BODY:String = VEHICLESELECTOR_OVERFLOWLEVEL + "/body";
       
+      public static const VEHICLESELECTOR_INCOMPATIBLETYPE_HEADER:String = VEHICLESELECTOR_INCOMPATIBLETYPE + "/header";
+      
+      public static const VEHICLESELECTOR_INCOMPATIBLETYPE_BODY:String = VEHICLESELECTOR_INCOMPATIBLETYPE + "/body";
+      
       public static const FORTIFICATION_FORTCLANBATTLELIST_GENERALRENDER:String = "#tooltips:fortification/fortClanBattleList/generalRender";
       
       public static const FORTIFICATION_FORTCLANBATTLELIST_BATTLETYPEICON_DEFENCE:String = "#tooltips:fortification/fortClanBattleList/battleTypeIcon/defence";
@@ -2608,6 +2798,10 @@ package
       
       public static const FORTIFICATION_BATTLENOTIFIER_OFFANDDEF_BODY:String = FORTIFICATION_BATTLENOTIFIER_OFFANDDEF + "/body";
       
+      public static const FORTIFICATION_FORTBATTLEDIRECTIONPOPOVER_JOINBTN_HEADER:String = FORTIFICATION_FORTBATTLEDIRECTIONPOPOVER_JOINBTN + "/header";
+      
+      public static const FORTIFICATION_FORTBATTLEDIRECTIONPOPOVER_JOINBTN_BODY:String = FORTIFICATION_FORTBATTLEDIRECTIONPOPOVER_JOINBTN + "/body";
+      
       public static const FORTIFICATION_FORTSETTINGSPERIPHERYPOPOVER_APPLYBTN_ENABLED:String = "#tooltips:fortification/fortSettingsPeripheryPopover/applyBtn/enabled";
       
       public static const FORTIFICATION_FORTSETTINGSPERIPHERYPOPOVER_APPLYBTN_DISABLED:String = "#tooltips:fortification/fortSettingsPeripheryPopover/applyBtn/disabled";
@@ -2641,12 +2835,6 @@ package
       public static const FORTIFICATION_FORTSETTINGSWINDOW_PEREPHERYBTN_ENABLED_BODY:String = "#tooltips:fortification/fortSettingsWindow/perepheryBtn/enabled/body";
       
       public static const FORTIFICATION_FORTSETTINGSWINDOW_PEREPHERYBTN_DISABLED_BODY:String = "#tooltips:fortification/fortSettingsWindow/perepheryBtn/disabled/body";
-      
-      public static const FORTIFICATION_FORTSETTINGSWINDOW_PEREPHERYBTN_DISABLED_BODY_DAYS:String = "#tooltips:fortification/fortSettingsWindow/perepheryBtn/disabled/body/days";
-      
-      public static const FORTIFICATION_FORTSETTINGSWINDOW_PEREPHERYBTN_DISABLED_BODY_HOURS:String = "#tooltips:fortification/fortSettingsWindow/perepheryBtn/disabled/body/hours";
-      
-      public static const FORTIFICATION_FORTSETTINGSWINDOW_PEREPHERYBTN_DISABLED_BODY_MIN:String = "#tooltips:fortification/fortSettingsWindow/perepheryBtn/disabled/body/min";
       
       public static const FORTIFICATION_FORTSETTINGSWINDOW_DEFENCEBTNENABLED_HEADER:String = FORTIFICATION_FORTSETTINGSWINDOW_DEFENCEBTNENABLED + "/header";
       
@@ -2794,25 +2982,213 @@ package
       
       public static const BATTLERESULTS_FORTRESOURCE_LEGIONER_BODY:String = "#tooltips:battleResults/FortResource/legioner/body";
       
+      public static const BATTLERESULTS_FORTRESOURCE_TEAMINFLUENCETOTAL_HEADER:String = BATTLERESULTS_FORTRESOURCE_TEAMINFLUENCETOTAL + "/header";
+      
+      public static const BATTLERESULTS_FORTRESOURCE_TEAMINFLUENCETOTAL_BODY:String = BATTLERESULTS_FORTRESOURCE_TEAMINFLUENCETOTAL + "/body";
+      
+      public static const BATTLERESULTS_FORTRESOURCE_TEAMRESOURCETOTAL_HEADER:String = BATTLERESULTS_FORTRESOURCE_TEAMRESOURCETOTAL + "/header";
+      
+      public static const BATTLERESULTS_FORTRESOURCE_TEAMRESOURCETOTAL_BODY:String = BATTLERESULTS_FORTRESOURCE_TEAMRESOURCETOTAL + "/body";
+      
+      public static const BATTLERESULTS_FORTRESOURCE_RESULTSSHAREBTN_HEADER:String = BATTLERESULTS_FORTRESOURCE_RESULTSSHAREBTN + "/header";
+      
+      public static const BATTLERESULTS_FORTRESOURCE_RESULTSSHAREBTN_BODY:String = BATTLERESULTS_FORTRESOURCE_RESULTSSHAREBTN + "/body";
+      
+      public static const STATICFORMATIONSUMMARYVIEW_STATS_BATTLES_HEADER:String = STATICFORMATIONSUMMARYVIEW_STATS_BATTLES + "/header";
+      
+      public static const STATICFORMATIONSUMMARYVIEW_STATS_BATTLES_BODY:String = STATICFORMATIONSUMMARYVIEW_STATS_BATTLES + "/body";
+      
+      public static const STATICFORMATIONSUMMARYVIEW_STATS_WINSPERCENT_HEADER:String = STATICFORMATIONSUMMARYVIEW_STATS_WINSPERCENT + "/header";
+      
+      public static const STATICFORMATIONSUMMARYVIEW_STATS_WINSPERCENT_BODY:String = STATICFORMATIONSUMMARYVIEW_STATS_WINSPERCENT + "/body";
+      
+      public static const STATICFORMATIONSUMMARYVIEW_STATS_WINSBYCAPTURE_HEADER:String = STATICFORMATIONSUMMARYVIEW_STATS_WINSBYCAPTURE + "/header";
+      
+      public static const STATICFORMATIONSUMMARYVIEW_STATS_WINSBYCAPTURE_BODY:String = STATICFORMATIONSUMMARYVIEW_STATS_WINSBYCAPTURE + "/body";
+      
+      public static const STATICFORMATIONSUMMARYVIEW_STATS_TECHDEFEATS_HEADER:String = STATICFORMATIONSUMMARYVIEW_STATS_TECHDEFEATS + "/header";
+      
+      public static const STATICFORMATIONSUMMARYVIEW_STATS_TECHDEFEATS_BODY:String = STATICFORMATIONSUMMARYVIEW_STATS_TECHDEFEATS + "/body";
+      
+      public static const STATICFORMATIONSTATSVIEW_MAINSTATS_BATTLES_HEADER:String = STATICFORMATIONSTATSVIEW_MAINSTATS_BATTLES + "/header";
+      
+      public static const STATICFORMATIONSTATSVIEW_MAINSTATS_BATTLES_BODY:String = STATICFORMATIONSTATSVIEW_MAINSTATS_BATTLES + "/body";
+      
+      public static const STATICFORMATIONSTATSVIEW_MAINSTATS_WINSPERCENT_HEADER:String = STATICFORMATIONSTATSVIEW_MAINSTATS_WINSPERCENT + "/header";
+      
+      public static const STATICFORMATIONSTATSVIEW_MAINSTATS_WINSPERCENT_BODY:String = STATICFORMATIONSTATSVIEW_MAINSTATS_WINSPERCENT + "/body";
+      
+      public static const STATICFORMATIONSTATSVIEW_MAINSTATS_TECHDEFEATSPERCENT_HEADER:String = STATICFORMATIONSTATSVIEW_MAINSTATS_TECHDEFEATSPERCENT + "/header";
+      
+      public static const STATICFORMATIONSTATSVIEW_MAINSTATS_TECHDEFEATSPERCENT_BODY:String = STATICFORMATIONSTATSVIEW_MAINSTATS_TECHDEFEATSPERCENT + "/body";
+      
+      public static const STATICFORMATIONSTATSVIEW_MAINSTATS_TECHDEFEATSNUMBER_HEADER:String = STATICFORMATIONSTATSVIEW_MAINSTATS_TECHDEFEATSNUMBER + "/header";
+      
+      public static const STATICFORMATIONSTATSVIEW_MAINSTATS_TECHDEFEATSNUMBER_BODY:String = STATICFORMATIONSTATSVIEW_MAINSTATS_TECHDEFEATSNUMBER + "/body";
+      
+      public static const STATICFORMATIONSTAFFVIEW_TABLE_HEADERCOUNT_HEADER:String = STATICFORMATIONSTAFFVIEW_TABLE_HEADERCOUNT + "/header";
+      
+      public static const STATICFORMATIONSTAFFVIEW_TABLE_HEADERCOUNT_BODY:String = STATICFORMATIONSTAFFVIEW_TABLE_HEADERCOUNT + "/body";
+      
+      public static const STATICFORMATIONSTAFFVIEW_TABLE_HEADERAPPOINTMENT_HEADER:String = STATICFORMATIONSTAFFVIEW_TABLE_HEADERAPPOINTMENT + "/header";
+      
+      public static const STATICFORMATIONSTAFFVIEW_TABLE_HEADERAPPOINTMENT_BODY:String = STATICFORMATIONSTAFFVIEW_TABLE_HEADERAPPOINTMENT + "/body";
+      
+      public static const STATICFORMATIONSTAFFVIEW_TABLE_HEADERNAME_HEADER:String = STATICFORMATIONSTAFFVIEW_TABLE_HEADERNAME + "/header";
+      
+      public static const STATICFORMATIONSTAFFVIEW_TABLE_HEADERNAME_BODY:String = STATICFORMATIONSTAFFVIEW_TABLE_HEADERNAME + "/body";
+      
+      public static const STATICFORMATIONSTAFFVIEW_TABLE_HEADERRATING_HEADER:String = STATICFORMATIONSTAFFVIEW_TABLE_HEADERRATING + "/header";
+      
+      public static const STATICFORMATIONSTAFFVIEW_TABLE_HEADERRATING_BODY:String = STATICFORMATIONSTAFFVIEW_TABLE_HEADERRATING + "/body";
+      
+      public static const STATICFORMATIONSTAFFVIEW_TABLE_HEADERBATTLESCOUNT_HEADER:String = STATICFORMATIONSTAFFVIEW_TABLE_HEADERBATTLESCOUNT + "/header";
+      
+      public static const STATICFORMATIONSTAFFVIEW_TABLE_HEADERBATTLESCOUNT_BODY:String = STATICFORMATIONSTAFFVIEW_TABLE_HEADERBATTLESCOUNT + "/body";
+      
+      public static const STATICFORMATIONSTAFFVIEW_TABLE_HEADERDAMAGECOEF_HEADER:String = STATICFORMATIONSTAFFVIEW_TABLE_HEADERDAMAGECOEF + "/header";
+      
+      public static const STATICFORMATIONSTAFFVIEW_TABLE_HEADERDAMAGECOEF_BODY:String = STATICFORMATIONSTAFFVIEW_TABLE_HEADERDAMAGECOEF + "/body";
+      
+      public static const STATICFORMATIONSTAFFVIEW_TABLE_HEADERAVRDAMAGE_HEADER:String = STATICFORMATIONSTAFFVIEW_TABLE_HEADERAVRDAMAGE + "/header";
+      
+      public static const STATICFORMATIONSTAFFVIEW_TABLE_HEADERAVRDAMAGE_BODY:String = STATICFORMATIONSTAFFVIEW_TABLE_HEADERAVRDAMAGE + "/body";
+      
+      public static const STATICFORMATIONSTAFFVIEW_TABLE_HEADERAVRASSISTDAMAGE_HEADER:String = STATICFORMATIONSTAFFVIEW_TABLE_HEADERAVRASSISTDAMAGE + "/header";
+      
+      public static const STATICFORMATIONSTAFFVIEW_TABLE_HEADERAVRASSISTDAMAGE_BODY:String = STATICFORMATIONSTAFFVIEW_TABLE_HEADERAVRASSISTDAMAGE + "/body";
+      
+      public static const STATICFORMATIONSTAFFVIEW_TABLE_HEADERAVREXPIRIENCE_HEADER:String = STATICFORMATIONSTAFFVIEW_TABLE_HEADERAVREXPIRIENCE + "/header";
+      
+      public static const STATICFORMATIONSTAFFVIEW_TABLE_HEADERAVREXPIRIENCE_BODY:String = STATICFORMATIONSTAFFVIEW_TABLE_HEADERAVREXPIRIENCE + "/body";
+      
+      public static const STATICFORMATIONSTAFFVIEW_TABLE_HEADERTAUNT_HEADER:String = STATICFORMATIONSTAFFVIEW_TABLE_HEADERTAUNT + "/header";
+      
+      public static const STATICFORMATIONSTAFFVIEW_TABLE_HEADERTAUNT_BODY:String = STATICFORMATIONSTAFFVIEW_TABLE_HEADERTAUNT + "/body";
+      
+      public static const STATICFORMATIONSTAFFVIEW_TABLE_HEADERJOINDATE_HEADER:String = STATICFORMATIONSTAFFVIEW_TABLE_HEADERJOINDATE + "/header";
+      
+      public static const STATICFORMATIONSTAFFVIEW_TABLE_HEADERJOINDATE_BODY:String = STATICFORMATIONSTAFFVIEW_TABLE_HEADERJOINDATE + "/body";
+      
+      public static const STATICFORMATIONSTAFFVIEW_TABLE_HEADERREMOVEMEMBER_HEADER:String = STATICFORMATIONSTAFFVIEW_TABLE_HEADERREMOVEMEMBER + "/header";
+      
+      public static const STATICFORMATIONSTAFFVIEW_TABLE_HEADERREMOVEMEMBER_BODY:String = STATICFORMATIONSTAFFVIEW_TABLE_HEADERREMOVEMEMBER + "/body";
+      
+      public static const STATICFORMATIONSTAFFVIEW_REMOVEMEMBERBTN_HEADER:String = STATICFORMATIONSTAFFVIEW_REMOVEMEMBERBTN + "/header";
+      
+      public static const STATICFORMATIONSTAFFVIEW_REMOVEMEMBERBTN_BODY:String = STATICFORMATIONSTAFFVIEW_REMOVEMEMBERBTN + "/body";
+      
+      public static const STATICFORMATIONSTAFFVIEW_INVITEBTN_HEADER:String = STATICFORMATIONSTAFFVIEW_INVITEBTN + "/header";
+      
+      public static const STATICFORMATIONSTAFFVIEW_INVITEBTN_BODY:String = STATICFORMATIONSTAFFVIEW_INVITEBTN + "/body";
+      
+      public static const STATICFORMATIONSTAFFVIEW_RECRUITMENTBTN_HEADER:String = STATICFORMATIONSTAFFVIEW_RECRUITMENTBTN + "/header";
+      
+      public static const STATICFORMATIONSTAFFVIEW_RECRUITMENTBTN_BODY:String = STATICFORMATIONSTAFFVIEW_RECRUITMENTBTN + "/body";
+      
+      public static const STATICFORMATIONLADDERVIEW_TABLE_HEADERPLACE_HEADER:String = STATICFORMATIONLADDERVIEW_TABLE_HEADERPLACE + "/header";
+      
+      public static const STATICFORMATIONLADDERVIEW_TABLE_HEADERPLACE_BODY:String = STATICFORMATIONLADDERVIEW_TABLE_HEADERPLACE + "/body";
+      
+      public static const STATICFORMATIONLADDERVIEW_TABLE_HEADERPOINTS_HEADER:String = STATICFORMATIONLADDERVIEW_TABLE_HEADERPOINTS + "/header";
+      
+      public static const STATICFORMATIONLADDERVIEW_TABLE_HEADERPOINTS_BODY:String = STATICFORMATIONLADDERVIEW_TABLE_HEADERPOINTS + "/body";
+      
+      public static const STATICFORMATIONLADDERVIEW_TABLE_HEADERFORMATIONNAME_HEADER:String = STATICFORMATIONLADDERVIEW_TABLE_HEADERFORMATIONNAME + "/header";
+      
+      public static const STATICFORMATIONLADDERVIEW_TABLE_HEADERFORMATIONNAME_BODY:String = STATICFORMATIONLADDERVIEW_TABLE_HEADERFORMATIONNAME + "/body";
+      
+      public static const STATICFORMATIONLADDERVIEW_TABLE_HEADERBATTLESCOUNT_HEADER:String = STATICFORMATIONLADDERVIEW_TABLE_HEADERBATTLESCOUNT + "/header";
+      
+      public static const STATICFORMATIONLADDERVIEW_TABLE_HEADERBATTLESCOUNT_BODY:String = STATICFORMATIONLADDERVIEW_TABLE_HEADERBATTLESCOUNT + "/body";
+      
+      public static const STATICFORMATIONLADDERVIEW_TABLE_HEADERWINPERCENT_HEADER:String = STATICFORMATIONLADDERVIEW_TABLE_HEADERWINPERCENT + "/header";
+      
+      public static const STATICFORMATIONLADDERVIEW_TABLE_HEADERWINPERCENT_BODY:String = STATICFORMATIONLADDERVIEW_TABLE_HEADERWINPERCENT + "/body";
+      
+      public static const STATICFORMATIONLADDERVIEW_TABLE_HEADERSHOWFORMATIONPROFILE_HEADER:String = STATICFORMATIONLADDERVIEW_TABLE_HEADERSHOWFORMATIONPROFILE + "/header";
+      
+      public static const STATICFORMATIONLADDERVIEW_TABLE_HEADERSHOWFORMATIONPROFILE_BODY:String = STATICFORMATIONLADDERVIEW_TABLE_HEADERSHOWFORMATIONPROFILE + "/body";
+      
+      public static const STATICFORMATIONLADDERVIEW_SHOWFORMATIONPROFILEBTN_HEADER:String = STATICFORMATIONLADDERVIEW_SHOWFORMATIONPROFILEBTN + "/header";
+      
+      public static const STATICFORMATIONLADDERVIEW_SHOWFORMATIONPROFILEBTN_BODY:String = STATICFORMATIONLADDERVIEW_SHOWFORMATIONPROFILEBTN + "/body";
+      
+      public static const STATICFORMATION_OWNERICON_HEADER:String = STATICFORMATION_OWNERICON + "/header";
+      
+      public static const STATICFORMATION_OWNERICON_BODY:String = STATICFORMATION_OWNERICON + "/body";
+      
+      public static const STATICFORMATION_OFFICERICON_HEADER:String = STATICFORMATION_OFFICERICON + "/header";
+      
+      public static const STATICFORMATION_OFFICERICON_BODY:String = STATICFORMATION_OFFICERICON + "/body";
+      
+      public static const STATICFORMATION_DEMOTEBTN_HEADER:String = STATICFORMATION_DEMOTEBTN + "/header";
+      
+      public static const STATICFORMATION_DEMOTEBTN_BODY:String = STATICFORMATION_DEMOTEBTN + "/body";
+      
+      public static const STATICFORMATION_PROMOTEBTN_HEADER:String = STATICFORMATION_PROMOTEBTN + "/header";
+      
+      public static const STATICFORMATION_PROMOTEBTN_BODY:String = STATICFORMATION_PROMOTEBTN + "/body";
+      
+      public static const CONTACT_STATUS_INBATTLE:String = "#tooltips:Contact/status/InBattle";
+      
+      public static const CONTACT_STATUS_ONLINE:String = "#tooltips:Contact/status/online";
+      
+      public static const CONTACT_UNITS_HOMEREALM:String = "#tooltips:Contact/units/homeRealm";
+      
+      public static const CONTACT_UNITS_CLAN:String = "#tooltips:Contact/units/clan";
+      
+      public static const CONTACT_UNITS_STATUS_DESCRIPTION_PENDINGFRIENDSHIP:String = "#tooltips:Contact/units/status/description/pendingfriendship";
+      
+      public static const CONTACT_UNITS_STATUS_DESCRIPTION_IGNORED:String = "#tooltips:Contact/units/status/description/ignored";
+      
+      public static const CONTACT_UNITS_STATUS_DESCRIPTION_RECRUITER:String = "#tooltips:Contact/units/status/description/recruiter";
+      
+      public static const CONTACT_UNITS_STATUS_DESCRIPTION_RECRUIT:String = "#tooltips:Contact/units/status/description/recruit";
+      
+      public static const CONTACT_UNITS_GROUPS:String = "#tooltips:Contact/units/groups";
+      
+      public static const ROLECHANGE_CURRENTROLEWARNING_HEADER:String = ROLECHANGE_CURRENTROLEWARNING + "/header";
+      
+      public static const ROLECHANGE_CURRENTROLEWARNING_BODY:String = ROLECHANGE_CURRENTROLEWARNING + "/body";
+      
+      public static const ROLECHANGE_ROLETAKEN_HEADER:String = ROLECHANGE_ROLETAKEN + "/header";
+      
+      public static const ROLECHANGE_ROLETAKEN_BODY:String = ROLECHANGE_ROLETAKEN + "/body";
+      
+      public static const ROLECHANGE_ROLEANDVEHICLETAKEN_HEADER:String = ROLECHANGE_ROLEANDVEHICLETAKEN + "/header";
+      
+      public static const ROLECHANGE_ROLEANDVEHICLETAKEN_BODY:String = ROLECHANGE_ROLEANDVEHICLETAKEN + "/body";
+      
+      public static const ROLECHANGE_FOOTERINFO_HEADER:String = ROLECHANGE_FOOTERINFO + "/header";
+      
+      public static const ROLECHANGE_FOOTERINFO_BODY:String = ROLECHANGE_FOOTERINFO + "/body";
+      
       public static const TECHTREEPAGE_NATIONS_ENUM:Array = [TECHTREEPAGE_NATIONS_USSR,TECHTREEPAGE_NATIONS_GERMANY,TECHTREEPAGE_NATIONS_USA,TECHTREEPAGE_NATIONS_CHINA,TECHTREEPAGE_NATIONS_FRANCE,TECHTREEPAGE_NATIONS_UK,TECHTREEPAGE_NATIONS_JAPAN];
-      
-      public static const FORTIFICATION_TRANSPORTING_ENUM:Array = [FORTIFICATION_TRANSPORTING_EMPTYSTORAGE_HEADER,FORTIFICATION_TRANSPORTING_EMPTYSTORAGE_BODY,FORTIFICATION_TRANSPORTING_COOLDOWN_HEADER,FORTIFICATION_TRANSPORTING_COOLDOWN_BODY,FORTIFICATION_TRANSPORTING_FOUNDATION_HEADER,FORTIFICATION_TRANSPORTING_FOUNDATION_BODY,FORTIFICATION_TRANSPORTING_NOTEMPTYSPACE_HEADER,FORTIFICATION_TRANSPORTING_NOTEMPTYSPACE_BODY];
-      
-      public static const ACHIEVEMENT_PARAMS_ENUM:Array = [ACHIEVEMENT_PARAMS_MAXSNIPERSERIES,ACHIEVEMENT_PARAMS_MAXINVINCIBLESERIES,ACHIEVEMENT_PARAMS_MAXDIEHARDSERIES,ACHIEVEMENT_PARAMS_MAXKILLINGSERIES,ACHIEVEMENT_PARAMS_MAXRELIABLECOMRADESERIES,ACHIEVEMENT_PARAMS_MAXAIMERSERIES,ACHIEVEMENT_PARAMS_MAXWFC2014WINSERIES,ACHIEVEMENT_PARAMS_MAXDEATHTRACKWINSERIES,ACHIEVEMENT_PARAMS_MAXPIERCINGSERIES,ACHIEVEMENT_PARAMS_MAXTACTICALBREAKTHROUGHSERIES,ACHIEVEMENT_PARAMS_NO_CLASS_ACHIEVEMENT_LEFT,ACHIEVEMENT_PARAMS_LEFT4,ACHIEVEMENT_PARAMS_LEFT3,ACHIEVEMENT_PARAMS_LEFT2,ACHIEVEMENT_PARAMS_LEFT1,ACHIEVEMENT_PARAMS_HEROESLEFT,ACHIEVEMENT_PARAMS_PAIRWINSLEFT,ACHIEVEMENT_PARAMS_VEHICLESLEFT,ACHIEVEMENT_PARAMS_QUESTSLEFT,ACHIEVEMENT_PARAMS_TANKWOMENLEFT,ACHIEVEMENT_PARAMS_DAMAGELEFT,ACHIEVEMENT_PARAMS_BATTLESLEFT,ACHIEVEMENT_PARAMS_CAPTUREPOINTSLEFT,ACHIEVEMENT_PARAMS_DROPPOINTSLEFT,ACHIEVEMENT_PARAMS_WINSLEFT,ACHIEVEMENT_PARAMS_ACHIEVESLEFT,ACHIEVEMENT_PARAMS_FORTDEFRESLEFT,ACHIEVEMENT_PARAMS_VEHICLESTAKEPART,ACHIEVEMENT_PARAMS_VEHICLESTOKILL,ACHIEVEMENT_PARAMS_VEHICLESTORESEARCH,ACHIEVEMENT_PARAMS_VEHICLES];
       
       public static const PRIVATEQUESTS_PARAMS_ENUM:Array = [PRIVATEQUESTS_PARAMS_SHEETS,PRIVATEQUESTS_PARAMS_RECRUITTANKMANFEMALE,PRIVATEQUESTS_PARAMS_COLLECTEDSHEETS,PRIVATEQUESTS_PARAMS_COMPETEDTASKS,PRIVATEQUESTS_PARAMS_RECRUITEDTANKMANFEMALE];
       
       public static const TANKCARUSEL_LOCK_ENUM:Array = [TANKCARUSEL_LOCK_HEADER,TANKCARUSEL_LOCK_TO,TANKCARUSEL_LOCK_CLAN,TANKCARUSEL_LOCK_TOURNAMENT,TANKCARUSEL_LOCK_ROAMING];
       
-      public static const ACTIONPRICE_SELL_TYPE_ENUM:Array = [ACTIONPRICE_SELL_TYPE_VEHICLE,ACTIONPRICE_SELL_TYPE_MODULE,ACTIONPRICE_SELL_TYPE_EQUIPMENT,ACTIONPRICE_SELL_TYPE_SHELL,ACTIONPRICE_SELL_TYPE_OPTIONALDEVICE];
-      
-      public static const SQUADWINDOW_STATUS_ENUM:Array = [SQUADWINDOW_STATUS_COMMANDER,SQUADWINDOW_STATUS_NORMAL,SQUADWINDOW_STATUS_CANCELED,SQUADWINDOW_STATUS_READY,SQUADWINDOW_STATUS_INBATTLE,SQUADWINDOW_STATUS_LOCKED];
-      
       public static const TOOLTIPREFSYSDESCRIPTION_AWARDS_DESCR_ENUM:Array = [TOOLTIPREFSYSDESCRIPTION_AWARDS_DESCR_CREDITS,TOOLTIPREFSYSDESCRIPTION_AWARDS_DESCR_TANKMAN,TOOLTIPREFSYSDESCRIPTION_AWARDS_DESCR_VEHICLEWITHTANKMEN];
       
       public static const LEVEL_ENUM:Array = [LEVEL_1,LEVEL_2,LEVEL_3,LEVEL_4,LEVEL_5,LEVEL_6,LEVEL_7,LEVEL_8,LEVEL_9,LEVEL_10];
       
-      public static const VEHICLE_ENUM:Array = [VEHICLE_GRAPH_NOTES_SHOWCONTEXTMENU,VEHICLE_GRAPH_NOTES_SHOWINFOWINDOW,VEHICLE_GRAPH_NOTES_VEHICLEUNLOCK,VEHICLE_GRAPH_NOTES_MODULEUNLOCK,VEHICLE_GRAPH_NOTES_EQUIP,VEHICLE_GRAPH_NOTES_BUYANDEQUIP,VEHICLE_GRAPH_NOTES_GOTONATIONTREE,VEHICLE_GRAPH_NOTES_GOTONEXTVEHICLE,VEHICLE_GRAPH_BODY_MODULEINSTALLED,VEHICLE_GRAPH_BODY_NOTENOUGH,VEHICLEPARAMS_SPEEDLIMITS,VEHICLEPARAMS_ENGINEPOWER,VEHICLEPARAMS_CHASSISROTATIONSPEED,VEHICLEPARAMS_DAMAGE,VEHICLEPARAMS_HULLARMOR,VEHICLEPARAMS_TURRETARMOR,VEHICLEPARAMS_PIERCINGPOWER,VEHICLE_INVENTORYCOUNT,VEHICLE_VEHICLECOUNT,VEHICLE_LEVEL,VEHICLE_ELITE,VEHICLE_CREW,VEHICLE_AMMO,VEHICLE_XP,VEHICLE_MULTIPLIED_XP,VEHICLE_UNLOCK_PRICE,VEHICLE_BUY_PRICE,VEHICLE_ACTION_PRC,VEHICLE_MINRENTALSPRICE,VEHICLE_BUY_PRICE_ACTION,VEHICLE_SELL_PRICE,VEHICLE_EQUIPMENTS,VEHICLE_DEVICES,VEHICLE_FAVORITE,VEHICLE_DAILYXPFACTOR,VEHICLE_SPEEDLIMITS,VEHICLE_DAMAGE,VEHICLE_TURRETROTATIONSPEED,VEHICLE_RADIODISTANCE,VEHICLE_TEXTDELIMITER_OR,VEHICLE_RENTLEFT_DAYS,VEHICLE_RENTLEFT_HOURS,VEHICLEIGR_SPECIALABILITY,VEHICLEIGR_DAYS,VEHICLEIGR_HOURS,VEHICLESTATUS_BATTLE_HEADER,VEHICLESTATUS_LOCKED_HEADER,VEHICLESTATUS_RENTALISOVER_HEADER,VEHICLESTATUS_IGRRENTALISOVER_HEADER,VEHICLESTATUS_INPREMIUMIGRONLY_HEADER,VEHICLESTATUS_INPREBATTLE_HEADER,VEHICLESTATUS_CLANLOCKED_HEADER,VEHICLESTATUS_AMMONOTFULL_HEADER,VEHICLESTATUS_DAMAGED_HEADER,VEHICLESTATUS_DESTROYED_HEADER,VEHICLESTATUS_EXPLODED_HEADER,VEHICLESTATUS_NOTPRESENT_HEADER,VEHICLESTATUS_UNDAMAGED_HEADER,VEHICLESTATUS_CREWNOTFULL_HEADER,VEHICLESTATUS_NOTUNLOCKED_HEADER,VEHICLESTATUS_INHANGAR_HEADER,VEHICLESTATUS_SERVERRESTRICTION_HEADER,VEHICLESTATUS_NOTENOUGHCREDITS_HEADER,VEHICLESTATUS_NOTENOUGHCREDITS_TEXT,VEHICLESTATUS_NOTENOUGHGOLD_HEADER,VEHICLESTATUS_NOTENOUGHGOLD_TEXT,VEHICLESTATUS_NOTSUITABLE_HEADER,VEHICLESELLDIALOG_RENDERER_ALERTICON_HEADER,VEHICLESELLDIALOG_RENDERER_ALERTICON_BODY,VEHICLESELECTOR_FILTER_NATION,VEHICLESELECTOR_FILTER_VEHTYPE,VEHICLESELECTOR_FILTER_VEHLVL,VEHICLESELECTOR_FILTER_MAINVEHICLE,VEHICLESELECTOR_SORTING_NATION_HEADER,VEHICLESELECTOR_SORTING_NATION_BODY,VEHICLESELECTOR_SORTING_VEHTYPE_HEADER,VEHICLESELECTOR_SORTING_VEHTYPE_BODY,VEHICLESELECTOR_SORTING_VEHLVL_HEADER,VEHICLESELECTOR_SORTING_VEHLVL_BODY,VEHICLESELECTOR_SORTING_VEHNAME_HEADER,VEHICLESELECTOR_SORTING_VEHNAME_BODY,VEHICLESELECTOR_OVERFLOWLEVEL_HEADER,VEHICLESELECTOR_OVERFLOWLEVEL_BODY];
+      public static const FORTIFICATION_CONSUMABLES_ORDER_BOMBER_ENUM:Array = [FORTIFICATION_CONSUMABLES_ORDER_BOMBER_SHOTSCOUNT,FORTIFICATION_CONSUMABLES_ORDER_BOMBER_AREA,FORTIFICATION_CONSUMABLES_ORDER_BOMBER_DELAY,FORTIFICATION_CONSUMABLES_ORDER_BOMBER_DAMAGE,FORTIFICATION_CONSUMABLES_ORDER_BOMBER_PIERCINGPOWER];
+      
+      public static const ACHIEVEMENT_PARAMS_LEFT_ENUM:Array = [ACHIEVEMENT_PARAMS_LEFT4,ACHIEVEMENT_PARAMS_LEFT3,ACHIEVEMENT_PARAMS_LEFT2,ACHIEVEMENT_PARAMS_LEFT1];
+      
+      public static const FORTIFICATION_CONSUMABLES_ORDER_ARTILLERY_ENUM:Array = [FORTIFICATION_CONSUMABLES_ORDER_ARTILLERY_SHOTSCOUNT,FORTIFICATION_CONSUMABLES_ORDER_ARTILLERY_AREA,FORTIFICATION_CONSUMABLES_ORDER_ARTILLERY_DELAY,FORTIFICATION_CONSUMABLES_ORDER_ARTILLERY_DAMAGE,FORTIFICATION_CONSUMABLES_ORDER_ARTILLERY_PIERCINGPOWER,FORTIFICATION_CONSUMABLES_ORDER_ARTILLERY_CALIBER,FORTIFICATION_CONSUMABLES_ORDER_ARTILLERY_EXPLOSIONRADIUS];
+      
+      public static const FORTIFICATION_TRANSPORTING_ENUM:Array = [FORTIFICATION_TRANSPORTING_EMPTYSTORAGE_HEADER,FORTIFICATION_TRANSPORTING_EMPTYSTORAGE_BODY,FORTIFICATION_TRANSPORTING_COOLDOWN_HEADER,FORTIFICATION_TRANSPORTING_COOLDOWN_BODY,FORTIFICATION_TRANSPORTING_FOUNDATION_HEADER,FORTIFICATION_TRANSPORTING_FOUNDATION_BODY,FORTIFICATION_TRANSPORTING_NOTEMPTYSPACE_HEADER,FORTIFICATION_TRANSPORTING_NOTEMPTYSPACE_BODY];
+      
+      public static const SQUADWINDOW_STATUS_ENUM:Array = [SQUADWINDOW_STATUS_COMMANDER,SQUADWINDOW_STATUS_NORMAL,SQUADWINDOW_STATUS_CANCELED,SQUADWINDOW_STATUS_READY,SQUADWINDOW_STATUS_INBATTLE,SQUADWINDOW_STATUS_LOCKED];
+      
+      public static const ACTIONPRICE_SELL_TYPE_ENUM:Array = [ACTIONPRICE_SELL_TYPE_VEHICLE,ACTIONPRICE_SELL_TYPE_MODULE,ACTIONPRICE_SELL_TYPE_EQUIPMENT,ACTIONPRICE_SELL_TYPE_SHELL,ACTIONPRICE_SELL_TYPE_OPTIONALDEVICE];
+      
+      public static const VEHICLE_ENUM:Array = [VEHICLE_GRAPH_NOTES_SHOWCONTEXTMENU,VEHICLE_GRAPH_NOTES_SHOWINFOWINDOW,VEHICLE_GRAPH_NOTES_VEHICLEUNLOCK,VEHICLE_GRAPH_NOTES_MODULEUNLOCK,VEHICLE_GRAPH_NOTES_EQUIP,VEHICLE_GRAPH_NOTES_BUYANDEQUIP,VEHICLE_GRAPH_NOTES_GOTONATIONTREE,VEHICLE_GRAPH_NOTES_GOTONEXTVEHICLE,VEHICLE_GRAPH_BODY_MODULEINSTALLED,VEHICLE_GRAPH_BODY_NOTENOUGH,VEHICLEPARAMS_SPEEDLIMITS,VEHICLEPARAMS_ENGINEPOWER,VEHICLEPARAMS_CHASSISROTATIONSPEED,VEHICLEPARAMS_DAMAGE,VEHICLEPARAMS_HULLARMOR,VEHICLEPARAMS_TURRETARMOR,VEHICLEPARAMS_PIERCINGPOWER,VEHICLE_INVENTORYCOUNT,VEHICLE_VEHICLECOUNT,VEHICLE_LEVEL,VEHICLE_ELITE,VEHICLE_CREW,VEHICLE_AMMO,VEHICLE_XP,VEHICLE_MULTIPLIED_XP,VEHICLE_UNLOCK_PRICE,VEHICLE_BUY_PRICE,VEHICLE_ACTION_PRC,VEHICLE_MINRENTALSPRICE,VEHICLE_BUY_PRICE_ACTION,VEHICLE_SELL_PRICE,VEHICLE_EQUIPMENTS,VEHICLE_DEVICES,VEHICLE_FAVORITE,VEHICLE_DAILYXPFACTOR,VEHICLE_SPEEDLIMITS,VEHICLE_DAMAGE,VEHICLE_TURRETROTATIONSPEED,VEHICLE_RADIODISTANCE,VEHICLE_TEXTDELIMITER_OR,VEHICLE_RENTLEFT_DAYS,VEHICLE_RENTLEFT_HOURS,VEHICLEIGR_SPECIALABILITY,VEHICLEIGR_DAYS,VEHICLEIGR_HOURS,VEHICLESTATUS_BATTLE_HEADER,VEHICLESTATUS_LOCKED_HEADER,VEHICLESTATUS_RENTALISOVER_HEADER,VEHICLESTATUS_IGRRENTALISOVER_HEADER,VEHICLESTATUS_INPREMIUMIGRONLY_HEADER,VEHICLESTATUS_INPREBATTLE_HEADER,VEHICLESTATUS_CLANLOCKED_HEADER,VEHICLESTATUS_AMMONOTFULL_HEADER,VEHICLESTATUS_DAMAGED_HEADER,VEHICLESTATUS_DESTROYED_HEADER,VEHICLESTATUS_EXPLODED_HEADER,VEHICLESTATUS_NOTPRESENT_HEADER,VEHICLESTATUS_UNDAMAGED_HEADER,VEHICLESTATUS_CREWNOTFULL_HEADER,VEHICLESTATUS_NOTUNLOCKED_HEADER,VEHICLESTATUS_INHANGAR_HEADER,VEHICLESTATUS_SERVERRESTRICTION_HEADER,VEHICLESTATUS_NOTENOUGHCREDITS_HEADER,VEHICLESTATUS_NOTENOUGHCREDITS_TEXT,VEHICLESTATUS_NOTENOUGHGOLD_HEADER,VEHICLESTATUS_NOTENOUGHGOLD_TEXT,VEHICLESTATUS_NOTSUITABLE_HEADER,VEHICLESELLDIALOG_RENDERER_ALERTICON_HEADER,VEHICLESELLDIALOG_RENDERER_ALERTICON_BODY,VEHICLESELECTOR_FILTER_NATION,VEHICLESELECTOR_FILTER_VEHTYPE,VEHICLESELECTOR_FILTER_VEHLVL,VEHICLESELECTOR_FILTER_MAINVEHICLE,VEHICLESELECTOR_SORTING_NATION_HEADER,VEHICLESELECTOR_SORTING_NATION_BODY,VEHICLESELECTOR_SORTING_VEHTYPE_HEADER,VEHICLESELECTOR_SORTING_VEHTYPE_BODY,VEHICLESELECTOR_SORTING_VEHLVL_HEADER,VEHICLESELECTOR_SORTING_VEHLVL_BODY,VEHICLESELECTOR_SORTING_VEHNAME_HEADER,VEHICLESELECTOR_SORTING_VEHNAME_BODY,VEHICLESELECTOR_OVERFLOWLEVEL_HEADER,VEHICLESELECTOR_OVERFLOWLEVEL_BODY,VEHICLESELECTOR_INCOMPATIBLETYPE_HEADER,VEHICLESELECTOR_INCOMPATIBLETYPE_BODY];
+      
+      public static const LOGIN_SOCIAL_ENUM:Array = [LOGIN_SOCIAL_ENTER_HEADER,LOGIN_SOCIAL_ENTER_BODY,LOGIN_SOCIAL_FACEBOOK,LOGIN_SOCIAL_GOOGLE,LOGIN_SOCIAL_YAHOO,LOGIN_SOCIAL_TWITTER,LOGIN_SOCIAL_VKONTAKTE,LOGIN_SOCIAL_ODNOKLASSNIKI];
       
       public static const TANKCARUSELTOOLTIP_VEHICLETYPE_ELITE_ENUM:Array = [TANKCARUSELTOOLTIP_VEHICLETYPE_ELITE_LIGHTTANK,TANKCARUSELTOOLTIP_VEHICLETYPE_ELITE_MEDIUMTANK,TANKCARUSELTOOLTIP_VEHICLETYPE_ELITE_HEAVYTANK,TANKCARUSELTOOLTIP_VEHICLETYPE_ELITE_AT_SPG,TANKCARUSELTOOLTIP_VEHICLETYPE_ELITE_SPG];
       
@@ -2825,22 +3201,6 @@ package
             DebugUtils.LOG_WARNING("[techtreepage_nations]:locale key \"" + _loc2_ + "\" was not found");
             return null;
          }
-         return _loc2_;
-      }
-      
-      public static function fortification_transporting(param1:String) : String
-      {
-         var _loc2_:String = null;
-         _loc2_ = "#tooltips:fortification/transporting/" + param1;
-         App.utils.asserter.assert(!(FORTIFICATION_TRANSPORTING_ENUM.indexOf(_loc2_) == -1),"locale key \"" + _loc2_ + "\" was not found");
-         return _loc2_;
-      }
-      
-      public static function achievement_params(param1:String) : String
-      {
-         var _loc2_:String = null;
-         _loc2_ = "#tooltips:achievement/params/" + param1;
-         App.utils.asserter.assert(!(ACHIEVEMENT_PARAMS_ENUM.indexOf(_loc2_) == -1),"locale key \"" + _loc2_ + "\" was not found");
          return _loc2_;
       }
       
@@ -2860,22 +3220,6 @@ package
          return _loc2_;
       }
       
-      public static function actionprice_sell_type(param1:String) : String
-      {
-         var _loc2_:String = null;
-         _loc2_ = "#tooltips:actionPrice/sell/type/" + param1;
-         App.utils.asserter.assert(!(ACTIONPRICE_SELL_TYPE_ENUM.indexOf(_loc2_) == -1),"locale key \"" + _loc2_ + "\" was not found");
-         return _loc2_;
-      }
-      
-      public static function squadwindow_status(param1:String) : String
-      {
-         var _loc2_:String = null;
-         _loc2_ = "#tooltips:squadWindow/status/" + param1;
-         App.utils.asserter.assert(!(SQUADWINDOW_STATUS_ENUM.indexOf(_loc2_) == -1),"locale key \"" + _loc2_ + "\" was not found");
-         return _loc2_;
-      }
-      
       public static function tooltiprefsysdescription_awards_descr(param1:String) : String
       {
          var _loc2_:String = null;
@@ -2892,11 +3236,67 @@ package
          return _loc2_;
       }
       
+      public static function fortification_consumables_order_bomber(param1:String) : String
+      {
+         var _loc2_:String = null;
+         _loc2_ = "#tooltips:fortification/consumables_order/bomber/" + param1;
+         App.utils.asserter.assert(!(FORTIFICATION_CONSUMABLES_ORDER_BOMBER_ENUM.indexOf(_loc2_) == -1),"locale key \"" + _loc2_ + "\" was not found");
+         return _loc2_;
+      }
+      
+      public static function achievement_params_left(param1:String) : String
+      {
+         var _loc2_:String = null;
+         _loc2_ = "#tooltips:achievement/params/left4" + param1;
+         App.utils.asserter.assert(!(ACHIEVEMENT_PARAMS_LEFT_ENUM.indexOf(_loc2_) == -1),"locale key \"" + _loc2_ + "\" was not found");
+         return _loc2_;
+      }
+      
+      public static function fortification_consumables_order_artillery(param1:String) : String
+      {
+         var _loc2_:String = null;
+         _loc2_ = "#tooltips:fortification/consumables_order/artillery/" + param1;
+         App.utils.asserter.assert(!(FORTIFICATION_CONSUMABLES_ORDER_ARTILLERY_ENUM.indexOf(_loc2_) == -1),"locale key \"" + _loc2_ + "\" was not found");
+         return _loc2_;
+      }
+      
+      public static function fortification_transporting(param1:String) : String
+      {
+         var _loc2_:String = null;
+         _loc2_ = "#tooltips:fortification/transporting/" + param1;
+         App.utils.asserter.assert(!(FORTIFICATION_TRANSPORTING_ENUM.indexOf(_loc2_) == -1),"locale key \"" + _loc2_ + "\" was not found");
+         return _loc2_;
+      }
+      
+      public static function squadwindow_status(param1:String) : String
+      {
+         var _loc2_:String = null;
+         _loc2_ = "#tooltips:squadWindow/status/" + param1;
+         App.utils.asserter.assert(!(SQUADWINDOW_STATUS_ENUM.indexOf(_loc2_) == -1),"locale key \"" + _loc2_ + "\" was not found");
+         return _loc2_;
+      }
+      
+      public static function actionprice_sell_type(param1:String) : String
+      {
+         var _loc2_:String = null;
+         _loc2_ = "#tooltips:actionPrice/sell/type/" + param1;
+         App.utils.asserter.assert(!(ACTIONPRICE_SELL_TYPE_ENUM.indexOf(_loc2_) == -1),"locale key \"" + _loc2_ + "\" was not found");
+         return _loc2_;
+      }
+      
       public static function vehicle(param1:String) : String
       {
          var _loc2_:String = null;
          _loc2_ = "#tooltips:vehicle/" + param1;
          App.utils.asserter.assert(!(VEHICLE_ENUM.indexOf(_loc2_) == -1),"locale key \"" + _loc2_ + "\" was not found");
+         return _loc2_;
+      }
+      
+      public static function login_social(param1:String) : String
+      {
+         var _loc2_:String = null;
+         _loc2_ = "#tooltips:login/social/" + param1;
+         App.utils.asserter.assert(!(LOGIN_SOCIAL_ENUM.indexOf(_loc2_) == -1),"locale key \"" + _loc2_ + "\" was not found");
          return _loc2_;
       }
       

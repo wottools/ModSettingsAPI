@@ -5,6 +5,7 @@ package net.wg.utils
    import net.wg.infrastructure.interfaces.IStrCaseProperties;
    import net.wg.infrastructure.interfaces.entity.ISerializable;
    import net.wg.infrastructure.interfaces.IImageUrlProperties;
+   import net.wg.infrastructure.interfaces.IColorStatesFactory;
    
    public interface IUtils extends IUtilsManagerMeta, IDisposable
    {
@@ -52,5 +53,9 @@ package net.wg.utils
       function get dateTime() : IDateTime;
       
       function getImageUrlProperties(param1:String, param2:int, param3:int, param4:int = -4, param5:int = 0) : IImageUrlProperties;
+      
+      function get textOperations() : ITextOperations;
+      
+      function get colorStatesFactory() : IColorStatesFactory;
    }
 }

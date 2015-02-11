@@ -166,12 +166,10 @@ package net.wg.gui.components.tooltips.helpers
       
       public function addHeader(param1:String, param2:Number, param3:Number, param4:String) : TextField
       {
-         var _loc5_:TextField = null;
+         var _loc5_:TextField = new TextField();
          var _loc6_:TextFormat = new TextFormat();
-         _loc5_ = new TextField();
          _loc6_.leading = -3;
          _loc6_.align = TextFormatAlign.LEFT;
-         _loc5_ = new TextField();
          _loc5_.name = param1;
          _loc5_.x = param2;
          _loc5_.y = param3;
@@ -179,7 +177,7 @@ package net.wg.gui.components.tooltips.helpers
          _loc5_.height = 10;
          _loc5_.autoSize = TextFormatAlign.LEFT;
          _loc5_.multiline = true;
-         _loc5_.htmlText = this.htmlWrapper(param4,this.COLOR_BLOCK_HEADER,14,"$TitleFont",true);
+         _loc5_.htmlText = this.htmlWrapper(param4,this.COLOR_BLOCK_HEADER,14,"$TitleFont",false);
          _loc5_.setTextFormat(_loc6_);
          return _loc5_;
       }

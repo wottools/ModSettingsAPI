@@ -133,7 +133,7 @@ package net.wg.gui.lobby.settings
       
       protected final function findSelectedIndexForDD(param1:Number, param2:Array) : Number
       {
-         var _loc4_:* = undefined;
+         var _loc4_:* = NaN;
          var _loc3_:Number = 0;
          if((param2) && param2.length > 0)
          {

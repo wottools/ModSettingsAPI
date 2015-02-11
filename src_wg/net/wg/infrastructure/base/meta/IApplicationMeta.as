@@ -44,6 +44,8 @@ package net.wg.infrastructure.base.meta
       
       function setGameInputMgrS(param1:IGameInputManagerMeta) : void;
       
+      function setCacheMgrS(param1:ICacheManagerMeta) : void;
+      
       function handleGlobalKeyEventS(param1:String) : void;
       
       function onAsInitializationCompletedS() : void;

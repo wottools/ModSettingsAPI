@@ -12,6 +12,14 @@ package
       
       public static const MAPS_ICONS_QUESTS_TILES:String = "../maps/icons/quests/tiles";
       
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_BG:String = "../maps/icons/library/cybersport/animation/bg";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION:String = "../maps/icons/library/cybersport/animation/division";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LEAVES:String = "../maps/icons/library/cybersport/animation/leaves";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LOGO:String = "../maps/icons/library/cybersport/animation/logo";
+      
       public static const MAPS_ICONS_ACHIEVEMENT_32X32_WFC2014:String = "../maps/icons/achievement/32x32/WFC2014.png";
       
       public static const MAPS_ICONS_ACHIEVEMENT_32X32_AIMER:String = "../maps/icons/achievement/32x32/aimer.png";
@@ -227,6 +235,8 @@ package
       public static const MAPS_ICONS_ACHIEVEMENT_32X32_MEDALWITTMANN:String = "../maps/icons/achievement/32x32/medalWittmann.png";
       
       public static const MAPS_ICONS_ACHIEVEMENT_32X32_NOMANSLAND:String = "../maps/icons/achievement/32x32/noMansLand.png";
+      
+      public static const MAPS_ICONS_ACHIEVEMENT_32X32_OPERATIONWINTER:String = "../maps/icons/achievement/32x32/operationWinter.png";
       
       public static const MAPS_ICONS_ACHIEVEMENT_32X32_PREMATUREDETONATIONMEDAL:String = "../maps/icons/achievement/32x32/prematureDetonationMedal.png";
       
@@ -654,6 +664,8 @@ package
       
       public static const MAPS_ICONS_ACHIEVEMENT_BIG_NOMANSLAND:String = "../maps/icons/achievement/big/noMansLand.png";
       
+      public static const MAPS_ICONS_ACHIEVEMENT_BIG_OPERATIONWINTER:String = "../maps/icons/achievement/big/operationWinter.png";
+      
       public static const MAPS_ICONS_ACHIEVEMENT_BIG_PATTONVALLEY:String = "../maps/icons/achievement/big/pattonValley.png";
       
       public static const MAPS_ICONS_ACHIEVEMENT_BIG_PREMATUREDETONATIONMEDAL:String = "../maps/icons/achievement/big/prematureDetonationMedal.png";
@@ -1078,6 +1090,8 @@ package
       
       public static const MAPS_ICONS_ACHIEVEMENT_NOMANSLAND:String = "../maps/icons/achievement/noMansLand.png";
       
+      public static const MAPS_ICONS_ACHIEVEMENT_OPERATIONWINTER:String = "../maps/icons/achievement/operationWinter.png";
+      
       public static const MAPS_ICONS_ACHIEVEMENT_PATTONVALLEY:String = "../maps/icons/achievement/pattonValley.png";
       
       public static const MAPS_ICONS_ACHIEVEMENT_PREMATUREDETONATIONMEDAL:String = "../maps/icons/achievement/prematureDetonationMedal.png";
@@ -1228,7 +1242,11 @@ package
       
       public static const MAPS_ICONS_ARTEFACT_ANTIFRAGMENTATIONLINING:String = "../maps/icons/artefact/antifragmentationLining.png";
       
+      public static const MAPS_ICONS_ARTEFACT_ARTILLERY:String = "../maps/icons/artefact/artillery.png";
+      
       public static const MAPS_ICONS_ARTEFACT_AUTOEXTINGUISHERS:String = "../maps/icons/artefact/autoExtinguishers.png";
+      
+      public static const MAPS_ICONS_ARTEFACT_BOMBER:String = "../maps/icons/artefact/bomber.png";
       
       public static const MAPS_ICONS_ARTEFACT_CAMOUFLAGENET:String = "../maps/icons/artefact/camouflageNet.png";
       
@@ -1390,6 +1408,16 @@ package
       
       public static const MAPS_ICONS_BUTTONS_ICONUPGRADE:String = MAPS_ICONS_BUTTONS + "/iconUpgrade.png";
       
+      public static const MAPS_ICONS_BUTTONS_ICON_ARROW_FORMATION_LEFT:String = MAPS_ICONS_BUTTONS + "/icon_arrow_formation_left.png";
+      
+      public static const MAPS_ICONS_BUTTONS_ICON_ARROW_FORMATION_LEFT_DOUBLE:String = MAPS_ICONS_BUTTONS + "/icon_arrow_formation_left_double.png";
+      
+      public static const MAPS_ICONS_BUTTONS_ICON_ARROW_FORMATION_RIGHT:String = MAPS_ICONS_BUTTONS + "/icon_arrow_formation_right.png";
+      
+      public static const MAPS_ICONS_BUTTONS_ICON_ARROW_FORMATION_RIGHT_DOUBLE:String = MAPS_ICONS_BUTTONS + "/icon_arrow_formation_right_double.png";
+      
+      public static const MAPS_ICONS_BUTTONS_ICON_BUTTON_ARROW:String = MAPS_ICONS_BUTTONS + "/icon_button_arrow.png";
+      
       public static const MAPS_ICONS_BUTTONS_LEVEL_UP:String = MAPS_ICONS_BUTTONS + "/level_up.png";
       
       public static const MAPS_ICONS_BUTTONS_MAINMENU:String = MAPS_ICONS_BUTTONS + "/mainMenu.png";
@@ -1413,6 +1441,30 @@ package
       public static const MAPS_ICONS_BUTTONS_SETTINGS:String = MAPS_ICONS_BUTTONS + "/settings.png";
       
       public static const MAPS_ICONS_BUTTONS_SMALLATTACKICON:String = MAPS_ICONS_BUTTONS + "/smallAttackIcon.png";
+      
+      public static const MAPS_ICONS_BUTTONS_SOCIAL_COLOR_FACEBOOK:String = MAPS_ICONS_BUTTONS + "/social/color/facebook.png";
+      
+      public static const MAPS_ICONS_BUTTONS_SOCIAL_COLOR_GOOGLE:String = MAPS_ICONS_BUTTONS + "/social/color/google.png";
+      
+      public static const MAPS_ICONS_BUTTONS_SOCIAL_COLOR_NAVER:String = MAPS_ICONS_BUTTONS + "/social/color/naver.png";
+      
+      public static const MAPS_ICONS_BUTTONS_SOCIAL_COLOR_VKONTAKTE:String = MAPS_ICONS_BUTTONS + "/social/color/vkontakte.png";
+      
+      public static const MAPS_ICONS_BUTTONS_SOCIAL_COLOR_WG:String = MAPS_ICONS_BUTTONS + "/social/color/wg.png";
+      
+      public static const MAPS_ICONS_BUTTONS_SOCIAL_COLOR_YAHOO:String = MAPS_ICONS_BUTTONS + "/social/color/yahoo.png";
+      
+      public static const MAPS_ICONS_BUTTONS_SOCIAL_FACEBOOK:String = MAPS_ICONS_BUTTONS + "/social/facebook.png";
+      
+      public static const MAPS_ICONS_BUTTONS_SOCIAL_GOOGLE:String = MAPS_ICONS_BUTTONS + "/social/google.png";
+      
+      public static const MAPS_ICONS_BUTTONS_SOCIAL_NAVER:String = MAPS_ICONS_BUTTONS + "/social/naver.png";
+      
+      public static const MAPS_ICONS_BUTTONS_SOCIAL_VKONTAKTE:String = MAPS_ICONS_BUTTONS + "/social/vkontakte.png";
+      
+      public static const MAPS_ICONS_BUTTONS_SOCIAL_WG:String = MAPS_ICONS_BUTTONS + "/social/wg.png";
+      
+      public static const MAPS_ICONS_BUTTONS_SOCIAL_YAHOO:String = MAPS_ICONS_BUTTONS + "/social/yahoo.png";
       
       public static const MAPS_ICONS_BUTTONS_SOUND:String = MAPS_ICONS_BUTTONS + "/sound.png";
       
@@ -1684,6 +1736,8 @@ package
       
       public static const MAPS_ICONS_LIBRARY_MESSAGEICON_1:String = "../maps/icons/library/MessageIcon-1.png";
       
+      public static const MAPS_ICONS_LIBRARY_NORMALXPICON:String = "../maps/icons/library/NormalXpIcon.png";
+      
       public static const MAPS_ICONS_LIBRARY_PERSONALACHIEVEMENTSICON_1:String = "../maps/icons/library/PersonalAchievementsIcon-1.png";
       
       public static const MAPS_ICONS_LIBRARY_POWERLEVELICON_1:String = "../maps/icons/library/PowerlevelIcon-1.png";
@@ -1738,6 +1792,8 @@ package
       
       public static const MAPS_ICONS_LIBRARY_BOOKMARKICON:String = "../maps/icons/library/bookmarkIcon.png";
       
+      public static const MAPS_ICONS_LIBRARY_COMMANDERICON:String = "../maps/icons/library/commanderIcon.png";
+      
       public static const MAPS_ICONS_LIBRARY_COMPANYINVITEICON_1:String = "../maps/icons/library/companyInviteIcon-1.png";
       
       public static const MAPS_ICONS_LIBRARY_COMPLETE:String = "../maps/icons/library/complete.png";
@@ -1788,17 +1844,291 @@ package
       
       public static const MAPS_ICONS_LIBRARY_CROSS:String = "../maps/icons/library/cross.png";
       
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_BG_1A:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_BG + "/1a.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_BG_1BCD:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_BG + "/1bcd.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_BG_2A:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_BG + "/2a.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_BG_2BCD:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_BG + "/2bcd.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_BG_3A:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_BG + "/3a.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_BG_3BCD:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_BG + "/3bcd.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_BG_4A:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_BG + "/4a.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_BG_4BCD:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_BG + "/4bcd.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_BG_5A:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_BG + "/5a.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_BG_5BCD:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_BG + "/5bcd.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_BG_6A:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_BG + "/6a.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_BG_6BCD:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_BG + "/6bcd.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION_1A:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION + "/1a.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION_1B:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION + "/1b.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION_1C:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION + "/1c.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION_1D:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION + "/1d.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION_2A:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION + "/2a.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION_2B:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION + "/2b.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION_2C:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION + "/2c.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION_2D:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION + "/2d.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION_3A:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION + "/3a.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION_3B:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION + "/3b.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION_3C:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION + "/3c.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION_3D:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION + "/3d.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION_4A:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION + "/4a.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION_4B:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION + "/4b.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION_4C:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION + "/4c.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION_4D:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION + "/4d.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION_5A:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION + "/5a.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION_5B:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION + "/5b.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION_5C:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION + "/5c.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION_5D:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION + "/5d.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION_6A:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION + "/6a.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION_6B:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION + "/6b.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION_6C:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION + "/6c.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION_6D:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_DIVISION + "/6d.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LEAVES_1AB:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LEAVES + "/1ab.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LEAVES_1C:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LEAVES + "/1c.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LEAVES_1D:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LEAVES + "/1d.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LEAVES_2AB:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LEAVES + "/2ab.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LEAVES_2C:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LEAVES + "/2c.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LEAVES_2D:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LEAVES + "/2d.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LEAVES_3AB:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LEAVES + "/3ab.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LEAVES_3C:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LEAVES + "/3c.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LEAVES_3D:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LEAVES + "/3d.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LEAVES_4AB:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LEAVES + "/4ab.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LEAVES_4C:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LEAVES + "/4c.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LEAVES_4D:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LEAVES + "/4d.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LEAVES_5AB:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LEAVES + "/5ab.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LEAVES_5C:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LEAVES + "/5c.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LEAVES_5D:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LEAVES + "/5d.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LEAVES_6AB:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LEAVES + "/6ab.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LEAVES_6C:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LEAVES + "/6c.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LEAVES_6D:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LEAVES + "/6d.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LOGO_1:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LOGO + "/1.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LOGO_2:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LOGO + "/2.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LOGO_3:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LOGO + "/3.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LOGO_4:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LOGO + "/4.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LOGO_5:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LOGO + "/5.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LOGO_6:String = MAPS_ICONS_LIBRARY_CYBERSPORT_ANIMATION_LOGO + "/6.png";
+      
       public static const MAPS_ICONS_LIBRARY_CYBERSPORT_FREEZEICON:String = "../maps/icons/library/cybersport/freezeIcon.png";
       
       public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ICONDOWN:String = "../maps/icons/library/cybersport/iconDown.png";
       
       public static const MAPS_ICONS_LIBRARY_CYBERSPORT_ICONUP:String = "../maps/icons/library/cybersport/iconUp.png";
       
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_128_0:String = "../maps/icons/library/cybersport/ladder/128/0.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_128_1A:String = "../maps/icons/library/cybersport/ladder/128/1A.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_128_1B:String = "../maps/icons/library/cybersport/ladder/128/1B.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_128_1C:String = "../maps/icons/library/cybersport/ladder/128/1C.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_128_1D:String = "../maps/icons/library/cybersport/ladder/128/1D.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_128_2A:String = "../maps/icons/library/cybersport/ladder/128/2A.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_128_2B:String = "../maps/icons/library/cybersport/ladder/128/2B.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_128_2C:String = "../maps/icons/library/cybersport/ladder/128/2C.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_128_2D:String = "../maps/icons/library/cybersport/ladder/128/2D.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_128_3A:String = "../maps/icons/library/cybersport/ladder/128/3A.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_128_3B:String = "../maps/icons/library/cybersport/ladder/128/3B.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_128_3C:String = "../maps/icons/library/cybersport/ladder/128/3C.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_128_3D:String = "../maps/icons/library/cybersport/ladder/128/3D.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_128_4A:String = "../maps/icons/library/cybersport/ladder/128/4A.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_128_4B:String = "../maps/icons/library/cybersport/ladder/128/4B.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_128_4C:String = "../maps/icons/library/cybersport/ladder/128/4C.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_128_4D:String = "../maps/icons/library/cybersport/ladder/128/4D.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_128_5A:String = "../maps/icons/library/cybersport/ladder/128/5A.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_128_5B:String = "../maps/icons/library/cybersport/ladder/128/5B.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_128_5C:String = "../maps/icons/library/cybersport/ladder/128/5C.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_128_5D:String = "../maps/icons/library/cybersport/ladder/128/5D.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_128_6A:String = "../maps/icons/library/cybersport/ladder/128/6A.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_128_6B:String = "../maps/icons/library/cybersport/ladder/128/6B.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_128_6C:String = "../maps/icons/library/cybersport/ladder/128/6C.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_128_6D:String = "../maps/icons/library/cybersport/ladder/128/6D.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_16_0:String = "../maps/icons/library/cybersport/ladder/16/0.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_16_1A:String = "../maps/icons/library/cybersport/ladder/16/1A.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_16_1B:String = "../maps/icons/library/cybersport/ladder/16/1B.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_16_1C:String = "../maps/icons/library/cybersport/ladder/16/1C.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_16_1D:String = "../maps/icons/library/cybersport/ladder/16/1D.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_16_2A:String = "../maps/icons/library/cybersport/ladder/16/2A.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_16_2B:String = "../maps/icons/library/cybersport/ladder/16/2B.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_16_2C:String = "../maps/icons/library/cybersport/ladder/16/2C.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_16_2D:String = "../maps/icons/library/cybersport/ladder/16/2D.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_16_3A:String = "../maps/icons/library/cybersport/ladder/16/3A.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_16_3B:String = "../maps/icons/library/cybersport/ladder/16/3B.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_16_3C:String = "../maps/icons/library/cybersport/ladder/16/3C.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_16_3D:String = "../maps/icons/library/cybersport/ladder/16/3D.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_16_4A:String = "../maps/icons/library/cybersport/ladder/16/4A.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_16_4B:String = "../maps/icons/library/cybersport/ladder/16/4B.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_16_4C:String = "../maps/icons/library/cybersport/ladder/16/4C.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_16_4D:String = "../maps/icons/library/cybersport/ladder/16/4D.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_16_5A:String = "../maps/icons/library/cybersport/ladder/16/5A.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_16_5B:String = "../maps/icons/library/cybersport/ladder/16/5B.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_16_5C:String = "../maps/icons/library/cybersport/ladder/16/5C.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_16_5D:String = "../maps/icons/library/cybersport/ladder/16/5D.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_16_6A:String = "../maps/icons/library/cybersport/ladder/16/6A.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_16_6B:String = "../maps/icons/library/cybersport/ladder/16/6B.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_16_6C:String = "../maps/icons/library/cybersport/ladder/16/6C.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_16_6D:String = "../maps/icons/library/cybersport/ladder/16/6D.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_256_1A:String = "../maps/icons/library/cybersport/ladder/256/1A.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_64_0:String = "../maps/icons/library/cybersport/ladder/64/0.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_64_1A:String = "../maps/icons/library/cybersport/ladder/64/1A.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_64_1B:String = "../maps/icons/library/cybersport/ladder/64/1B.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_64_1C:String = "../maps/icons/library/cybersport/ladder/64/1C.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_64_1D:String = "../maps/icons/library/cybersport/ladder/64/1D.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_64_2A:String = "../maps/icons/library/cybersport/ladder/64/2A.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_64_2B:String = "../maps/icons/library/cybersport/ladder/64/2B.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_64_2C:String = "../maps/icons/library/cybersport/ladder/64/2C.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_64_2D:String = "../maps/icons/library/cybersport/ladder/64/2D.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_64_3A:String = "../maps/icons/library/cybersport/ladder/64/3A.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_64_3B:String = "../maps/icons/library/cybersport/ladder/64/3B.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_64_3C:String = "../maps/icons/library/cybersport/ladder/64/3C.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_64_3D:String = "../maps/icons/library/cybersport/ladder/64/3D.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_64_4A:String = "../maps/icons/library/cybersport/ladder/64/4A.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_64_4B:String = "../maps/icons/library/cybersport/ladder/64/4B.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_64_4C:String = "../maps/icons/library/cybersport/ladder/64/4C.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_64_4D:String = "../maps/icons/library/cybersport/ladder/64/4D.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_64_5A:String = "../maps/icons/library/cybersport/ladder/64/5A.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_64_5B:String = "../maps/icons/library/cybersport/ladder/64/5B.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_64_5C:String = "../maps/icons/library/cybersport/ladder/64/5C.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_64_5D:String = "../maps/icons/library/cybersport/ladder/64/5D.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_64_6A:String = "../maps/icons/library/cybersport/ladder/64/6A.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_64_6B:String = "../maps/icons/library/cybersport/ladder/64/6B.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_64_6C:String = "../maps/icons/library/cybersport/ladder/64/6C.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LADDER_64_6D:String = "../maps/icons/library/cybersport/ladder/64/6D.png";
+      
       public static const MAPS_ICONS_LIBRARY_CYBERSPORT_LOCKICON:String = "../maps/icons/library/cybersport/lockIcon.png";
       
       public static const MAPS_ICONS_LIBRARY_CYBERSPORT_NOTAVAILABLEICON:String = "../maps/icons/library/cybersport/notAvailableIcon.png";
       
       public static const MAPS_ICONS_LIBRARY_CYBERSPORT_REFRESHICON:String = "../maps/icons/library/cybersport/refreshIcon.png";
+      
+      public static const MAPS_ICONS_LIBRARY_CYBERSPORT_RIBBON:String = "../maps/icons/library/cybersport/ribbon.png";
       
       public static const MAPS_ICONS_LIBRARY_CYBERSPORT_TANKICON:String = "../maps/icons/library/cybersport/tankIcon.png";
       
@@ -1836,9 +2166,13 @@ package
       
       public static const MAPS_ICONS_LIBRARY_DOSSIER_SURVIVAL40X32:String = "../maps/icons/library/dossier/survival40x32.png";
       
+      public static const MAPS_ICONS_LIBRARY_DOSSIER_TECHDEFEAT40X32:String = "../maps/icons/library/dossier/techDefeat40x32.png";
+      
       public static const MAPS_ICONS_LIBRARY_DOSSIER_TECHRATIO40X32:String = "../maps/icons/library/dossier/techRatio40x32.png";
       
       public static const MAPS_ICONS_LIBRARY_DOSSIER_WINS40X32:String = "../maps/icons/library/dossier/wins40x32.png";
+      
+      public static const MAPS_ICONS_LIBRARY_DOSSIER_WINSBYCAPTURE40X32:String = "../maps/icons/library/dossier/winsByCapture40x32.png";
       
       public static const MAPS_ICONS_LIBRARY_DOT:String = "../maps/icons/library/dot.png";
       
@@ -1849,6 +2183,8 @@ package
       public static const MAPS_ICONS_LIBRARY_FORTBATTLEDEFENCEINVITEICON_1:String = "../maps/icons/library/fortBattleDefenceInviteIcon-1.png";
       
       public static const MAPS_ICONS_LIBRARY_FORTBATTLEOFFENCEINVITEICON_1:String = "../maps/icons/library/fortBattleOffenceInviteIcon-1.png";
+      
+      public static const MAPS_ICONS_LIBRARY_FORTIFICATION_AIM:String = "../maps/icons/library/fortification/aim.png";
       
       public static const MAPS_ICONS_LIBRARY_FORTIFICATION_BATTLEFORTDEFEAT:String = "../maps/icons/library/fortification/battleFortDefeat.png";
       
@@ -1900,6 +2236,10 @@ package
       
       public static const MAPS_ICONS_LIBRARY_FORTIFICATION_RESERVE_INPROGRESS_24:String = "../maps/icons/library/fortification/reserve_inprogress_24.png";
       
+      public static const MAPS_ICONS_LIBRARY_FREEXPICONBIG:String = "../maps/icons/library/freeXPIconBig.png";
+      
+      public static const MAPS_ICONS_LIBRARY_FRIENDSHIPICON_1:String = "../maps/icons/library/friendshipIcon-1.png";
+      
       public static const MAPS_ICONS_LIBRARY_FRTCLANBTLBGBATTLERESULT_UR_DEFEAT_1:String = "../maps/icons/library/frtClanBtlBgBattleResult_UR_Defeat-1.png";
       
       public static const MAPS_ICONS_LIBRARY_FRTCLANBTLBGBATTLERESULT_UR_DEFEAT:String = "../maps/icons/library/frtClanBtlBgBattleResult_UR_Defeat.png";
@@ -1918,6 +2258,8 @@ package
       
       public static const MAPS_ICONS_LIBRARY_GIFTICONENABLED:String = "../maps/icons/library/giftIconEnabled.png";
       
+      public static const MAPS_ICONS_LIBRARY_GOLDICONBIG:String = "../maps/icons/library/goldIconBig.png";
+      
       public static const MAPS_ICONS_LIBRARY_IGRLOGO:String = "../maps/icons/library/igrLogo.png";
       
       public static const MAPS_ICONS_LIBRARY_IGR_32X13:String = "../maps/icons/library/igr_32x13.png";
@@ -1931,6 +2273,8 @@ package
       public static const MAPS_ICONS_LIBRARY_MULTYXP:String = "../maps/icons/library/multyXp.png";
       
       public static const MAPS_ICONS_LIBRARY_OKICON:String = "../maps/icons/library/okIcon.png";
+      
+      public static const MAPS_ICONS_LIBRARY_OWNERICON:String = "../maps/icons/library/ownerIcon.png";
       
       public static const MAPS_ICONS_LIBRARY_PEN:String = "../maps/icons/library/pen.png";
       
@@ -1972,25 +2316,41 @@ package
       
       public static const MAPS_ICONS_LIBRARY_UNITINVITEICON_1:String = "../maps/icons/library/unitInviteIcon-1.png";
       
+      public static const MAPS_ICONS_LOBBY_REPORT_BUG_BACKGROUND:String = "../maps/icons/lobby/report-bug-background.png";
+      
       public static const MAPS_ICONS_MAP_00_TANK_TUTORIAL:String = "../maps/icons/map/00_tank_tutorial.png";
       
       public static const MAPS_ICONS_MAP_01_KARELIA:String = "../maps/icons/map/01_karelia.png";
       
+      public static const MAPS_ICONS_MAP_01_KARELIA_ASSAULT:String = "../maps/icons/map/01_karelia_assault.png";
+      
       public static const MAPS_ICONS_MAP_02_MALINOVKA:String = "../maps/icons/map/02_malinovka.png";
+      
+      public static const MAPS_ICONS_MAP_02_MALINOVKA_4CT_MODE:String = "../maps/icons/map/02_malinovka_4CT_mode.png";
       
       public static const MAPS_ICONS_MAP_03_CAMPANIA:String = "../maps/icons/map/03_campania.png";
       
       public static const MAPS_ICONS_MAP_04_HIMMELSDORF:String = "../maps/icons/map/04_himmelsdorf.png";
       
+      public static const MAPS_ICONS_MAP_04_HIMMELSDORF_TEST:String = "../maps/icons/map/04_himmelsdorf_test.png";
+      
       public static const MAPS_ICONS_MAP_05_PROHOROVKA:String = "../maps/icons/map/05_prohorovka.png";
       
+      public static const MAPS_ICONS_MAP_05_PROHOROVKA1:String = "../maps/icons/map/05_prohorovka1.png";
+      
+      public static const MAPS_ICONS_MAP_05_PROHOROVKA_TEST:String = "../maps/icons/map/05_prohorovka_test.png";
+      
       public static const MAPS_ICONS_MAP_06_ENSK:String = "../maps/icons/map/06_ensk.png";
+      
+      public static const MAPS_ICONS_MAP_06_ENSK_TEST:String = "../maps/icons/map/06_ensk_test.png";
       
       public static const MAPS_ICONS_MAP_07_LAKEVILLE:String = "../maps/icons/map/07_lakeville.png";
       
       public static const MAPS_ICONS_MAP_08_RUINBERG:String = "../maps/icons/map/08_ruinberg.png";
       
       public static const MAPS_ICONS_MAP_100_THEPIT:String = "../maps/icons/map/100_thepit.png";
+      
+      public static const MAPS_ICONS_MAP_103_RUINBERG_WINTER:String = "../maps/icons/map/103_ruinberg_winter.png";
       
       public static const MAPS_ICONS_MAP_10_HILLS:String = "../maps/icons/map/10_hills.png";
       
@@ -1999,6 +2359,8 @@ package
       public static const MAPS_ICONS_MAP_13_ERLENBERG:String = "../maps/icons/map/13_erlenberg.png";
       
       public static const MAPS_ICONS_MAP_14_SIEGFRIED_LINE:String = "../maps/icons/map/14_siegfried_line.png";
+      
+      public static const MAPS_ICONS_MAP_14_SIEGFRIED_LINE_ASSAULT:String = "../maps/icons/map/14_siegfried_line_assault.png";
       
       public static const MAPS_ICONS_MAP_15_KOMARIN:String = "../maps/icons/map/15_komarin.png";
       
@@ -2012,9 +2374,17 @@ package
       
       public static const MAPS_ICONS_MAP_23_WESTFELD:String = "../maps/icons/map/23_westfeld.png";
       
+      public static const MAPS_ICONS_MAP_24_CANYON:String = "../maps/icons/map/24_canyon.png";
+      
+      public static const MAPS_ICONS_MAP_26_RIVER_VALLEY:String = "../maps/icons/map/26_river_valley.png";
+      
+      public static const MAPS_ICONS_MAP_27_ARDENNES:String = "../maps/icons/map/27_ardennes.png";
+      
       public static const MAPS_ICONS_MAP_28_DESERT:String = "../maps/icons/map/28_desert.png";
       
       public static const MAPS_ICONS_MAP_29_EL_HALLOUF:String = "../maps/icons/map/29_el_hallouf.png";
+      
+      public static const MAPS_ICONS_MAP_30_AFRICA_AIRFIELD:String = "../maps/icons/map/30_africa_airfield.png";
       
       public static const MAPS_ICONS_MAP_31_AIRFIELD:String = "../maps/icons/map/31_airfield.png";
       
@@ -2028,7 +2398,11 @@ package
       
       public static const MAPS_ICONS_MAP_37_CAUCASUS:String = "../maps/icons/map/37_caucasus.png";
       
+      public static const MAPS_ICONS_MAP_37_CAUCASUS_TEST:String = "../maps/icons/map/37_caucasus_test.png";
+      
       public static const MAPS_ICONS_MAP_38_MANNERHEIM_LINE:String = "../maps/icons/map/38_mannerheim_line.png";
+      
+      public static const MAPS_ICONS_MAP_38_MANNERHEIM_LINE_DOMINATION:String = "../maps/icons/map/38_mannerheim_line_domination.png";
       
       public static const MAPS_ICONS_MAP_39_CRIMEA:String = "../maps/icons/map/39_crimea.png";
       
@@ -2040,8 +2414,6 @@ package
       
       public static const MAPS_ICONS_MAP_47_CANADA_A:String = "../maps/icons/map/47_canada_a.png";
       
-      public static const MAPS_ICONS_MAP_51_ASIA:String = "../maps/icons/map/51_asia.png";
-      
       public static const MAPS_ICONS_MAP_53_JAPAN:String = "../maps/icons/map/53_japan.png";
       
       public static const MAPS_ICONS_MAP_59_ASIA_GREAT_WALL:String = "../maps/icons/map/59_asia_great_wall.png";
@@ -2050,13 +2422,15 @@ package
       
       public static const MAPS_ICONS_MAP_63_TUNDRA:String = "../maps/icons/map/63_tundra.png";
       
+      public static const MAPS_ICONS_MAP_73_ASIA_KOREA:String = "../maps/icons/map/73_asia_korea.png";
+      
       public static const MAPS_ICONS_MAP_83_KHARKIV:String = "../maps/icons/map/83_kharkiv.png";
       
       public static const MAPS_ICONS_MAP_84_WINTER:String = "../maps/icons/map/84_winter.png";
       
       public static const MAPS_ICONS_MAP_86_HIMMELSDORF_WINTER:String = "../maps/icons/map/86_himmelsdorf_winter.png";
       
-      public static const MAPS_ICONS_MAP_87_RUINBERG_ON_FIRE:String = "../maps/icons/map/87_ruinberg_on_fire.png";
+      public static const MAPS_ICONS_MAP_87_ANTARCTICA_GLACIER:String = "../maps/icons/map/87_antarctica_glacier.png";
       
       public static const MAPS_ICONS_MAP_92_STALINGRAD:String = "../maps/icons/map/92_stalingrad.png";
       
@@ -2064,97 +2438,19 @@ package
       
       public static const MAPS_ICONS_MAP_96_PROHOROVKA_DEFENSE:String = "../maps/icons/map/96_prohorovka_defense.png";
       
-      public static const MAPS_ICONS_MAP_SCREEN_00_TANK_TUTORIAL:String = "../maps/icons/map/screen/00_tank_tutorial.png";
+      public static const MAPS_ICONS_MAP_ENTRY_00_CAMERA_WITH_DIRECTION:String = "../maps/icons/map/entry/00_camera_with_direction.png";
       
-      public static const MAPS_ICONS_MAP_SCREEN_01_KARELIA:String = "../maps/icons/map/screen/01_karelia.png";
-      
-      public static const MAPS_ICONS_MAP_SCREEN_02_MALINOVKA:String = "../maps/icons/map/screen/02_malinovka.png";
-      
-      public static const MAPS_ICONS_MAP_SCREEN_03_CAMPANIA:String = "../maps/icons/map/screen/03_campania.png";
-      
-      public static const MAPS_ICONS_MAP_SCREEN_04_HIMMELSDORF:String = "../maps/icons/map/screen/04_himmelsdorf.png";
-      
-      public static const MAPS_ICONS_MAP_SCREEN_05_PROHOROVKA:String = "../maps/icons/map/screen/05_prohorovka.png";
-      
-      public static const MAPS_ICONS_MAP_SCREEN_06_ENSK:String = "../maps/icons/map/screen/06_ensk.png";
-      
-      public static const MAPS_ICONS_MAP_SCREEN_07_LAKEVILLE:String = "../maps/icons/map/screen/07_lakeville.png";
-      
-      public static const MAPS_ICONS_MAP_SCREEN_08_RUINBERG:String = "../maps/icons/map/screen/08_ruinberg.png";
-      
-      public static const MAPS_ICONS_MAP_SCREEN_100_THEPIT:String = "../maps/icons/map/screen/100_thepit.png";
-      
-      public static const MAPS_ICONS_MAP_SCREEN_10_HILLS:String = "../maps/icons/map/screen/10_hills.png";
-      
-      public static const MAPS_ICONS_MAP_SCREEN_11_MUROVANKA:String = "../maps/icons/map/screen/11_murovanka.png";
-      
-      public static const MAPS_ICONS_MAP_SCREEN_13_ERLENBERG:String = "../maps/icons/map/screen/13_erlenberg.png";
-      
-      public static const MAPS_ICONS_MAP_SCREEN_14_SIEGFRIED_LINE:String = "../maps/icons/map/screen/14_siegfried_line.png";
-      
-      public static const MAPS_ICONS_MAP_SCREEN_15_KOMARIN:String = "../maps/icons/map/screen/15_komarin.png";
-      
-      public static const MAPS_ICONS_MAP_SCREEN_17_MUNCHEN:String = "../maps/icons/map/screen/17_munchen.png";
-      
-      public static const MAPS_ICONS_MAP_SCREEN_18_CLIFF:String = "../maps/icons/map/screen/18_cliff.png";
-      
-      public static const MAPS_ICONS_MAP_SCREEN_19_MONASTERY:String = "../maps/icons/map/screen/19_monastery.png";
-      
-      public static const MAPS_ICONS_MAP_SCREEN_22_SLOUGH:String = "../maps/icons/map/screen/22_slough.png";
-      
-      public static const MAPS_ICONS_MAP_SCREEN_23_WESTFELD:String = "../maps/icons/map/screen/23_westfeld.png";
-      
-      public static const MAPS_ICONS_MAP_SCREEN_28_DESERT:String = "../maps/icons/map/screen/28_desert.png";
-      
-      public static const MAPS_ICONS_MAP_SCREEN_29_EL_HALLOUF:String = "../maps/icons/map/screen/29_el_hallouf.png";
-      
-      public static const MAPS_ICONS_MAP_SCREEN_31_AIRFIELD:String = "../maps/icons/map/screen/31_airfield.png";
-      
-      public static const MAPS_ICONS_MAP_SCREEN_33_FJORD:String = "../maps/icons/map/screen/33_fjord.png";
-      
-      public static const MAPS_ICONS_MAP_SCREEN_34_REDSHIRE:String = "../maps/icons/map/screen/34_Redshire.png";
-      
-      public static const MAPS_ICONS_MAP_SCREEN_35_STEPPES:String = "../maps/icons/map/screen/35_steppes.png";
-      
-      public static const MAPS_ICONS_MAP_SCREEN_36_FISHING_BAY:String = "../maps/icons/map/screen/36_fishing_bay.png";
-      
-      public static const MAPS_ICONS_MAP_SCREEN_37_CAUCASUS:String = "../maps/icons/map/screen/37_caucasus.png";
-      
-      public static const MAPS_ICONS_MAP_SCREEN_38_MANNERHEIM_LINE:String = "../maps/icons/map/screen/38_mannerheim_line.png";
-      
-      public static const MAPS_ICONS_MAP_SCREEN_39_CRIMEA:String = "../maps/icons/map/screen/39_crimea.png";
-      
-      public static const MAPS_ICONS_MAP_SCREEN_43_NORTH_AMERICA:String = "../maps/icons/map/screen/43_north_america.png";
-      
-      public static const MAPS_ICONS_MAP_SCREEN_44_NORTH_AMERICA:String = "../maps/icons/map/screen/44_north_america.png";
-      
-      public static const MAPS_ICONS_MAP_SCREEN_45_NORTH_AMERICA:String = "../maps/icons/map/screen/45_north_america.png";
-      
-      public static const MAPS_ICONS_MAP_SCREEN_47_CANADA_A:String = "../maps/icons/map/screen/47_canada_a.png";
-      
-      public static const MAPS_ICONS_MAP_SCREEN_51_ASIA:String = "../maps/icons/map/screen/51_asia.png";
-      
-      public static const MAPS_ICONS_MAP_SCREEN_53_JAPAN:String = "../maps/icons/map/screen/53_japan.png";
+      public static const MAPS_ICONS_MAP_ENTRY_01_SHOT_SECTOR_LINE:String = "../maps/icons/map/entry/01_shot_sector_line.png";
       
       public static const MAPS_ICONS_MAP_SCREEN_59_ASIA_GREAT_WALL:String = "../maps/icons/map/screen/59_asia_great_wall.png";
       
-      public static const MAPS_ICONS_MAP_SCREEN_60_ASIA_MIAO:String = "../maps/icons/map/screen/60_asia_miao.png";
-      
       public static const MAPS_ICONS_MAP_SCREEN_63_TUNDRA:String = "../maps/icons/map/screen/63_tundra.png";
       
-      public static const MAPS_ICONS_MAP_SCREEN_83_KHARKIV:String = "../maps/icons/map/screen/83_kharkiv.png";
+      public static const MAPS_ICONS_MAP_SCREEN_84_WINTER_A:String = "../maps/icons/map/screen/84_winter_a.png";
       
-      public static const MAPS_ICONS_MAP_SCREEN_84_WINTER:String = "../maps/icons/map/screen/84_winter.png";
+      public static const MAPS_ICONS_MAP_SCREEN_87_ANTARCTICA_GLACIER:String = "../maps/icons/map/screen/87_antarctica_glacier.png";
       
-      public static const MAPS_ICONS_MAP_SCREEN_86_HIMMELSDORF_WINTER:String = "../maps/icons/map/screen/86_himmelsdorf_winter.png";
-      
-      public static const MAPS_ICONS_MAP_SCREEN_87_RUINBERG_ON_FIRE:String = "../maps/icons/map/screen/87_ruinberg_on_fire.png";
-      
-      public static const MAPS_ICONS_MAP_SCREEN_92_STALINGRAD:String = "../maps/icons/map/screen/92_stalingrad.png";
-      
-      public static const MAPS_ICONS_MAP_SCREEN_95_LOST_CITY:String = "../maps/icons/map/screen/95_lost_city.png";
-      
-      public static const MAPS_ICONS_MAP_SCREEN_96_PROHOROVKA_DEFENSE:String = "../maps/icons/map/screen/96_prohorovka_defense.png";
+      public static const MAPS_ICONS_MAP_SCREEN_VALLEY_66_ASIA_VIETNAM:String = "../maps/icons/map/screen/valley_66_asia_vietnam.png";
       
       public static const MAPS_ICONS_MAP_STATS_00_TANK_TUTORIAL:String = "../maps/icons/map/stats/00_tank_tutorial.png";
       
@@ -2175,6 +2471,8 @@ package
       public static const MAPS_ICONS_MAP_STATS_08_RUINBERG:String = "../maps/icons/map/stats/08_ruinberg.png";
       
       public static const MAPS_ICONS_MAP_STATS_100_THEPIT:String = "../maps/icons/map/stats/100_thepit.png";
+      
+      public static const MAPS_ICONS_MAP_STATS_103_RUINBERG_WINTER:String = "../maps/icons/map/stats/103_ruinberg_winter.png";
       
       public static const MAPS_ICONS_MAP_STATS_10_HILLS:String = "../maps/icons/map/stats/10_hills.png";
       
@@ -2224,8 +2522,6 @@ package
       
       public static const MAPS_ICONS_MAP_STATS_47_CANADA_A:String = "../maps/icons/map/stats/47_canada_a.png";
       
-      public static const MAPS_ICONS_MAP_STATS_51_ASIA:String = "../maps/icons/map/stats/51_asia.png";
-      
       public static const MAPS_ICONS_MAP_STATS_53_JAPAN:String = "../maps/icons/map/stats/53_japan.png";
       
       public static const MAPS_ICONS_MAP_STATS_59_ASIA_GREAT_WALL:String = "../maps/icons/map/stats/59_asia_great_wall.png";
@@ -2234,13 +2530,15 @@ package
       
       public static const MAPS_ICONS_MAP_STATS_63_TUNDRA:String = "../maps/icons/map/stats/63_tundra.png";
       
+      public static const MAPS_ICONS_MAP_STATS_73_ASIA_KOREA:String = "../maps/icons/map/stats/73_Asia_Korea.png";
+      
+      public static const MAPS_ICONS_MAP_STATS_73_ASIA_KOREA_:String = "../maps/icons/map/stats/73_asia-korea.png";
+      
       public static const MAPS_ICONS_MAP_STATS_83_KHARKIV:String = "../maps/icons/map/stats/83_kharkiv.png";
       
       public static const MAPS_ICONS_MAP_STATS_84_WINTER:String = "../maps/icons/map/stats/84_winter.png";
       
       public static const MAPS_ICONS_MAP_STATS_86_HIMMELSDORF_WINTER:String = "../maps/icons/map/stats/86_himmelsdorf_winter.png";
-      
-      public static const MAPS_ICONS_MAP_STATS_87_RUINBERG_ON_FIRE:String = "../maps/icons/map/stats/87_ruinberg_on_fire.png";
       
       public static const MAPS_ICONS_MAP_STATS_92_STALINGRAD:String = "../maps/icons/map/stats/92_stalingrad.png";
       
@@ -2248,7 +2546,13 @@ package
       
       public static const MAPS_ICONS_MAP_STATS_96_PROHOROVKA_DEFENSE:String = "../maps/icons/map/stats/96_prohorovka_defense.png";
       
+      public static const MAPS_ICONS_MAP_STATS_NOIMAGE:String = "../maps/icons/map/stats/noImage.png";
+      
       public static const MAPS_ICONS_MAP_STATS_OVERLAY:String = "../maps/icons/map/stats/overlay.png";
+      
+      public static const MAPS_ICONS_MAP_STATS_VALLEY_66_ASIA_VIETNAM:String = "../maps/icons/map/stats/valley_66_asia_vietnam.png";
+      
+      public static const MAPS_ICONS_MAP_VALLEY_66_ASIA_VIETNAM:String = "../maps/icons/map/valley_66_asia_vietnam.png";
       
       public static const MAPS_ICONS_MARKSONGUN_180X180_CHINA_1_MARK:String = "../maps/icons/marksOnGun/180x180/china_1_mark.png";
       
@@ -2486,6 +2790,18 @@ package
       
       public static const MAPS_ICONS_ORDERS_SMALL_TACTICALTRAINING:String = "../maps/icons/orders/small/tacticalTraining.png";
       
+      public static const MAPS_ICONS_QUESTS_AT_SPGAWARDBACK:String = "../maps/icons/quests/AT-SPGAwardBack.png";
+      
+      public static const MAPS_ICONS_QUESTS_HTAWARDBACK:String = "../maps/icons/quests/HTAwardBack.png";
+      
+      public static const MAPS_ICONS_QUESTS_LTAWARDBACK:String = "../maps/icons/quests/LTAwardBack.png";
+      
+      public static const MAPS_ICONS_QUESTS_MTAWARDBACK:String = "../maps/icons/quests/MTAwardBack.png";
+      
+      public static const MAPS_ICONS_QUESTS_SPGAWARDBACK:String = "../maps/icons/quests/SPGAwardBack.png";
+      
+      public static const MAPS_ICONS_QUESTS_AWARDRIBBON:String = "../maps/icons/quests/awardRibbon.png";
+      
       public static const MAPS_ICONS_QUESTS_AWARDS_TILE_1_1_AWARD:String = "../maps/icons/quests/awards/tile_1_1_award.png";
       
       public static const MAPS_ICONS_QUESTS_AWARDS_TILE_1_2_AWARD:String = "../maps/icons/quests/awards/tile_1_2_award.png";
@@ -2574,6 +2890,8 @@ package
       
       public static const MAPS_ICONS_SETTINGS_COLOR_GRADING_TECHNIQUE_PHOTOCHROMATIC:String = "../maps/icons/settings/COLOR_GRADING_TECHNIQUE/Photochromatic.png";
       
+      public static const MAPS_ICONS_SETTINGS_COLOR_GRADING_TECHNIQUE_RANDOM:String = "../maps/icons/settings/COLOR_GRADING_TECHNIQUE/RANDOM.png";
+      
       public static const MAPS_ICONS_SETTINGS_COLOR_GRADING_TECHNIQUE_SOFT:String = "../maps/icons/settings/COLOR_GRADING_TECHNIQUE/Soft.png";
       
       public static const MAPS_ICONS_SETTINGS_COLOR_GRADING_TECHNIQUE_SOFT_COLORS:String = "../maps/icons/settings/COLOR_GRADING_TECHNIQUE/Soft_Colors.png";
@@ -2589,6 +2907,14 @@ package
       public static const MAPS_ICONS_SHELL_HIGH_EXPLOSIVE_PREMIUM:String = "../maps/icons/shell/HIGH_EXPLOSIVE_PREMIUM.png";
       
       public static const MAPS_ICONS_SHELL_HOLLOW_CHARGE:String = "../maps/icons/shell/HOLLOW_CHARGE.png";
+      
+      public static const MAPS_ICONS_STATISTIC_ARMORUSING:String = "../maps/icons/statistic/armorUsing.png";
+      
+      public static const MAPS_ICONS_STATISTIC_ASSIST:String = "../maps/icons/statistic/assist.png";
+      
+      public static const MAPS_ICONS_STATISTIC_AVGDAMAGE:String = "../maps/icons/statistic/avgDamage.png";
+      
+      public static const MAPS_ICONS_STATISTIC_AVGEXP:String = "../maps/icons/statistic/avgExp.png";
       
       public static const MAPS_ICONS_STATISTIC_FIGHTS:String = "../maps/icons/statistic/fights.png";
       
@@ -2644,6 +2970,30 @@ package
       
       public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_CHINA_9:String = "../maps/icons/tankmen/icons/barracks/china-9.png";
       
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_CHINA_FEMALE_1:String = "../maps/icons/tankmen/icons/barracks/china-female-1.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_CHINA_FEMALE_10:String = "../maps/icons/tankmen/icons/barracks/china-female-10.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_CHINA_FEMALE_11:String = "../maps/icons/tankmen/icons/barracks/china-female-11.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_CHINA_FEMALE_12:String = "../maps/icons/tankmen/icons/barracks/china-female-12.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_CHINA_FEMALE_2:String = "../maps/icons/tankmen/icons/barracks/china-female-2.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_CHINA_FEMALE_3:String = "../maps/icons/tankmen/icons/barracks/china-female-3.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_CHINA_FEMALE_4:String = "../maps/icons/tankmen/icons/barracks/china-female-4.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_CHINA_FEMALE_5:String = "../maps/icons/tankmen/icons/barracks/china-female-5.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_CHINA_FEMALE_6:String = "../maps/icons/tankmen/icons/barracks/china-female-6.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_CHINA_FEMALE_7:String = "../maps/icons/tankmen/icons/barracks/china-female-7.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_CHINA_FEMALE_8:String = "../maps/icons/tankmen/icons/barracks/china-female-8.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_CHINA_FEMALE_9:String = "../maps/icons/tankmen/icons/barracks/china-female-9.png";
+      
       public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_FRANCE_1:String = "../maps/icons/tankmen/icons/barracks/france-1.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_FRANCE_10:String = "../maps/icons/tankmen/icons/barracks/france-10.png";
@@ -2692,6 +3042,8 @@ package
       
       public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_FRANCE_30:String = "../maps/icons/tankmen/icons/barracks/france-30.png";
       
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_FRANCE_31:String = "../maps/icons/tankmen/icons/barracks/france-31.png";
+      
       public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_FRANCE_4:String = "../maps/icons/tankmen/icons/barracks/france-4.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_FRANCE_5:String = "../maps/icons/tankmen/icons/barracks/france-5.png";
@@ -2703,6 +3055,42 @@ package
       public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_FRANCE_8:String = "../maps/icons/tankmen/icons/barracks/france-8.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_FRANCE_9:String = "../maps/icons/tankmen/icons/barracks/france-9.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_FRANCE_FEMALE_1:String = "../maps/icons/tankmen/icons/barracks/france-female-1.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_FRANCE_FEMALE_10:String = "../maps/icons/tankmen/icons/barracks/france-female-10.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_FRANCE_FEMALE_11:String = "../maps/icons/tankmen/icons/barracks/france-female-11.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_FRANCE_FEMALE_12:String = "../maps/icons/tankmen/icons/barracks/france-female-12.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_FRANCE_FEMALE_13:String = "../maps/icons/tankmen/icons/barracks/france-female-13.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_FRANCE_FEMALE_14:String = "../maps/icons/tankmen/icons/barracks/france-female-14.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_FRANCE_FEMALE_15:String = "../maps/icons/tankmen/icons/barracks/france-female-15.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_FRANCE_FEMALE_16:String = "../maps/icons/tankmen/icons/barracks/france-female-16.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_FRANCE_FEMALE_17:String = "../maps/icons/tankmen/icons/barracks/france-female-17.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_FRANCE_FEMALE_18:String = "../maps/icons/tankmen/icons/barracks/france-female-18.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_FRANCE_FEMALE_2:String = "../maps/icons/tankmen/icons/barracks/france-female-2.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_FRANCE_FEMALE_3:String = "../maps/icons/tankmen/icons/barracks/france-female-3.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_FRANCE_FEMALE_4:String = "../maps/icons/tankmen/icons/barracks/france-female-4.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_FRANCE_FEMALE_5:String = "../maps/icons/tankmen/icons/barracks/france-female-5.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_FRANCE_FEMALE_6:String = "../maps/icons/tankmen/icons/barracks/france-female-6.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_FRANCE_FEMALE_7:String = "../maps/icons/tankmen/icons/barracks/france-female-7.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_FRANCE_FEMALE_8:String = "../maps/icons/tankmen/icons/barracks/france-female-8.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_FRANCE_FEMALE_9:String = "../maps/icons/tankmen/icons/barracks/france-female-9.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_GERMANY_1:String = "../maps/icons/tankmen/icons/barracks/germany-1.png";
       
@@ -2752,6 +3140,8 @@ package
       
       public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_GERMANY_30:String = "../maps/icons/tankmen/icons/barracks/germany-30.png";
       
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_GERMANY_31:String = "../maps/icons/tankmen/icons/barracks/germany-31.png";
+      
       public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_GERMANY_4:String = "../maps/icons/tankmen/icons/barracks/germany-4.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_GERMANY_5:String = "../maps/icons/tankmen/icons/barracks/germany-5.png";
@@ -2763,6 +3153,36 @@ package
       public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_GERMANY_8:String = "../maps/icons/tankmen/icons/barracks/germany-8.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_GERMANY_9:String = "../maps/icons/tankmen/icons/barracks/germany-9.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_GERMANY_FEMALE_1:String = "../maps/icons/tankmen/icons/barracks/germany-female-1.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_GERMANY_FEMALE_10:String = "../maps/icons/tankmen/icons/barracks/germany-female-10.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_GERMANY_FEMALE_11:String = "../maps/icons/tankmen/icons/barracks/germany-female-11.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_GERMANY_FEMALE_12:String = "../maps/icons/tankmen/icons/barracks/germany-female-12.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_GERMANY_FEMALE_13:String = "../maps/icons/tankmen/icons/barracks/germany-female-13.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_GERMANY_FEMALE_14:String = "../maps/icons/tankmen/icons/barracks/germany-female-14.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_GERMANY_FEMALE_15:String = "../maps/icons/tankmen/icons/barracks/germany-female-15.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_GERMANY_FEMALE_2:String = "../maps/icons/tankmen/icons/barracks/germany-female-2.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_GERMANY_FEMALE_3:String = "../maps/icons/tankmen/icons/barracks/germany-female-3.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_GERMANY_FEMALE_4:String = "../maps/icons/tankmen/icons/barracks/germany-female-4.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_GERMANY_FEMALE_5:String = "../maps/icons/tankmen/icons/barracks/germany-female-5.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_GERMANY_FEMALE_6:String = "../maps/icons/tankmen/icons/barracks/germany-female-6.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_GERMANY_FEMALE_7:String = "../maps/icons/tankmen/icons/barracks/germany-female-7.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_GERMANY_FEMALE_8:String = "../maps/icons/tankmen/icons/barracks/germany-female-8.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_GERMANY_FEMALE_9:String = "../maps/icons/tankmen/icons/barracks/germany-female-9.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_JAPAN_1:String = "../maps/icons/tankmen/icons/barracks/japan-1.png";
       
@@ -2824,6 +3244,30 @@ package
       
       public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_JAPAN_9:String = "../maps/icons/tankmen/icons/barracks/japan-9.png";
       
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_JAPAN_FEMALE_1:String = "../maps/icons/tankmen/icons/barracks/japan-female-1.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_JAPAN_FEMALE_10:String = "../maps/icons/tankmen/icons/barracks/japan-female-10.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_JAPAN_FEMALE_11:String = "../maps/icons/tankmen/icons/barracks/japan-female-11.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_JAPAN_FEMALE_12:String = "../maps/icons/tankmen/icons/barracks/japan-female-12.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_JAPAN_FEMALE_2:String = "../maps/icons/tankmen/icons/barracks/japan-female-2.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_JAPAN_FEMALE_3:String = "../maps/icons/tankmen/icons/barracks/japan-female-3.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_JAPAN_FEMALE_4:String = "../maps/icons/tankmen/icons/barracks/japan-female-4.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_JAPAN_FEMALE_5:String = "../maps/icons/tankmen/icons/barracks/japan-female-5.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_JAPAN_FEMALE_6:String = "../maps/icons/tankmen/icons/barracks/japan-female-6.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_JAPAN_FEMALE_7:String = "../maps/icons/tankmen/icons/barracks/japan-female-7.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_JAPAN_FEMALE_8:String = "../maps/icons/tankmen/icons/barracks/japan-female-8.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_JAPAN_FEMALE_9:String = "../maps/icons/tankmen/icons/barracks/japan-female-9.png";
+      
       public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_UK_1:String = "../maps/icons/tankmen/icons/barracks/uk-1.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_UK_10:String = "../maps/icons/tankmen/icons/barracks/uk-10.png";
@@ -2883,6 +3327,44 @@ package
       public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_UK_8:String = "../maps/icons/tankmen/icons/barracks/uk-8.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_UK_9:String = "../maps/icons/tankmen/icons/barracks/uk-9.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_UK_FEMALE_1:String = "../maps/icons/tankmen/icons/barracks/uk-female-1.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_UK_FEMALE_10:String = "../maps/icons/tankmen/icons/barracks/uk-female-10.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_UK_FEMALE_11:String = "../maps/icons/tankmen/icons/barracks/uk-female-11.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_UK_FEMALE_12:String = "../maps/icons/tankmen/icons/barracks/uk-female-12.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_UK_FEMALE_13:String = "../maps/icons/tankmen/icons/barracks/uk-female-13.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_UK_FEMALE_14:String = "../maps/icons/tankmen/icons/barracks/uk-female-14.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_UK_FEMALE_15:String = "../maps/icons/tankmen/icons/barracks/uk-female-15.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_UK_FEMALE_16:String = "../maps/icons/tankmen/icons/barracks/uk-female-16.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_UK_FEMALE_17:String = "../maps/icons/tankmen/icons/barracks/uk-female-17.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_UK_FEMALE_18:String = "../maps/icons/tankmen/icons/barracks/uk-female-18.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_UK_FEMALE_19:String = "../maps/icons/tankmen/icons/barracks/uk-female-19.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_UK_FEMALE_2:String = "../maps/icons/tankmen/icons/barracks/uk-female-2.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_UK_FEMALE_3:String = "../maps/icons/tankmen/icons/barracks/uk-female-3.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_UK_FEMALE_4:String = "../maps/icons/tankmen/icons/barracks/uk-female-4.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_UK_FEMALE_5:String = "../maps/icons/tankmen/icons/barracks/uk-female-5.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_UK_FEMALE_6:String = "../maps/icons/tankmen/icons/barracks/uk-female-6.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_UK_FEMALE_7:String = "../maps/icons/tankmen/icons/barracks/uk-female-7.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_UK_FEMALE_8:String = "../maps/icons/tankmen/icons/barracks/uk-female-8.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_UK_FEMALE_9:String = "../maps/icons/tankmen/icons/barracks/uk-female-9.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USA_1:String = "../maps/icons/tankmen/icons/barracks/usa-1.png";
       
@@ -2956,6 +3438,8 @@ package
       
       public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USA_41:String = "../maps/icons/tankmen/icons/barracks/usa-41.png";
       
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USA_42:String = "../maps/icons/tankmen/icons/barracks/usa-42.png";
+      
       public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USA_5:String = "../maps/icons/tankmen/icons/barracks/usa-5.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USA_6:String = "../maps/icons/tankmen/icons/barracks/usa-6.png";
@@ -2965,6 +3449,44 @@ package
       public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USA_8:String = "../maps/icons/tankmen/icons/barracks/usa-8.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USA_9:String = "../maps/icons/tankmen/icons/barracks/usa-9.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USA_FEMALE_1:String = "../maps/icons/tankmen/icons/barracks/usa-female-1.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USA_FEMALE_10:String = "../maps/icons/tankmen/icons/barracks/usa-female-10.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USA_FEMALE_11:String = "../maps/icons/tankmen/icons/barracks/usa-female-11.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USA_FEMALE_12:String = "../maps/icons/tankmen/icons/barracks/usa-female-12.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USA_FEMALE_13:String = "../maps/icons/tankmen/icons/barracks/usa-female-13.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USA_FEMALE_14:String = "../maps/icons/tankmen/icons/barracks/usa-female-14.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USA_FEMALE_15:String = "../maps/icons/tankmen/icons/barracks/usa-female-15.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USA_FEMALE_16:String = "../maps/icons/tankmen/icons/barracks/usa-female-16.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USA_FEMALE_17:String = "../maps/icons/tankmen/icons/barracks/usa-female-17.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USA_FEMALE_18:String = "../maps/icons/tankmen/icons/barracks/usa-female-18.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USA_FEMALE_19:String = "../maps/icons/tankmen/icons/barracks/usa-female-19.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USA_FEMALE_2:String = "../maps/icons/tankmen/icons/barracks/usa-female-2.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USA_FEMALE_3:String = "../maps/icons/tankmen/icons/barracks/usa-female-3.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USA_FEMALE_4:String = "../maps/icons/tankmen/icons/barracks/usa-female-4.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USA_FEMALE_5:String = "../maps/icons/tankmen/icons/barracks/usa-female-5.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USA_FEMALE_6:String = "../maps/icons/tankmen/icons/barracks/usa-female-6.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USA_FEMALE_7:String = "../maps/icons/tankmen/icons/barracks/usa-female-7.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USA_FEMALE_8:String = "../maps/icons/tankmen/icons/barracks/usa-female-8.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USA_FEMALE_9:String = "../maps/icons/tankmen/icons/barracks/usa-female-9.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USSR_1:String = "../maps/icons/tankmen/icons/barracks/ussr-1.png";
       
@@ -3014,6 +3536,8 @@ package
       
       public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USSR_30:String = "../maps/icons/tankmen/icons/barracks/ussr-30.png";
       
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USSR_31:String = "../maps/icons/tankmen/icons/barracks/ussr-31.png";
+      
       public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USSR_4:String = "../maps/icons/tankmen/icons/barracks/ussr-4.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USSR_5:String = "../maps/icons/tankmen/icons/barracks/ussr-5.png";
@@ -3025,6 +3549,44 @@ package
       public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USSR_8:String = "../maps/icons/tankmen/icons/barracks/ussr-8.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USSR_9:String = "../maps/icons/tankmen/icons/barracks/ussr-9.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USSR_FEMALE_1:String = "../maps/icons/tankmen/icons/barracks/ussr-female-1.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USSR_FEMALE_10:String = "../maps/icons/tankmen/icons/barracks/ussr-female-10.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USSR_FEMALE_11:String = "../maps/icons/tankmen/icons/barracks/ussr-female-11.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USSR_FEMALE_12:String = "../maps/icons/tankmen/icons/barracks/ussr-female-12.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USSR_FEMALE_13:String = "../maps/icons/tankmen/icons/barracks/ussr-female-13.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USSR_FEMALE_14:String = "../maps/icons/tankmen/icons/barracks/ussr-female-14.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USSR_FEMALE_15:String = "../maps/icons/tankmen/icons/barracks/ussr-female-15.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USSR_FEMALE_16:String = "../maps/icons/tankmen/icons/barracks/ussr-female-16.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USSR_FEMALE_17:String = "../maps/icons/tankmen/icons/barracks/ussr-female-17.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USSR_FEMALE_18:String = "../maps/icons/tankmen/icons/barracks/ussr-female-18.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USSR_FEMALE_19:String = "../maps/icons/tankmen/icons/barracks/ussr-female-19.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USSR_FEMALE_2:String = "../maps/icons/tankmen/icons/barracks/ussr-female-2.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USSR_FEMALE_3:String = "../maps/icons/tankmen/icons/barracks/ussr-female-3.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USSR_FEMALE_4:String = "../maps/icons/tankmen/icons/barracks/ussr-female-4.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USSR_FEMALE_5:String = "../maps/icons/tankmen/icons/barracks/ussr-female-5.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USSR_FEMALE_6:String = "../maps/icons/tankmen/icons/barracks/ussr-female-6.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USSR_FEMALE_7:String = "../maps/icons/tankmen/icons/barracks/ussr-female-7.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USSR_FEMALE_8:String = "../maps/icons/tankmen/icons/barracks/ussr-female-8.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BARRACKS_USSR_FEMALE_9:String = "../maps/icons/tankmen/icons/barracks/ussr-female-9.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_BIG_CHINA_1:String = "../maps/icons/tankmen/icons/big/china-1.png";
       
@@ -3065,6 +3627,30 @@ package
       public static const MAPS_ICONS_TANKMEN_ICONS_BIG_CHINA_8:String = "../maps/icons/tankmen/icons/big/china-8.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_BIG_CHINA_9:String = "../maps/icons/tankmen/icons/big/china-9.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_CHINA_FEMALE_1:String = "../maps/icons/tankmen/icons/big/china-female-1.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_CHINA_FEMALE_10:String = "../maps/icons/tankmen/icons/big/china-female-10.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_CHINA_FEMALE_11:String = "../maps/icons/tankmen/icons/big/china-female-11.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_CHINA_FEMALE_12:String = "../maps/icons/tankmen/icons/big/china-female-12.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_CHINA_FEMALE_2:String = "../maps/icons/tankmen/icons/big/china-female-2.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_CHINA_FEMALE_3:String = "../maps/icons/tankmen/icons/big/china-female-3.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_CHINA_FEMALE_4:String = "../maps/icons/tankmen/icons/big/china-female-4.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_CHINA_FEMALE_5:String = "../maps/icons/tankmen/icons/big/china-female-5.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_CHINA_FEMALE_6:String = "../maps/icons/tankmen/icons/big/china-female-6.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_CHINA_FEMALE_7:String = "../maps/icons/tankmen/icons/big/china-female-7.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_CHINA_FEMALE_8:String = "../maps/icons/tankmen/icons/big/china-female-8.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_CHINA_FEMALE_9:String = "../maps/icons/tankmen/icons/big/china-female-9.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_BIG_FRANCE_1:String = "../maps/icons/tankmen/icons/big/france-1.png";
       
@@ -3114,6 +3700,8 @@ package
       
       public static const MAPS_ICONS_TANKMEN_ICONS_BIG_FRANCE_30:String = "../maps/icons/tankmen/icons/big/france-30.png";
       
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_FRANCE_31:String = "../maps/icons/tankmen/icons/big/france-31.png";
+      
       public static const MAPS_ICONS_TANKMEN_ICONS_BIG_FRANCE_4:String = "../maps/icons/tankmen/icons/big/france-4.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_BIG_FRANCE_5:String = "../maps/icons/tankmen/icons/big/france-5.png";
@@ -3125,6 +3713,42 @@ package
       public static const MAPS_ICONS_TANKMEN_ICONS_BIG_FRANCE_8:String = "../maps/icons/tankmen/icons/big/france-8.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_BIG_FRANCE_9:String = "../maps/icons/tankmen/icons/big/france-9.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_FRANCE_FEMALE_1:String = "../maps/icons/tankmen/icons/big/france-female-1.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_FRANCE_FEMALE_10:String = "../maps/icons/tankmen/icons/big/france-female-10.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_FRANCE_FEMALE_11:String = "../maps/icons/tankmen/icons/big/france-female-11.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_FRANCE_FEMALE_12:String = "../maps/icons/tankmen/icons/big/france-female-12.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_FRANCE_FEMALE_13:String = "../maps/icons/tankmen/icons/big/france-female-13.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_FRANCE_FEMALE_14:String = "../maps/icons/tankmen/icons/big/france-female-14.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_FRANCE_FEMALE_15:String = "../maps/icons/tankmen/icons/big/france-female-15.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_FRANCE_FEMALE_16:String = "../maps/icons/tankmen/icons/big/france-female-16.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_FRANCE_FEMALE_17:String = "../maps/icons/tankmen/icons/big/france-female-17.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_FRANCE_FEMALE_18:String = "../maps/icons/tankmen/icons/big/france-female-18.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_FRANCE_FEMALE_2:String = "../maps/icons/tankmen/icons/big/france-female-2.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_FRANCE_FEMALE_3:String = "../maps/icons/tankmen/icons/big/france-female-3.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_FRANCE_FEMALE_4:String = "../maps/icons/tankmen/icons/big/france-female-4.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_FRANCE_FEMALE_5:String = "../maps/icons/tankmen/icons/big/france-female-5.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_FRANCE_FEMALE_6:String = "../maps/icons/tankmen/icons/big/france-female-6.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_FRANCE_FEMALE_7:String = "../maps/icons/tankmen/icons/big/france-female-7.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_FRANCE_FEMALE_8:String = "../maps/icons/tankmen/icons/big/france-female-8.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_FRANCE_FEMALE_9:String = "../maps/icons/tankmen/icons/big/france-female-9.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_BIG_GERMANY_1:String = "../maps/icons/tankmen/icons/big/germany-1.png";
       
@@ -3174,6 +3798,8 @@ package
       
       public static const MAPS_ICONS_TANKMEN_ICONS_BIG_GERMANY_30:String = "../maps/icons/tankmen/icons/big/germany-30.png";
       
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_GERMANY_31:String = "../maps/icons/tankmen/icons/big/germany-31.png";
+      
       public static const MAPS_ICONS_TANKMEN_ICONS_BIG_GERMANY_4:String = "../maps/icons/tankmen/icons/big/germany-4.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_BIG_GERMANY_5:String = "../maps/icons/tankmen/icons/big/germany-5.png";
@@ -3185,6 +3811,36 @@ package
       public static const MAPS_ICONS_TANKMEN_ICONS_BIG_GERMANY_8:String = "../maps/icons/tankmen/icons/big/germany-8.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_BIG_GERMANY_9:String = "../maps/icons/tankmen/icons/big/germany-9.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_GERMANY_FEMALE_1:String = "../maps/icons/tankmen/icons/big/germany-female-1.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_GERMANY_FEMALE_10:String = "../maps/icons/tankmen/icons/big/germany-female-10.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_GERMANY_FEMALE_11:String = "../maps/icons/tankmen/icons/big/germany-female-11.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_GERMANY_FEMALE_12:String = "../maps/icons/tankmen/icons/big/germany-female-12.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_GERMANY_FEMALE_13:String = "../maps/icons/tankmen/icons/big/germany-female-13.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_GERMANY_FEMALE_14:String = "../maps/icons/tankmen/icons/big/germany-female-14.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_GERMANY_FEMALE_15:String = "../maps/icons/tankmen/icons/big/germany-female-15.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_GERMANY_FEMALE_2:String = "../maps/icons/tankmen/icons/big/germany-female-2.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_GERMANY_FEMALE_3:String = "../maps/icons/tankmen/icons/big/germany-female-3.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_GERMANY_FEMALE_4:String = "../maps/icons/tankmen/icons/big/germany-female-4.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_GERMANY_FEMALE_5:String = "../maps/icons/tankmen/icons/big/germany-female-5.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_GERMANY_FEMALE_6:String = "../maps/icons/tankmen/icons/big/germany-female-6.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_GERMANY_FEMALE_7:String = "../maps/icons/tankmen/icons/big/germany-female-7.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_GERMANY_FEMALE_8:String = "../maps/icons/tankmen/icons/big/germany-female-8.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_GERMANY_FEMALE_9:String = "../maps/icons/tankmen/icons/big/germany-female-9.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_BIG_JAPAN_1:String = "../maps/icons/tankmen/icons/big/japan-1.png";
       
@@ -3246,6 +3902,30 @@ package
       
       public static const MAPS_ICONS_TANKMEN_ICONS_BIG_JAPAN_9:String = "../maps/icons/tankmen/icons/big/japan-9.png";
       
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_JAPAN_FEMALE_1:String = "../maps/icons/tankmen/icons/big/japan-female-1.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_JAPAN_FEMALE_10:String = "../maps/icons/tankmen/icons/big/japan-female-10.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_JAPAN_FEMALE_11:String = "../maps/icons/tankmen/icons/big/japan-female-11.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_JAPAN_FEMALE_12:String = "../maps/icons/tankmen/icons/big/japan-female-12.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_JAPAN_FEMALE_2:String = "../maps/icons/tankmen/icons/big/japan-female-2.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_JAPAN_FEMALE_3:String = "../maps/icons/tankmen/icons/big/japan-female-3.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_JAPAN_FEMALE_4:String = "../maps/icons/tankmen/icons/big/japan-female-4.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_JAPAN_FEMALE_5:String = "../maps/icons/tankmen/icons/big/japan-female-5.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_JAPAN_FEMALE_6:String = "../maps/icons/tankmen/icons/big/japan-female-6.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_JAPAN_FEMALE_7:String = "../maps/icons/tankmen/icons/big/japan-female-7.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_JAPAN_FEMALE_8:String = "../maps/icons/tankmen/icons/big/japan-female-8.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_JAPAN_FEMALE_9:String = "../maps/icons/tankmen/icons/big/japan-female-9.png";
+      
       public static const MAPS_ICONS_TANKMEN_ICONS_BIG_UK_1:String = "../maps/icons/tankmen/icons/big/uk-1.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_BIG_UK_10:String = "../maps/icons/tankmen/icons/big/uk-10.png";
@@ -3305,6 +3985,44 @@ package
       public static const MAPS_ICONS_TANKMEN_ICONS_BIG_UK_8:String = "../maps/icons/tankmen/icons/big/uk-8.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_BIG_UK_9:String = "../maps/icons/tankmen/icons/big/uk-9.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_UK_FEMALE_1:String = "../maps/icons/tankmen/icons/big/uk-female-1.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_UK_FEMALE_10:String = "../maps/icons/tankmen/icons/big/uk-female-10.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_UK_FEMALE_11:String = "../maps/icons/tankmen/icons/big/uk-female-11.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_UK_FEMALE_12:String = "../maps/icons/tankmen/icons/big/uk-female-12.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_UK_FEMALE_13:String = "../maps/icons/tankmen/icons/big/uk-female-13.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_UK_FEMALE_14:String = "../maps/icons/tankmen/icons/big/uk-female-14.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_UK_FEMALE_15:String = "../maps/icons/tankmen/icons/big/uk-female-15.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_UK_FEMALE_16:String = "../maps/icons/tankmen/icons/big/uk-female-16.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_UK_FEMALE_17:String = "../maps/icons/tankmen/icons/big/uk-female-17.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_UK_FEMALE_18:String = "../maps/icons/tankmen/icons/big/uk-female-18.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_UK_FEMALE_19:String = "../maps/icons/tankmen/icons/big/uk-female-19.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_UK_FEMALE_2:String = "../maps/icons/tankmen/icons/big/uk-female-2.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_UK_FEMALE_3:String = "../maps/icons/tankmen/icons/big/uk-female-3.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_UK_FEMALE_4:String = "../maps/icons/tankmen/icons/big/uk-female-4.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_UK_FEMALE_5:String = "../maps/icons/tankmen/icons/big/uk-female-5.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_UK_FEMALE_6:String = "../maps/icons/tankmen/icons/big/uk-female-6.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_UK_FEMALE_7:String = "../maps/icons/tankmen/icons/big/uk-female-7.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_UK_FEMALE_8:String = "../maps/icons/tankmen/icons/big/uk-female-8.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_UK_FEMALE_9:String = "../maps/icons/tankmen/icons/big/uk-female-9.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USA_1:String = "../maps/icons/tankmen/icons/big/usa-1.png";
       
@@ -3378,6 +4096,8 @@ package
       
       public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USA_41:String = "../maps/icons/tankmen/icons/big/usa-41.png";
       
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USA_42:String = "../maps/icons/tankmen/icons/big/usa-42.png";
+      
       public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USA_5:String = "../maps/icons/tankmen/icons/big/usa-5.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USA_6:String = "../maps/icons/tankmen/icons/big/usa-6.png";
@@ -3387,6 +4107,44 @@ package
       public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USA_8:String = "../maps/icons/tankmen/icons/big/usa-8.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USA_9:String = "../maps/icons/tankmen/icons/big/usa-9.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USA_FEMALE_1:String = "../maps/icons/tankmen/icons/big/usa-female-1.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USA_FEMALE_10:String = "../maps/icons/tankmen/icons/big/usa-female-10.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USA_FEMALE_11:String = "../maps/icons/tankmen/icons/big/usa-female-11.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USA_FEMALE_12:String = "../maps/icons/tankmen/icons/big/usa-female-12.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USA_FEMALE_13:String = "../maps/icons/tankmen/icons/big/usa-female-13.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USA_FEMALE_14:String = "../maps/icons/tankmen/icons/big/usa-female-14.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USA_FEMALE_15:String = "../maps/icons/tankmen/icons/big/usa-female-15.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USA_FEMALE_16:String = "../maps/icons/tankmen/icons/big/usa-female-16.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USA_FEMALE_17:String = "../maps/icons/tankmen/icons/big/usa-female-17.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USA_FEMALE_18:String = "../maps/icons/tankmen/icons/big/usa-female-18.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USA_FEMALE_19:String = "../maps/icons/tankmen/icons/big/usa-female-19.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USA_FEMALE_2:String = "../maps/icons/tankmen/icons/big/usa-female-2.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USA_FEMALE_3:String = "../maps/icons/tankmen/icons/big/usa-female-3.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USA_FEMALE_4:String = "../maps/icons/tankmen/icons/big/usa-female-4.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USA_FEMALE_5:String = "../maps/icons/tankmen/icons/big/usa-female-5.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USA_FEMALE_6:String = "../maps/icons/tankmen/icons/big/usa-female-6.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USA_FEMALE_7:String = "../maps/icons/tankmen/icons/big/usa-female-7.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USA_FEMALE_8:String = "../maps/icons/tankmen/icons/big/usa-female-8.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USA_FEMALE_9:String = "../maps/icons/tankmen/icons/big/usa-female-9.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USSR_1:String = "../maps/icons/tankmen/icons/big/ussr-1.png";
       
@@ -3436,6 +4194,8 @@ package
       
       public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USSR_30:String = "../maps/icons/tankmen/icons/big/ussr-30.png";
       
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USSR_31:String = "../maps/icons/tankmen/icons/big/ussr-31.png";
+      
       public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USSR_4:String = "../maps/icons/tankmen/icons/big/ussr-4.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USSR_5:String = "../maps/icons/tankmen/icons/big/ussr-5.png";
@@ -3447,6 +4207,44 @@ package
       public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USSR_8:String = "../maps/icons/tankmen/icons/big/ussr-8.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USSR_9:String = "../maps/icons/tankmen/icons/big/ussr-9.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USSR_FEMALE_1:String = "../maps/icons/tankmen/icons/big/ussr-female-1.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USSR_FEMALE_10:String = "../maps/icons/tankmen/icons/big/ussr-female-10.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USSR_FEMALE_11:String = "../maps/icons/tankmen/icons/big/ussr-female-11.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USSR_FEMALE_12:String = "../maps/icons/tankmen/icons/big/ussr-female-12.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USSR_FEMALE_13:String = "../maps/icons/tankmen/icons/big/ussr-female-13.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USSR_FEMALE_14:String = "../maps/icons/tankmen/icons/big/ussr-female-14.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USSR_FEMALE_15:String = "../maps/icons/tankmen/icons/big/ussr-female-15.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USSR_FEMALE_16:String = "../maps/icons/tankmen/icons/big/ussr-female-16.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USSR_FEMALE_17:String = "../maps/icons/tankmen/icons/big/ussr-female-17.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USSR_FEMALE_18:String = "../maps/icons/tankmen/icons/big/ussr-female-18.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USSR_FEMALE_19:String = "../maps/icons/tankmen/icons/big/ussr-female-19.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USSR_FEMALE_2:String = "../maps/icons/tankmen/icons/big/ussr-female-2.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USSR_FEMALE_3:String = "../maps/icons/tankmen/icons/big/ussr-female-3.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USSR_FEMALE_4:String = "../maps/icons/tankmen/icons/big/ussr-female-4.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USSR_FEMALE_5:String = "../maps/icons/tankmen/icons/big/ussr-female-5.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USSR_FEMALE_6:String = "../maps/icons/tankmen/icons/big/ussr-female-6.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USSR_FEMALE_7:String = "../maps/icons/tankmen/icons/big/ussr-female-7.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USSR_FEMALE_8:String = "../maps/icons/tankmen/icons/big/ussr-female-8.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_BIG_USSR_FEMALE_9:String = "../maps/icons/tankmen/icons/big/ussr-female-9.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_CHINA_1:String = "../maps/icons/tankmen/icons/small/china-1.png";
       
@@ -3487,6 +4285,30 @@ package
       public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_CHINA_8:String = "../maps/icons/tankmen/icons/small/china-8.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_CHINA_9:String = "../maps/icons/tankmen/icons/small/china-9.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_CHINA_FEMALE_1:String = "../maps/icons/tankmen/icons/small/china-female-1.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_CHINA_FEMALE_10:String = "../maps/icons/tankmen/icons/small/china-female-10.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_CHINA_FEMALE_11:String = "../maps/icons/tankmen/icons/small/china-female-11.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_CHINA_FEMALE_12:String = "../maps/icons/tankmen/icons/small/china-female-12.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_CHINA_FEMALE_2:String = "../maps/icons/tankmen/icons/small/china-female-2.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_CHINA_FEMALE_3:String = "../maps/icons/tankmen/icons/small/china-female-3.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_CHINA_FEMALE_4:String = "../maps/icons/tankmen/icons/small/china-female-4.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_CHINA_FEMALE_5:String = "../maps/icons/tankmen/icons/small/china-female-5.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_CHINA_FEMALE_6:String = "../maps/icons/tankmen/icons/small/china-female-6.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_CHINA_FEMALE_7:String = "../maps/icons/tankmen/icons/small/china-female-7.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_CHINA_FEMALE_8:String = "../maps/icons/tankmen/icons/small/china-female-8.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_CHINA_FEMALE_9:String = "../maps/icons/tankmen/icons/small/china-female-9.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_FRANCE_1:String = "../maps/icons/tankmen/icons/small/france-1.png";
       
@@ -3536,6 +4358,8 @@ package
       
       public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_FRANCE_30:String = "../maps/icons/tankmen/icons/small/france-30.png";
       
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_FRANCE_31:String = "../maps/icons/tankmen/icons/small/france-31.png";
+      
       public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_FRANCE_4:String = "../maps/icons/tankmen/icons/small/france-4.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_FRANCE_5:String = "../maps/icons/tankmen/icons/small/france-5.png";
@@ -3547,6 +4371,42 @@ package
       public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_FRANCE_8:String = "../maps/icons/tankmen/icons/small/france-8.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_FRANCE_9:String = "../maps/icons/tankmen/icons/small/france-9.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_FRANCE_FEMALE_1:String = "../maps/icons/tankmen/icons/small/france-female-1.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_FRANCE_FEMALE_10:String = "../maps/icons/tankmen/icons/small/france-female-10.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_FRANCE_FEMALE_11:String = "../maps/icons/tankmen/icons/small/france-female-11.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_FRANCE_FEMALE_12:String = "../maps/icons/tankmen/icons/small/france-female-12.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_FRANCE_FEMALE_13:String = "../maps/icons/tankmen/icons/small/france-female-13.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_FRANCE_FEMALE_14:String = "../maps/icons/tankmen/icons/small/france-female-14.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_FRANCE_FEMALE_15:String = "../maps/icons/tankmen/icons/small/france-female-15.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_FRANCE_FEMALE_16:String = "../maps/icons/tankmen/icons/small/france-female-16.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_FRANCE_FEMALE_17:String = "../maps/icons/tankmen/icons/small/france-female-17.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_FRANCE_FEMALE_18:String = "../maps/icons/tankmen/icons/small/france-female-18.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_FRANCE_FEMALE_2:String = "../maps/icons/tankmen/icons/small/france-female-2.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_FRANCE_FEMALE_3:String = "../maps/icons/tankmen/icons/small/france-female-3.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_FRANCE_FEMALE_4:String = "../maps/icons/tankmen/icons/small/france-female-4.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_FRANCE_FEMALE_5:String = "../maps/icons/tankmen/icons/small/france-female-5.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_FRANCE_FEMALE_6:String = "../maps/icons/tankmen/icons/small/france-female-6.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_FRANCE_FEMALE_7:String = "../maps/icons/tankmen/icons/small/france-female-7.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_FRANCE_FEMALE_8:String = "../maps/icons/tankmen/icons/small/france-female-8.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_FRANCE_FEMALE_9:String = "../maps/icons/tankmen/icons/small/france-female-9.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_GERMANY_1:String = "../maps/icons/tankmen/icons/small/germany-1.png";
       
@@ -3596,6 +4456,8 @@ package
       
       public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_GERMANY_30:String = "../maps/icons/tankmen/icons/small/germany-30.png";
       
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_GERMANY_31:String = "../maps/icons/tankmen/icons/small/germany-31.png";
+      
       public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_GERMANY_4:String = "../maps/icons/tankmen/icons/small/germany-4.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_GERMANY_5:String = "../maps/icons/tankmen/icons/small/germany-5.png";
@@ -3609,6 +4471,36 @@ package
       public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_GERMANY_9:String = "../maps/icons/tankmen/icons/small/germany-9.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_GERMANY_EMPTY:String = "../maps/icons/tankmen/icons/small/germany-empty.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_GERMANY_FEMALE_1:String = "../maps/icons/tankmen/icons/small/germany-female-1.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_GERMANY_FEMALE_10:String = "../maps/icons/tankmen/icons/small/germany-female-10.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_GERMANY_FEMALE_11:String = "../maps/icons/tankmen/icons/small/germany-female-11.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_GERMANY_FEMALE_12:String = "../maps/icons/tankmen/icons/small/germany-female-12.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_GERMANY_FEMALE_13:String = "../maps/icons/tankmen/icons/small/germany-female-13.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_GERMANY_FEMALE_14:String = "../maps/icons/tankmen/icons/small/germany-female-14.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_GERMANY_FEMALE_15:String = "../maps/icons/tankmen/icons/small/germany-female-15.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_GERMANY_FEMALE_2:String = "../maps/icons/tankmen/icons/small/germany-female-2.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_GERMANY_FEMALE_3:String = "../maps/icons/tankmen/icons/small/germany-female-3.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_GERMANY_FEMALE_4:String = "../maps/icons/tankmen/icons/small/germany-female-4.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_GERMANY_FEMALE_5:String = "../maps/icons/tankmen/icons/small/germany-female-5.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_GERMANY_FEMALE_6:String = "../maps/icons/tankmen/icons/small/germany-female-6.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_GERMANY_FEMALE_7:String = "../maps/icons/tankmen/icons/small/germany-female-7.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_GERMANY_FEMALE_8:String = "../maps/icons/tankmen/icons/small/germany-female-8.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_GERMANY_FEMALE_9:String = "../maps/icons/tankmen/icons/small/germany-female-9.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_JAPAN_1:String = "../maps/icons/tankmen/icons/small/japan-1.png";
       
@@ -3670,6 +4562,30 @@ package
       
       public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_JAPAN_9:String = "../maps/icons/tankmen/icons/small/japan-9.png";
       
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_JAPAN_FEMALE_1:String = "../maps/icons/tankmen/icons/small/japan-female-1.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_JAPAN_FEMALE_10:String = "../maps/icons/tankmen/icons/small/japan-female-10.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_JAPAN_FEMALE_11:String = "../maps/icons/tankmen/icons/small/japan-female-11.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_JAPAN_FEMALE_12:String = "../maps/icons/tankmen/icons/small/japan-female-12.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_JAPAN_FEMALE_2:String = "../maps/icons/tankmen/icons/small/japan-female-2.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_JAPAN_FEMALE_3:String = "../maps/icons/tankmen/icons/small/japan-female-3.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_JAPAN_FEMALE_4:String = "../maps/icons/tankmen/icons/small/japan-female-4.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_JAPAN_FEMALE_5:String = "../maps/icons/tankmen/icons/small/japan-female-5.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_JAPAN_FEMALE_6:String = "../maps/icons/tankmen/icons/small/japan-female-6.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_JAPAN_FEMALE_7:String = "../maps/icons/tankmen/icons/small/japan-female-7.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_JAPAN_FEMALE_8:String = "../maps/icons/tankmen/icons/small/japan-female-8.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_JAPAN_FEMALE_9:String = "../maps/icons/tankmen/icons/small/japan-female-9.png";
+      
       public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_UK_1:String = "../maps/icons/tankmen/icons/small/uk-1.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_UK_10:String = "../maps/icons/tankmen/icons/small/uk-10.png";
@@ -3729,6 +4645,44 @@ package
       public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_UK_8:String = "../maps/icons/tankmen/icons/small/uk-8.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_UK_9:String = "../maps/icons/tankmen/icons/small/uk-9.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_UK_FEMALE_1:String = "../maps/icons/tankmen/icons/small/uk-female-1.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_UK_FEMALE_10:String = "../maps/icons/tankmen/icons/small/uk-female-10.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_UK_FEMALE_11:String = "../maps/icons/tankmen/icons/small/uk-female-11.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_UK_FEMALE_12:String = "../maps/icons/tankmen/icons/small/uk-female-12.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_UK_FEMALE_13:String = "../maps/icons/tankmen/icons/small/uk-female-13.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_UK_FEMALE_14:String = "../maps/icons/tankmen/icons/small/uk-female-14.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_UK_FEMALE_15:String = "../maps/icons/tankmen/icons/small/uk-female-15.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_UK_FEMALE_16:String = "../maps/icons/tankmen/icons/small/uk-female-16.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_UK_FEMALE_17:String = "../maps/icons/tankmen/icons/small/uk-female-17.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_UK_FEMALE_18:String = "../maps/icons/tankmen/icons/small/uk-female-18.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_UK_FEMALE_19:String = "../maps/icons/tankmen/icons/small/uk-female-19.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_UK_FEMALE_2:String = "../maps/icons/tankmen/icons/small/uk-female-2.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_UK_FEMALE_3:String = "../maps/icons/tankmen/icons/small/uk-female-3.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_UK_FEMALE_4:String = "../maps/icons/tankmen/icons/small/uk-female-4.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_UK_FEMALE_5:String = "../maps/icons/tankmen/icons/small/uk-female-5.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_UK_FEMALE_6:String = "../maps/icons/tankmen/icons/small/uk-female-6.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_UK_FEMALE_7:String = "../maps/icons/tankmen/icons/small/uk-female-7.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_UK_FEMALE_8:String = "../maps/icons/tankmen/icons/small/uk-female-8.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_UK_FEMALE_9:String = "../maps/icons/tankmen/icons/small/uk-female-9.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USA_1:String = "../maps/icons/tankmen/icons/small/usa-1.png";
       
@@ -3802,6 +4756,8 @@ package
       
       public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USA_41:String = "../maps/icons/tankmen/icons/small/usa-41.png";
       
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USA_42:String = "../maps/icons/tankmen/icons/small/usa-42.png";
+      
       public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USA_5:String = "../maps/icons/tankmen/icons/small/usa-5.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USA_6:String = "../maps/icons/tankmen/icons/small/usa-6.png";
@@ -3811,6 +4767,44 @@ package
       public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USA_8:String = "../maps/icons/tankmen/icons/small/usa-8.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USA_9:String = "../maps/icons/tankmen/icons/small/usa-9.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USA_FEMALE_1:String = "../maps/icons/tankmen/icons/small/usa-female-1.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USA_FEMALE_10:String = "../maps/icons/tankmen/icons/small/usa-female-10.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USA_FEMALE_11:String = "../maps/icons/tankmen/icons/small/usa-female-11.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USA_FEMALE_12:String = "../maps/icons/tankmen/icons/small/usa-female-12.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USA_FEMALE_13:String = "../maps/icons/tankmen/icons/small/usa-female-13.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USA_FEMALE_14:String = "../maps/icons/tankmen/icons/small/usa-female-14.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USA_FEMALE_15:String = "../maps/icons/tankmen/icons/small/usa-female-15.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USA_FEMALE_16:String = "../maps/icons/tankmen/icons/small/usa-female-16.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USA_FEMALE_17:String = "../maps/icons/tankmen/icons/small/usa-female-17.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USA_FEMALE_18:String = "../maps/icons/tankmen/icons/small/usa-female-18.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USA_FEMALE_19:String = "../maps/icons/tankmen/icons/small/usa-female-19.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USA_FEMALE_2:String = "../maps/icons/tankmen/icons/small/usa-female-2.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USA_FEMALE_3:String = "../maps/icons/tankmen/icons/small/usa-female-3.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USA_FEMALE_4:String = "../maps/icons/tankmen/icons/small/usa-female-4.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USA_FEMALE_5:String = "../maps/icons/tankmen/icons/small/usa-female-5.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USA_FEMALE_6:String = "../maps/icons/tankmen/icons/small/usa-female-6.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USA_FEMALE_7:String = "../maps/icons/tankmen/icons/small/usa-female-7.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USA_FEMALE_8:String = "../maps/icons/tankmen/icons/small/usa-female-8.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USA_FEMALE_9:String = "../maps/icons/tankmen/icons/small/usa-female-9.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USSR_1:String = "../maps/icons/tankmen/icons/small/ussr-1.png";
       
@@ -3860,6 +4854,8 @@ package
       
       public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USSR_30:String = "../maps/icons/tankmen/icons/small/ussr-30.png";
       
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USSR_31:String = "../maps/icons/tankmen/icons/small/ussr-31.png";
+      
       public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USSR_4:String = "../maps/icons/tankmen/icons/small/ussr-4.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USSR_5:String = "../maps/icons/tankmen/icons/small/ussr-5.png";
@@ -3873,6 +4869,44 @@ package
       public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USSR_9:String = "../maps/icons/tankmen/icons/small/ussr-9.png";
       
       public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USSR_EMPTY:String = "../maps/icons/tankmen/icons/small/ussr-empty.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USSR_FEMALE_1:String = "../maps/icons/tankmen/icons/small/ussr-female-1.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USSR_FEMALE_10:String = "../maps/icons/tankmen/icons/small/ussr-female-10.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USSR_FEMALE_11:String = "../maps/icons/tankmen/icons/small/ussr-female-11.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USSR_FEMALE_12:String = "../maps/icons/tankmen/icons/small/ussr-female-12.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USSR_FEMALE_13:String = "../maps/icons/tankmen/icons/small/ussr-female-13.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USSR_FEMALE_14:String = "../maps/icons/tankmen/icons/small/ussr-female-14.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USSR_FEMALE_15:String = "../maps/icons/tankmen/icons/small/ussr-female-15.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USSR_FEMALE_16:String = "../maps/icons/tankmen/icons/small/ussr-female-16.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USSR_FEMALE_17:String = "../maps/icons/tankmen/icons/small/ussr-female-17.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USSR_FEMALE_18:String = "../maps/icons/tankmen/icons/small/ussr-female-18.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USSR_FEMALE_19:String = "../maps/icons/tankmen/icons/small/ussr-female-19.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USSR_FEMALE_2:String = "../maps/icons/tankmen/icons/small/ussr-female-2.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USSR_FEMALE_3:String = "../maps/icons/tankmen/icons/small/ussr-female-3.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USSR_FEMALE_4:String = "../maps/icons/tankmen/icons/small/ussr-female-4.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USSR_FEMALE_5:String = "../maps/icons/tankmen/icons/small/ussr-female-5.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USSR_FEMALE_6:String = "../maps/icons/tankmen/icons/small/ussr-female-6.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USSR_FEMALE_7:String = "../maps/icons/tankmen/icons/small/ussr-female-7.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USSR_FEMALE_8:String = "../maps/icons/tankmen/icons/small/ussr-female-8.png";
+      
+      public static const MAPS_ICONS_TANKMEN_ICONS_SMALL_USSR_FEMALE_9:String = "../maps/icons/tankmen/icons/small/ussr-female-9.png";
       
       public static const MAPS_ICONS_TANKMEN_RANKS_BIG_CHINA_1:String = "../maps/icons/tankmen/ranks/big/china-1.png";
       
@@ -4372,9 +5406,15 @@ package
       
       public static const MAPS_ICONS_VEHICLE_CHINA_CH11_110:String = "../maps/icons/vehicle/china-Ch11_110.png";
       
+      public static const MAPS_ICONS_VEHICLE_CHINA_CH11_110_IGR:String = "../maps/icons/vehicle/china-Ch11_110_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_CHINA_CH12_111_1_2_3:String = "../maps/icons/vehicle/china-Ch12_111_1_2_3.png";
       
+      public static const MAPS_ICONS_VEHICLE_CHINA_CH13_111_4_5:String = "../maps/icons/vehicle/china-Ch13_111_4_5.png";
+      
       public static const MAPS_ICONS_VEHICLE_CHINA_CH14_T34_3:String = "../maps/icons/vehicle/china-Ch14_T34_3.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CHINA_CH14_T34_3_IGR:String = "../maps/icons/vehicle/china-Ch14_T34_3_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_CHINA_CH15_59_16:String = "../maps/icons/vehicle/china-Ch15_59_16.png";
       
@@ -4382,9 +5422,13 @@ package
       
       public static const MAPS_ICONS_VEHICLE_CHINA_CH17_WZ131_1_WZ132:String = "../maps/icons/vehicle/china-Ch17_WZ131_1_WZ132.png";
       
+      public static const MAPS_ICONS_VEHICLE_CHINA_CH17_WZ131_1_WZ132_IGR:String = "../maps/icons/vehicle/china-Ch17_WZ131_1_WZ132_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_CHINA_CH18_WZ_120:String = "../maps/icons/vehicle/china-Ch18_WZ-120.png";
       
       public static const MAPS_ICONS_VEHICLE_CHINA_CH19_121:String = "../maps/icons/vehicle/china-Ch19_121.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CHINA_CH19_121_IGR:String = "../maps/icons/vehicle/china-Ch19_121_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_CHINA_CH20_TYPE58:String = "../maps/icons/vehicle/china-Ch20_Type58.png";
       
@@ -4422,9 +5466,15 @@ package
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_CHINA_CH11_110:String = "../maps/icons/vehicle/contour/china-Ch11_110.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_CHINA_CH11_110_IGR:String = "../maps/icons/vehicle/contour/china-Ch11_110_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_CHINA_CH12_111_1_2_3:String = "../maps/icons/vehicle/contour/china-Ch12_111_1_2_3.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_CHINA_CH13_111_4_5:String = "../maps/icons/vehicle/contour/china-Ch13_111_4_5.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_CHINA_CH14_T34_3:String = "../maps/icons/vehicle/contour/china-Ch14_T34_3.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_CHINA_CH14_T34_3_IGR:String = "../maps/icons/vehicle/contour/china-Ch14_T34_3_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_CHINA_CH15_59_16:String = "../maps/icons/vehicle/contour/china-Ch15_59_16.png";
       
@@ -4432,9 +5482,13 @@ package
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_CHINA_CH17_WZ131_1_WZ132:String = "../maps/icons/vehicle/contour/china-Ch17_WZ131_1_WZ132.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_CHINA_CH17_WZ131_1_WZ132_IGR:String = "../maps/icons/vehicle/contour/china-Ch17_WZ131_1_WZ132_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_CHINA_CH18_WZ_120:String = "../maps/icons/vehicle/contour/china-Ch18_WZ-120.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_CHINA_CH19_121:String = "../maps/icons/vehicle/contour/china-Ch19_121.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_CHINA_CH19_121_IGR:String = "../maps/icons/vehicle/contour/china-Ch19_121_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_CHINA_CH20_TYPE58:String = "../maps/icons/vehicle/contour/china-Ch20_Type58.png";
       
@@ -4445,6 +5499,14 @@ package
       public static const MAPS_ICONS_VEHICLE_CONTOUR_CHINA_CH23_112:String = "../maps/icons/vehicle/contour/china-Ch23_112.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_CHINA_CH24_TYPE64:String = "../maps/icons/vehicle/contour/china-Ch24_Type64.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_ACL135:String = "../maps/icons/vehicle/contour/france-ACL135.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_AMC_35:String = "../maps/icons/vehicle/contour/france-AMC_35.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_AMR_35:String = "../maps/icons/vehicle/contour/france-AMR_35.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_AMR_P103:String = "../maps/icons/vehicle/contour/france-AMR_P103.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_AMX38:String = "../maps/icons/vehicle/contour/france-AMX38.png";
       
@@ -4458,23 +5520,39 @@ package
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_AMX_13F3AM:String = "../maps/icons/vehicle/contour/france-AMX_13F3AM.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_AMX_13F3AM_IGR:String = "../maps/icons/vehicle/contour/france-AMX_13F3AM_IGR.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_AMX_13FL11:String = "../maps/icons/vehicle/contour/france-AMX_13FL11.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_AMX_13_75:String = "../maps/icons/vehicle/contour/france-AMX_13_75.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_AMX_13_90:String = "../maps/icons/vehicle/contour/france-AMX_13_90.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_AMX_13_90_IGR:String = "../maps/icons/vehicle/contour/france-AMX_13_90_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_AMX_50FOSH_155:String = "../maps/icons/vehicle/contour/france-AMX_50Fosh_155.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_AMX_50_100:String = "../maps/icons/vehicle/contour/france-AMX_50_100.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_AMX_50_100_IGR:String = "../maps/icons/vehicle/contour/france-AMX_50_100_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_AMX_50_120:String = "../maps/icons/vehicle/contour/france-AMX_50_120.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_AMX_65T:String = "../maps/icons/vehicle/contour/france-AMX_65t.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_AMX_AC_MLE1946:String = "../maps/icons/vehicle/contour/france-AMX_AC_Mle1946.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_AMX_AC_MLE1948:String = "../maps/icons/vehicle/contour/france-AMX_AC_Mle1948.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_AMX_AC_MLE1948_IGR:String = "../maps/icons/vehicle/contour/france-AMX_AC_Mle1948_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_AMX_M4_1945:String = "../maps/icons/vehicle/contour/france-AMX_M4_1945.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_AMX_M4_1948:String = "../maps/icons/vehicle/contour/france-AMX_M4_1948.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_AMX_OB_AM105:String = "../maps/icons/vehicle/contour/france-AMX_Ob_Am105.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_AMX_TRACTEURC40:String = "../maps/icons/vehicle/contour/france-AMX_TracteurC40.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_ARL_44:String = "../maps/icons/vehicle/contour/france-ARL_44.png";
       
@@ -4490,27 +5568,57 @@ package
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_BAT_CHATILLON25T:String = "../maps/icons/vehicle/contour/france-Bat_Chatillon25t.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_BAT_CHATILLON25T_IGR:String = "../maps/icons/vehicle/contour/france-Bat_Chatillon25t_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_D1:String = "../maps/icons/vehicle/contour/france-D1.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_D2:String = "../maps/icons/vehicle/contour/france-D2.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_ELC_AMX:String = "../maps/icons/vehicle/contour/france-ELC_AMX.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_ELC_AMX_IGR:String = "../maps/icons/vehicle/contour/france-ELC_AMX_IGR.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_F00_AMX_50FOCH_155:String = "../maps/icons/vehicle/contour/france-F00_AMX_50Foch_155.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_F10_AMX_50B:String = "../maps/icons/vehicle/contour/france-F10_AMX_50B.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_F68_AMX_CHASSEUR_DE_CHAR_46:String = "../maps/icons/vehicle/contour/france-F68_AMX_Chasseur_de_char_46.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_F69_AMX13_57_100:String = "../maps/icons/vehicle/contour/france-F69_AMX13_57_100.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_FCM2C:String = "../maps/icons/vehicle/contour/france-FCM2C.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_FCM_36PAK40:String = "../maps/icons/vehicle/contour/france-FCM_36Pak40.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_FCM_50T:String = "../maps/icons/vehicle/contour/france-FCM_50t.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_FCM_50T_IGR:String = "../maps/icons/vehicle/contour/france-FCM_50t_IGR.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_FCM_F1:String = "../maps/icons/vehicle/contour/france-FCM_F1.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_G1L:String = "../maps/icons/vehicle/contour/france-G1L.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_HOTCHKISS_H35:String = "../maps/icons/vehicle/contour/france-Hotchkiss_H35.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_L6_40_CAPTURED:String = "../maps/icons/vehicle/contour/france-L6_40_captured.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_LORRAINE155_50:String = "../maps/icons/vehicle/contour/france-Lorraine155_50.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_LORRAINE155_51:String = "../maps/icons/vehicle/contour/france-Lorraine155_51.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_LORRAINE37_L_AC:String = "../maps/icons/vehicle/contour/france-Lorraine37_L_AC.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_LORRAINE39_L_AM:String = "../maps/icons/vehicle/contour/france-Lorraine39_L_AM.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_LORRAINE40T:String = "../maps/icons/vehicle/contour/france-Lorraine40t.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_M15_42_CAPTURED:String = "../maps/icons/vehicle/contour/france-M15_42_captured.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_P40_CAPTURED:String = "../maps/icons/vehicle/contour/france-P40_captured.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_PANZERJAGER35R:String = "../maps/icons/vehicle/contour/france-Panzerjager35R.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_PONIATOWSKIG1P:String = "../maps/icons/vehicle/contour/france-PoniatowskiG1P.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_RENAULTBS:String = "../maps/icons/vehicle/contour/france-RenaultBS.png";
       
@@ -4518,27 +5626,49 @@ package
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_RENAULTFT_AC:String = "../maps/icons/vehicle/contour/france-RenaultFT_AC.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_RENAULTR35:String = "../maps/icons/vehicle/contour/france-RenaultR35.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_RENAULTUE57:String = "../maps/icons/vehicle/contour/france-RenaultUE57.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_RENAULT_G1R:String = "../maps/icons/vehicle/contour/france-Renault_G1R.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_S_35CA:String = "../maps/icons/vehicle/contour/france-S_35CA.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_S_35CA_IGR:String = "../maps/icons/vehicle/contour/france-S_35CA_IGR.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_SOMUA_S35:String = "../maps/icons/vehicle/contour/france-Somua_S35.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_SOMUA_SAU_40:String = "../maps/icons/vehicle/contour/france-Somua_Sau_40.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_105_LEFH18B2:String = "../maps/icons/vehicle/contour/france-_105_leFH18B2.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_105_LEFH18B2_IGR:String = "../maps/icons/vehicle/contour/france-_105_leFH18B2_IGR.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_28_32PZ38HF:String = "../maps/icons/vehicle/contour/france-_28_32Pz38Hf.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_FRANCE_2CBIS:String = "../maps/icons/vehicle/contour/france-_2CBis.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_AUF_PANTHER:String = "../maps/icons/vehicle/contour/germany-Auf_Panther.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_B_1BIS_CAPTURED:String = "../maps/icons/vehicle/contour/germany-B-1bis_captured.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_BW_RH:String = "../maps/icons/vehicle/contour/germany-BW_Rh.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_BISON_I:String = "../maps/icons/vehicle/contour/germany-Bison_I.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_BRUMMBAR:String = "../maps/icons/vehicle/contour/germany-Brummbar.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_DW_II:String = "../maps/icons/vehicle/contour/germany-DW_II.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_DICKERMAX:String = "../maps/icons/vehicle/contour/germany-DickerMax.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_E_10:String = "../maps/icons/vehicle/contour/germany-E-10.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_E_100:String = "../maps/icons/vehicle/contour/germany-E-100.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_E_25:String = "../maps/icons/vehicle/contour/germany-E-25.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_E_25_IGR:String = "../maps/icons/vehicle/contour/germany-E-25_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_E_50:String = "../maps/icons/vehicle/contour/germany-E-50.png";
       
@@ -4547,6 +5677,10 @@ package
       public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_E50_AUSF_M:String = "../maps/icons/vehicle/contour/germany-E50_Ausf_M.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_FERDINAND:String = "../maps/icons/vehicle/contour/germany-Ferdinand.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_FERDINAND_IGR:String = "../maps/icons/vehicle/contour/germany-Ferdinand_IGR.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_G04_PZVI_TIGER_IA:String = "../maps/icons/vehicle/contour/germany-G04_PzVI_Tiger_IA.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_G100_GTRAKTOR_KRUPP:String = "../maps/icons/vehicle/contour/germany-G100_Gtraktor_Krupp.png";
       
@@ -4576,6 +5710,8 @@ package
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_GRILLE:String = "../maps/icons/vehicle/contour/germany-Grille.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_GRILLE_IGR:String = "../maps/icons/vehicle/contour/germany-Grille_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_H39_CAPTURED:String = "../maps/icons/vehicle/contour/germany-H39_captured.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_HETZER:String = "../maps/icons/vehicle/contour/germany-Hetzer.png";
@@ -4596,6 +5732,8 @@ package
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_JAGDTIGER_SDKFZ_185:String = "../maps/icons/vehicle/contour/germany-JagdTiger_SdKfz_185.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_JAGDTIGER_SDKFZ_185_IGR:String = "../maps/icons/vehicle/contour/germany-JagdTiger_SdKfz_185_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_LEOPARD1:String = "../maps/icons/vehicle/contour/germany-Leopard1.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_LOWE:String = "../maps/icons/vehicle/contour/germany-Lowe.png";
@@ -4606,9 +5744,15 @@ package
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_MAUS:String = "../maps/icons/vehicle/contour/germany-Maus.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_MAUS_IGR:String = "../maps/icons/vehicle/contour/germany-Maus_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_NASHORN:String = "../maps/icons/vehicle/contour/germany-Nashorn.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_NBFZ:String = "../maps/icons/vehicle/contour/germany-NbFz.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_PANTHER_II:String = "../maps/icons/vehicle/contour/germany-Panther_II.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_PANTHER_II_IGR:String = "../maps/icons/vehicle/contour/germany-Panther_II_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_PANTHER_M10:String = "../maps/icons/vehicle/contour/germany-Panther_M10.png";
       
@@ -4652,9 +5796,15 @@ package
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_PZVIB_TIGER_II:String = "../maps/icons/vehicle/contour/germany-PzVIB_Tiger_II.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_PZVIB_TIGER_II_IGR:String = "../maps/icons/vehicle/contour/germany-PzVIB_Tiger_II_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_PZVIB_TIGER_II_TRAINING:String = "../maps/icons/vehicle/contour/germany-PzVIB_Tiger_II_training.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_PZVI_IGR:String = "../maps/icons/vehicle/contour/germany-PzVI_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_PZVI_TIGER_P:String = "../maps/icons/vehicle/contour/germany-PzVI_Tiger_P.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_PZV_IGR:String = "../maps/icons/vehicle/contour/germany-PzV_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_PZV_PZIV:String = "../maps/icons/vehicle/contour/germany-PzV_PzIV.png";
       
@@ -4662,13 +5812,21 @@ package
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_PZV_TRAINING:String = "../maps/icons/vehicle/contour/germany-PzV_training.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_PZ_BT742:String = "../maps/icons/vehicle/contour/germany-Pz_BT742.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_PZ_II_AUSFG:String = "../maps/icons/vehicle/contour/germany-Pz_II_AusfG.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_PZ_IV_AUSFA:String = "../maps/icons/vehicle/contour/germany-Pz_IV_AusfA.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_PZ_IV_AUSFD:String = "../maps/icons/vehicle/contour/germany-Pz_IV_AusfD.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_PZ_IV_AUSFGH:String = "../maps/icons/vehicle/contour/germany-Pz_IV_AusfGH.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_PZ_IV_AUSFH:String = "../maps/icons/vehicle/contour/germany-Pz_IV_AusfH.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_PZ_IV_AUSFH_IGR:String = "../maps/icons/vehicle/contour/germany-Pz_IV_AusfH_IGR.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_PZ_KV_1_756:String = "../maps/icons/vehicle/contour/germany-Pz_KV-1_756.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_PZ_SFL_IVB:String = "../maps/icons/vehicle/contour/germany-Pz_Sfl_IVb.png";
       
@@ -4676,9 +5834,13 @@ package
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_RHB_WAFFENTRAGER:String = "../maps/icons/vehicle/contour/germany-RhB_Waffentrager.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_ROKET_STURMTIGER:String = "../maps/icons/vehicle/contour/germany-Roket_Sturmtiger.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_S35_CAPTURED:String = "../maps/icons/vehicle/contour/germany-S35_captured.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_STUG_40_AUSFG:String = "../maps/icons/vehicle/contour/germany-StuG_40_AusfG.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_STUG_40_AUSFG_IGR:String = "../maps/icons/vehicle/contour/germany-StuG_40_AusfG_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_STURER_EMIL:String = "../maps/icons/vehicle/contour/germany-Sturer_Emil.png";
       
@@ -4706,17 +5868,23 @@ package
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_VK3601H:String = "../maps/icons/vehicle/contour/germany-VK3601H.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_VK3601H_IGR:String = "../maps/icons/vehicle/contour/germany-VK3601H_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_VK4502A:String = "../maps/icons/vehicle/contour/germany-VK4502A.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_VK4502P:String = "../maps/icons/vehicle/contour/germany-VK4502P.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_VK7201:String = "../maps/icons/vehicle/contour/germany-VK7201.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_VICKERS_TYPEB:String = "../maps/icons/vehicle/contour/germany-Vickers_typeB.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_WAFFENTRAGER_E100:String = "../maps/icons/vehicle/contour/germany-Waffentrager_E100.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_WAFFENTRAGER_IV:String = "../maps/icons/vehicle/contour/germany-Waffentrager_IV.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_WESPE:String = "../maps/icons/vehicle/contour/germany-Wespe.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_GERMANY_E50_AUSF_M_:String = "../maps/icons/vehicle/contour/germany_E50_Ausf.M.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_JAPAN_CHI_HA:String = "../maps/icons/vehicle/contour/japan-Chi_Ha.png";
       
@@ -4728,11 +5896,17 @@ package
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_JAPAN_CHI_NU_KAI:String = "../maps/icons/vehicle/contour/japan-Chi_Nu_Kai.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_JAPAN_CHI_NU_KAI_IGR:String = "../maps/icons/vehicle/contour/japan-Chi_Nu_Kai_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_JAPAN_CHI_RI:String = "../maps/icons/vehicle/contour/japan-Chi_Ri.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_JAPAN_CHI_RI_IGR:String = "../maps/icons/vehicle/contour/japan-Chi_Ri_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_JAPAN_CHI_TO:String = "../maps/icons/vehicle/contour/japan-Chi_To.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_JAPAN_HA_GO:String = "../maps/icons/vehicle/contour/japan-Ha_go.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_JAPAN_J18_STA_2_3:String = "../maps/icons/vehicle/contour/japan-J18_STA_2_3.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_JAPAN_KE_HO:String = "../maps/icons/vehicle/contour/japan-Ke_Ho.png";
       
@@ -4744,7 +5918,11 @@ package
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_JAPAN_STA_1:String = "../maps/icons/vehicle/contour/japan-STA_1.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_JAPAN_STA_1_IGR:String = "../maps/icons/vehicle/contour/japan-STA_1_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_JAPAN_ST_B1:String = "../maps/icons/vehicle/contour/japan-ST_B1.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_JAPAN_ST_B1_IGR:String = "../maps/icons/vehicle/contour/japan-ST_B1_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_JAPAN_TE_KE:String = "../maps/icons/vehicle/contour/japan-Te_Ke.png";
       
@@ -4753,6 +5931,8 @@ package
       public static const MAPS_ICONS_VEHICLE_CONTOUR_NOIMAGE:String = "../maps/icons/vehicle/contour/noImage.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB01_MEDIUM_MARK_I:String = "../maps/icons/vehicle/contour/uk-GB01_Medium_Mark_I.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB02_A7:String = "../maps/icons/vehicle/contour/uk-GB02_A7.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB03_CRUISER_MK_I:String = "../maps/icons/vehicle/contour/uk-GB03_Cruiser_Mk_I.png";
       
@@ -4766,21 +5946,43 @@ package
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB08_CHURCHILL_I:String = "../maps/icons/vehicle/contour/uk-GB08_Churchill_I.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB08_CHURCHILL_I_IGR:String = "../maps/icons/vehicle/contour/uk-GB08_Churchill_I_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB10_BLACK_PRINCE:String = "../maps/icons/vehicle/contour/uk-GB10_Black_Prince.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB11_CAERNARVON:String = "../maps/icons/vehicle/contour/uk-GB11_Caernarvon.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB11_CAERNARVON_IGR:String = "../maps/icons/vehicle/contour/uk-GB11_Caernarvon_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB12_CONQUEROR:String = "../maps/icons/vehicle/contour/uk-GB12_Conqueror.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB13_FV215B:String = "../maps/icons/vehicle/contour/uk-GB13_FV215b.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB13_FV215B_IGR:String = "../maps/icons/vehicle/contour/uk-GB13_FV215b_IGR.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB14_M2:String = "../maps/icons/vehicle/contour/uk-GB14_M2.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB15_STUART_I:String = "../maps/icons/vehicle/contour/uk-GB15_Stuart_I.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB16_STUART_VI:String = "../maps/icons/vehicle/contour/uk-GB16_Stuart_VI.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB17_GRANT_I:String = "../maps/icons/vehicle/contour/uk-GB17_Grant_I.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB18_SHERMAN_II:String = "../maps/icons/vehicle/contour/uk-GB18_Sherman_II.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB19_SHERMAN_FIREFLY:String = "../maps/icons/vehicle/contour/uk-GB19_Sherman_Firefly.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB20_CRUSADER:String = "../maps/icons/vehicle/contour/uk-GB20_Crusader.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB21_CROMWELL:String = "../maps/icons/vehicle/contour/uk-GB21_Cromwell.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB21_CROMWELL_IGR:String = "../maps/icons/vehicle/contour/uk-GB21_Cromwell_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB22_COMET:String = "../maps/icons/vehicle/contour/uk-GB22_Comet.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB23_CENTURION:String = "../maps/icons/vehicle/contour/uk-GB23_Centurion.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB23_CENTURION_IGR:String = "../maps/icons/vehicle/contour/uk-GB23_Centurion_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB24_CENTURION_MK3:String = "../maps/icons/vehicle/contour/uk-GB24_Centurion_Mk3.png";
       
@@ -4800,15 +6002,37 @@ package
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB32_TORTOISE:String = "../maps/icons/vehicle/contour/uk-GB32_Tortoise.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB33_SENTINEL_AC_I:String = "../maps/icons/vehicle/contour/uk-GB33_Sentinel_AC_I.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB34_RAM:String = "../maps/icons/vehicle/contour/uk-GB34_RAM.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB35_SENTINEL_AC_IV:String = "../maps/icons/vehicle/contour/uk-GB35_Sentinel_AC_IV.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB36_MATILDA_I:String = "../maps/icons/vehicle/contour/uk-GB36_Matilda_I.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB37_VALLIANT:String = "../maps/icons/vehicle/contour/uk-GB37_Valliant.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB39_UNIVERSAL_CARRIERQF2:String = "../maps/icons/vehicle/contour/uk-GB39_Universal_CarrierQF2.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB40_GUN_CARRIER_CHURCHILL:String = "../maps/icons/vehicle/contour/uk-GB40_Gun_Carrier_Churchill.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB41_CHALLENGER:String = "../maps/icons/vehicle/contour/uk-GB41_Challenger.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB42_VALENTINE_AT:String = "../maps/icons/vehicle/contour/uk-GB42_Valentine_AT.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB44_ARCHER:String = "../maps/icons/vehicle/contour/uk-GB44_Archer.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB45_ACHILLES_IIC:String = "../maps/icons/vehicle/contour/uk-GB45_Achilles_IIC.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB48_FV215B_183:String = "../maps/icons/vehicle/contour/uk-GB48_FV215b_183.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB50_SHERMAN_III:String = "../maps/icons/vehicle/contour/uk-GB50_Sherman_III.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB51_EXCELSIOR:String = "../maps/icons/vehicle/contour/uk-GB51_Excelsior.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB51_EXCELSIOR_IGR:String = "../maps/icons/vehicle/contour/uk-GB51_Excelsior_IGR.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB52_A45:String = "../maps/icons/vehicle/contour/uk-GB52_A45.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB57_ALECTO:String = "../maps/icons/vehicle/contour/uk-GB57_Alecto.png";
       
@@ -4826,9 +6050,15 @@ package
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB70_FV4202_105:String = "../maps/icons/vehicle/contour/uk-GB70_FV4202_105.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB70_N_FV4202_105:String = "../maps/icons/vehicle/contour/uk-GB70_N_FV4202_105.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB71_AT_15A:String = "../maps/icons/vehicle/contour/uk-GB71_AT_15A.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB71_AT_15A_IGR:String = "../maps/icons/vehicle/contour/uk-GB71_AT_15A_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB72_AT15:String = "../maps/icons/vehicle/contour/uk-GB72_AT15.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB72_AT15_IGR:String = "../maps/icons/vehicle/contour/uk-GB72_AT15_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB73_AT2:String = "../maps/icons/vehicle/contour/uk-GB73_AT2.png";
       
@@ -4840,11 +6070,21 @@ package
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB77_FV304:String = "../maps/icons/vehicle/contour/uk-GB77_FV304.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB77_FV304_IGR:String = "../maps/icons/vehicle/contour/uk-GB77_FV304_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB78_SEXTON_I:String = "../maps/icons/vehicle/contour/uk-GB78_Sexton_I.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB79_FV206:String = "../maps/icons/vehicle/contour/uk-GB79_FV206.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB80_CHARIOTEER:String = "../maps/icons/vehicle/contour/uk-GB80_Charioteer.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB81_FV4004:String = "../maps/icons/vehicle/contour/uk-GB81_FV4004.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_UK_GB83_FV4005:String = "../maps/icons/vehicle/contour/uk-GB83_FV4005.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_UNKNOWN:String = "../maps/icons/vehicle/contour/unknown.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_A00_T110E5:String = "../maps/icons/vehicle/contour/usa-A00_T110E5.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_A101_M56:String = "../maps/icons/vehicle/contour/usa-A101_M56.png";
       
@@ -4852,9 +6092,21 @@ package
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_A104_M4A3E8A:String = "../maps/icons/vehicle/contour/usa-A104_M4A3E8A.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_A78_M4_IMPROVED:String = "../maps/icons/vehicle/contour/usa-A78_M4_Improved.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_A94_T37:String = "../maps/icons/vehicle/contour/usa-A94_T37.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_A97_M41_BULLDOG:String = "../maps/icons/vehicle/contour/usa-A97_M41_Bulldog.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_CHI_RI:String = "../maps/icons/vehicle/contour/usa-Chi_Ri.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_HA_GO:String = "../maps/icons/vehicle/contour/usa-Ha_go.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_M103:String = "../maps/icons/vehicle/contour/usa-M103.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_M10_WOLVERINE:String = "../maps/icons/vehicle/contour/usa-M10_Wolverine.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_M10_WOLVERINE_IGR:String = "../maps/icons/vehicle/contour/usa-M10_Wolverine_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_M12:String = "../maps/icons/vehicle/contour/usa-M12.png";
       
@@ -4872,6 +6124,8 @@ package
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_M37:String = "../maps/icons/vehicle/contour/usa-M37.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_M3_A3:String = "../maps/icons/vehicle/contour/usa-M3_A3.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_M3_GRANT:String = "../maps/icons/vehicle/contour/usa-M3_Grant.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_M3_STUART:String = "../maps/icons/vehicle/contour/usa-M3_Stuart.png";
@@ -4884,15 +6138,27 @@ package
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_M44:String = "../maps/icons/vehicle/contour/usa-M44.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_M44_IGR:String = "../maps/icons/vehicle/contour/usa-M44_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_M46_PATTON:String = "../maps/icons/vehicle/contour/usa-M46_Patton.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_M48A1:String = "../maps/icons/vehicle/contour/usa-M48A1.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_M48A1_IGR:String = "../maps/icons/vehicle/contour/usa-M48A1_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_M4A2E4:String = "../maps/icons/vehicle/contour/usa-M4A2E4.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_M4A2_USMC:String = "../maps/icons/vehicle/contour/usa-M4A2_USMC.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_M4A3E8_SHERMAN:String = "../maps/icons/vehicle/contour/usa-M4A3E8_Sherman.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_M4_90V:String = "../maps/icons/vehicle/contour/usa-M4_90V.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_M4_IMPROVED:String = "../maps/icons/vehicle/contour/usa-M4_Improved.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_M4_SHERMAN:String = "../maps/icons/vehicle/contour/usa-M4_Sherman.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_M4_SHERMAN_IGR:String = "../maps/icons/vehicle/contour/usa-M4_Sherman_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_M53_55:String = "../maps/icons/vehicle/contour/usa-M53_55.png";
       
@@ -4912,11 +6178,23 @@ package
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_MTLS_1G14:String = "../maps/icons/vehicle/contour/usa-MTLS-1G14.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_MKVIII:String = "../maps/icons/vehicle/contour/usa-MkVIII.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_PERSHING:String = "../maps/icons/vehicle/contour/usa-Pershing.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_PERSHING_IGR:String = "../maps/icons/vehicle/contour/usa-Pershing_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_RAM_II:String = "../maps/icons/vehicle/contour/usa-Ram-II.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_RAM_II_IGR:String = "../maps/icons/vehicle/contour/usa-Ram-II_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_SHERMAN_JUMBO:String = "../maps/icons/vehicle/contour/usa-Sherman_Jumbo.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_SHERMAN_JUMBO_IGR:String = "../maps/icons/vehicle/contour/usa-Sherman_Jumbo_IGR.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_SHINHOTO_CHI_HA:String = "../maps/icons/vehicle/contour/usa-Shinhoto_Chi-Ha.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_SUPERHELLCAT:String = "../maps/icons/vehicle/contour/usa-SuperHellcat.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_T110:String = "../maps/icons/vehicle/contour/usa-T110.png";
       
@@ -4932,6 +6210,8 @@ package
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_T1_E6:String = "../maps/icons/vehicle/contour/usa-T1_E6.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_T1_M1921:String = "../maps/icons/vehicle/contour/usa-T1_M1921.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_T1_HVY:String = "../maps/icons/vehicle/contour/usa-T1_hvy.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_T20:String = "../maps/icons/vehicle/contour/usa-T20.png";
@@ -4939,6 +6219,8 @@ package
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_T21:String = "../maps/icons/vehicle/contour/usa-T21.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_T23E3:String = "../maps/icons/vehicle/contour/usa-T23E3.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_T24:String = "../maps/icons/vehicle/contour/usa-T24.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_T25_2:String = "../maps/icons/vehicle/contour/usa-T25_2.png";
       
@@ -4952,15 +6234,23 @@ package
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_T29:String = "../maps/icons/vehicle/contour/usa-T29.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_T29_IGR:String = "../maps/icons/vehicle/contour/usa-T29_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_T2_LT:String = "../maps/icons/vehicle/contour/usa-T2_lt.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_T2_MED:String = "../maps/icons/vehicle/contour/usa-T2_med.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_T3:String = "../maps/icons/vehicle/contour/usa-T3.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_T30:String = "../maps/icons/vehicle/contour/usa-T30.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_T31:String = "../maps/icons/vehicle/contour/usa-T31.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_T32:String = "../maps/icons/vehicle/contour/usa-T32.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_T34_HVY:String = "../maps/icons/vehicle/contour/usa-T34_hvy.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_T34_HVY_IGR:String = "../maps/icons/vehicle/contour/usa-T34_hvy_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_T40:String = "../maps/icons/vehicle/contour/usa-T40.png";
       
@@ -4968,27 +6258,47 @@ package
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_T54E1:String = "../maps/icons/vehicle/contour/usa-T54E1.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_T54_E2:String = "../maps/icons/vehicle/contour/usa-T54_E2.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_T57:String = "../maps/icons/vehicle/contour/usa-T57.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_T57_58:String = "../maps/icons/vehicle/contour/usa-T57_58.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_T67:String = "../maps/icons/vehicle/contour/usa-T67.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_T67_IGR:String = "../maps/icons/vehicle/contour/usa-T67_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_T69:String = "../maps/icons/vehicle/contour/usa-T69.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_T69_IGR:String = "../maps/icons/vehicle/contour/usa-T69_IGR.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_T6_M:String = "../maps/icons/vehicle/contour/usa-T6_M.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_T71:String = "../maps/icons/vehicle/contour/usa-T71.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_T71_IGR:String = "../maps/icons/vehicle/contour/usa-T71_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_T7_COMBAT_CAR:String = "../maps/icons/vehicle/contour/usa-T7_Combat_Car.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_T82:String = "../maps/icons/vehicle/contour/usa-T82.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_T88:String = "../maps/icons/vehicle/contour/usa-T88.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_T92:String = "../maps/icons/vehicle/contour/usa-T92.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_T92_LT:String = "../maps/icons/vehicle/contour/usa-T92_LT.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_T95:String = "../maps/icons/vehicle/contour/usa-T95.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_T95_E2:String = "../maps/icons/vehicle/contour/usa-T95_E2.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_T95_E6:String = "../maps/icons/vehicle/contour/usa-T95_E6.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_T95_E7:String = "../maps/icons/vehicle/contour/usa-T95_E7.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USA_T96:String = "../maps/icons/vehicle/contour/usa-T96.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_62A:String = "../maps/icons/vehicle/contour/ussr-62A.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_A_20:String = "../maps/icons/vehicle/contour/ussr-A-20.png";
       
@@ -5010,11 +6320,17 @@ package
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_GAZ_74B:String = "../maps/icons/vehicle/contour/ussr-GAZ-74b.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_GAZ75:String = "../maps/icons/vehicle/contour/ussr-GAZ75.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_IS_3:String = "../maps/icons/vehicle/contour/ussr-IS-3.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_IS_3_IGR:String = "../maps/icons/vehicle/contour/ussr-IS-3_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_IS_4:String = "../maps/icons/vehicle/contour/ussr-IS-4.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_IS_7:String = "../maps/icons/vehicle/contour/ussr-IS-7.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_IS_7_IGR:String = "../maps/icons/vehicle/contour/ussr-IS-7_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_IS:String = "../maps/icons/vehicle/contour/ussr-IS.png";
       
@@ -5022,9 +6338,15 @@ package
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_ISU_152:String = "../maps/icons/vehicle/contour/ussr-ISU-152.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_ISU_152_IGR:String = "../maps/icons/vehicle/contour/ussr-ISU-152_IGR.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_IT45:String = "../maps/icons/vehicle/contour/ussr-IT45.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_KV_13:String = "../maps/icons/vehicle/contour/ussr-KV-13.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_KV_1S:String = "../maps/icons/vehicle/contour/ussr-KV-1s.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_KV_1S_IGR:String = "../maps/icons/vehicle/contour/ussr-KV-1s_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_KV_220:String = "../maps/icons/vehicle/contour/ussr-KV-220.png";
       
@@ -5034,15 +6356,21 @@ package
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_KV_5:String = "../maps/icons/vehicle/contour/ussr-KV-5.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_KV_5_IGR:String = "../maps/icons/vehicle/contour/ussr-KV-5_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_KV:String = "../maps/icons/vehicle/contour/ussr-KV.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_KV1:String = "../maps/icons/vehicle/contour/ussr-KV1.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_KV2:String = "../maps/icons/vehicle/contour/ussr-KV2.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_KV2_IGR:String = "../maps/icons/vehicle/contour/ussr-KV2_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_KV4:String = "../maps/icons/vehicle/contour/ussr-KV4.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_LTP:String = "../maps/icons/vehicle/contour/ussr-LTP.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_M3S:String = "../maps/icons/vehicle/contour/ussr-M3S.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_M3_STUART_LL:String = "../maps/icons/vehicle/contour/ussr-M3_Stuart_LL.png";
       
@@ -5070,13 +6398,27 @@ package
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_OBJECT_704:String = "../maps/icons/vehicle/contour/ussr-Object_704.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_OBJECT_730:String = "../maps/icons/vehicle/contour/ussr-Object_730.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_OBJECT_907:String = "../maps/icons/vehicle/contour/ussr-Object_907.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_OBSERVER:String = "../maps/icons/vehicle/contour/ussr-Observer.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_PZIV_CAPT:String = "../maps/icons/vehicle/contour/ussr-PzIV_capt.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_PZV_CAPT:String = "../maps/icons/vehicle/contour/ussr-PzV_capt.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_R00_T_50_2:String = "../maps/icons/vehicle/contour/ussr-R00_T_50_2.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_R04_T_34:String = "../maps/icons/vehicle/contour/ussr-R04_T-34.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_R04_T_34_IGR:String = "../maps/icons/vehicle/contour/ussr-R04_T-34_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_R104_OBJECT_430_II:String = "../maps/icons/vehicle/contour/ussr-R104_Object_430_II.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_R106_KV85:String = "../maps/icons/vehicle/contour/ussr-R106_KV85.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_R106_KV85_IGR:String = "../maps/icons/vehicle/contour/ussr-R106_KV85_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_R107_LTB:String = "../maps/icons/vehicle/contour/ussr-R107_LTB.png";
       
@@ -5086,17 +6428,29 @@ package
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_R110_OBJECT_260:String = "../maps/icons/vehicle/contour/ussr-R110_Object_260.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_R111_ISU130:String = "../maps/icons/vehicle/contour/ussr-R111_ISU130.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_R80_KV1:String = "../maps/icons/vehicle/contour/ussr-R80_KV1.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_RBT_5:String = "../maps/icons/vehicle/contour/ussr-RBT-5.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_S_51:String = "../maps/icons/vehicle/contour/ussr-S-51.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_SG122:String = "../maps/icons/vehicle/contour/ussr-SG122.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_ST_I:String = "../maps/icons/vehicle/contour/ussr-ST_I.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_SU_100:String = "../maps/icons/vehicle/contour/ussr-SU-100.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_SU_100_IGR:String = "../maps/icons/vehicle/contour/ussr-SU-100_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_SU_101:String = "../maps/icons/vehicle/contour/ussr-SU-101.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_SU_14:String = "../maps/icons/vehicle/contour/ussr-SU-14.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_SU_152:String = "../maps/icons/vehicle/contour/ussr-SU-152.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_SU_152_IGR:String = "../maps/icons/vehicle/contour/ussr-SU-152_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_SU_18:String = "../maps/icons/vehicle/contour/ussr-SU-18.png";
       
@@ -5114,6 +6468,8 @@ package
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_SU100Y:String = "../maps/icons/vehicle/contour/ussr-SU100Y.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_SU101:String = "../maps/icons/vehicle/contour/ussr-SU101.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_SU122A:String = "../maps/icons/vehicle/contour/ussr-SU122A.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_SU122_44:String = "../maps/icons/vehicle/contour/ussr-SU122_44.png";
@@ -5122,11 +6478,19 @@ package
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_SU14_1:String = "../maps/icons/vehicle/contour/ussr-SU14_1.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_SU76BM:String = "../maps/icons/vehicle/contour/ussr-SU76BM.png";
+      
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_SU76I:String = "../maps/icons/vehicle/contour/ussr-SU76I.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_SU_45:String = "../maps/icons/vehicle/contour/ussr-SU_45.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_SU_85I:String = "../maps/icons/vehicle/contour/ussr-SU_85I.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_T_127:String = "../maps/icons/vehicle/contour/ussr-T-127.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_T_19:String = "../maps/icons/vehicle/contour/ussr-T-19.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_T_24:String = "../maps/icons/vehicle/contour/ussr-T-24.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_T_26:String = "../maps/icons/vehicle/contour/ussr-T-26.png";
       
@@ -5137,6 +6501,10 @@ package
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_T_43:String = "../maps/icons/vehicle/contour/ussr-T-43.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_T_44:String = "../maps/icons/vehicle/contour/ussr-T-44.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_T_44_IGR:String = "../maps/icons/vehicle/contour/ussr-T-44_IGR.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_T_46_5:String = "../maps/icons/vehicle/contour/ussr-T-46-5.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_T_46:String = "../maps/icons/vehicle/contour/ussr-T-46.png";
       
@@ -5149,6 +6517,8 @@ package
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_T_70:String = "../maps/icons/vehicle/contour/ussr-T-70.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_T150:String = "../maps/icons/vehicle/contour/ussr-T150.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_T35:String = "../maps/icons/vehicle/contour/ussr-T35.png";
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_T44_122:String = "../maps/icons/vehicle/contour/ussr-T44_122.png";
       
@@ -5164,6 +6534,18 @@ package
       
       public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_VALENTINE_LL:String = "../maps/icons/vehicle/contour/ussr-Valentine_LL.png";
       
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_VALENTINE_LL_IGR:String = "../maps/icons/vehicle/contour/ussr-Valentine_LL_IGR.png";
+      
+      public static const MAPS_ICONS_VEHICLE_CONTOUR_USSR_ZIS30:String = "../maps/icons/vehicle/contour/ussr-ZIS30.png";
+      
+      public static const MAPS_ICONS_VEHICLE_FRANCE_ACL135:String = "../maps/icons/vehicle/france-ACL135.png";
+      
+      public static const MAPS_ICONS_VEHICLE_FRANCE_AMC_35:String = "../maps/icons/vehicle/france-AMC_35.png";
+      
+      public static const MAPS_ICONS_VEHICLE_FRANCE_AMR_35:String = "../maps/icons/vehicle/france-AMR_35.png";
+      
+      public static const MAPS_ICONS_VEHICLE_FRANCE_AMR_P103:String = "../maps/icons/vehicle/france-AMR_P103.png";
+      
       public static const MAPS_ICONS_VEHICLE_FRANCE_AMX38:String = "../maps/icons/vehicle/france-AMX38.png";
       
       public static const MAPS_ICONS_VEHICLE_FRANCE_AMX40:String = "../maps/icons/vehicle/france-AMX40.png";
@@ -5176,23 +6558,39 @@ package
       
       public static const MAPS_ICONS_VEHICLE_FRANCE_AMX_13F3AM:String = "../maps/icons/vehicle/france-AMX_13F3AM.png";
       
+      public static const MAPS_ICONS_VEHICLE_FRANCE_AMX_13F3AM_IGR:String = "../maps/icons/vehicle/france-AMX_13F3AM_IGR.png";
+      
+      public static const MAPS_ICONS_VEHICLE_FRANCE_AMX_13FL11:String = "../maps/icons/vehicle/france-AMX_13FL11.png";
+      
       public static const MAPS_ICONS_VEHICLE_FRANCE_AMX_13_75:String = "../maps/icons/vehicle/france-AMX_13_75.png";
       
       public static const MAPS_ICONS_VEHICLE_FRANCE_AMX_13_90:String = "../maps/icons/vehicle/france-AMX_13_90.png";
+      
+      public static const MAPS_ICONS_VEHICLE_FRANCE_AMX_13_90_IGR:String = "../maps/icons/vehicle/france-AMX_13_90_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_FRANCE_AMX_50FOSH_155:String = "../maps/icons/vehicle/france-AMX_50Fosh_155.png";
       
       public static const MAPS_ICONS_VEHICLE_FRANCE_AMX_50_100:String = "../maps/icons/vehicle/france-AMX_50_100.png";
       
+      public static const MAPS_ICONS_VEHICLE_FRANCE_AMX_50_100_IGR:String = "../maps/icons/vehicle/france-AMX_50_100_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_FRANCE_AMX_50_120:String = "../maps/icons/vehicle/france-AMX_50_120.png";
+      
+      public static const MAPS_ICONS_VEHICLE_FRANCE_AMX_65T:String = "../maps/icons/vehicle/france-AMX_65t.png";
       
       public static const MAPS_ICONS_VEHICLE_FRANCE_AMX_AC_MLE1946:String = "../maps/icons/vehicle/france-AMX_AC_Mle1946.png";
       
       public static const MAPS_ICONS_VEHICLE_FRANCE_AMX_AC_MLE1948:String = "../maps/icons/vehicle/france-AMX_AC_Mle1948.png";
       
+      public static const MAPS_ICONS_VEHICLE_FRANCE_AMX_AC_MLE1948_IGR:String = "../maps/icons/vehicle/france-AMX_AC_Mle1948_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_FRANCE_AMX_M4_1945:String = "../maps/icons/vehicle/france-AMX_M4_1945.png";
       
+      public static const MAPS_ICONS_VEHICLE_FRANCE_AMX_M4_1948:String = "../maps/icons/vehicle/france-AMX_M4_1948.png";
+      
       public static const MAPS_ICONS_VEHICLE_FRANCE_AMX_OB_AM105:String = "../maps/icons/vehicle/france-AMX_Ob_Am105.png";
+      
+      public static const MAPS_ICONS_VEHICLE_FRANCE_AMX_TRACTEURC40:String = "../maps/icons/vehicle/france-AMX_TracteurC40.png";
       
       public static const MAPS_ICONS_VEHICLE_FRANCE_ARL_44:String = "../maps/icons/vehicle/france-ARL_44.png";
       
@@ -5208,27 +6606,57 @@ package
       
       public static const MAPS_ICONS_VEHICLE_FRANCE_BAT_CHATILLON25T:String = "../maps/icons/vehicle/france-Bat_Chatillon25t.png";
       
+      public static const MAPS_ICONS_VEHICLE_FRANCE_BAT_CHATILLON25T_IGR:String = "../maps/icons/vehicle/france-Bat_Chatillon25t_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_FRANCE_D1:String = "../maps/icons/vehicle/france-D1.png";
       
       public static const MAPS_ICONS_VEHICLE_FRANCE_D2:String = "../maps/icons/vehicle/france-D2.png";
       
       public static const MAPS_ICONS_VEHICLE_FRANCE_ELC_AMX:String = "../maps/icons/vehicle/france-ELC_AMX.png";
       
+      public static const MAPS_ICONS_VEHICLE_FRANCE_ELC_AMX_IGR:String = "../maps/icons/vehicle/france-ELC_AMX_IGR.png";
+      
+      public static const MAPS_ICONS_VEHICLE_FRANCE_F00_AMX_50FOCH_155:String = "../maps/icons/vehicle/france-F00_AMX_50Foch_155.png";
+      
       public static const MAPS_ICONS_VEHICLE_FRANCE_F10_AMX_50B:String = "../maps/icons/vehicle/france-F10_AMX_50B.png";
+      
+      public static const MAPS_ICONS_VEHICLE_FRANCE_F68_AMX_CHASSEUR_DE_CHAR_46:String = "../maps/icons/vehicle/france-F68_AMX_Chasseur_de_char_46.png";
+      
+      public static const MAPS_ICONS_VEHICLE_FRANCE_F69_AMX13_57_100:String = "../maps/icons/vehicle/france-F69_AMX13_57_100.png";
+      
+      public static const MAPS_ICONS_VEHICLE_FRANCE_FCM2C:String = "../maps/icons/vehicle/france-FCM2C.png";
       
       public static const MAPS_ICONS_VEHICLE_FRANCE_FCM_36PAK40:String = "../maps/icons/vehicle/france-FCM_36Pak40.png";
       
       public static const MAPS_ICONS_VEHICLE_FRANCE_FCM_50T:String = "../maps/icons/vehicle/france-FCM_50t.png";
       
+      public static const MAPS_ICONS_VEHICLE_FRANCE_FCM_50T_IGR:String = "../maps/icons/vehicle/france-FCM_50t_IGR.png";
+      
+      public static const MAPS_ICONS_VEHICLE_FRANCE_FCM_F1:String = "../maps/icons/vehicle/france-FCM_F1.png";
+      
+      public static const MAPS_ICONS_VEHICLE_FRANCE_G1L:String = "../maps/icons/vehicle/france-G1L.png";
+      
       public static const MAPS_ICONS_VEHICLE_FRANCE_HOTCHKISS_H35:String = "../maps/icons/vehicle/france-Hotchkiss_H35.png";
+      
+      public static const MAPS_ICONS_VEHICLE_FRANCE_L6_40_CAPTURED:String = "../maps/icons/vehicle/france-L6_40_captured.png";
       
       public static const MAPS_ICONS_VEHICLE_FRANCE_LORRAINE155_50:String = "../maps/icons/vehicle/france-Lorraine155_50.png";
       
       public static const MAPS_ICONS_VEHICLE_FRANCE_LORRAINE155_51:String = "../maps/icons/vehicle/france-Lorraine155_51.png";
       
+      public static const MAPS_ICONS_VEHICLE_FRANCE_LORRAINE37_L_AC:String = "../maps/icons/vehicle/france-Lorraine37_L_AC.png";
+      
       public static const MAPS_ICONS_VEHICLE_FRANCE_LORRAINE39_L_AM:String = "../maps/icons/vehicle/france-Lorraine39_L_AM.png";
       
       public static const MAPS_ICONS_VEHICLE_FRANCE_LORRAINE40T:String = "../maps/icons/vehicle/france-Lorraine40t.png";
+      
+      public static const MAPS_ICONS_VEHICLE_FRANCE_M15_42_CAPTURED:String = "../maps/icons/vehicle/france-M15_42_captured.png";
+      
+      public static const MAPS_ICONS_VEHICLE_FRANCE_P40_CAPTURED:String = "../maps/icons/vehicle/france-P40_captured.png";
+      
+      public static const MAPS_ICONS_VEHICLE_FRANCE_PANZERJAGER35R:String = "../maps/icons/vehicle/france-Panzerjager35R.png";
+      
+      public static const MAPS_ICONS_VEHICLE_FRANCE_PONIATOWSKIG1P:String = "../maps/icons/vehicle/france-PoniatowskiG1P.png";
       
       public static const MAPS_ICONS_VEHICLE_FRANCE_RENAULTBS:String = "../maps/icons/vehicle/france-RenaultBS.png";
       
@@ -5236,35 +6664,65 @@ package
       
       public static const MAPS_ICONS_VEHICLE_FRANCE_RENAULTFT_AC:String = "../maps/icons/vehicle/france-RenaultFT_AC.png";
       
+      public static const MAPS_ICONS_VEHICLE_FRANCE_RENAULTR35:String = "../maps/icons/vehicle/france-RenaultR35.png";
+      
       public static const MAPS_ICONS_VEHICLE_FRANCE_RENAULTUE57:String = "../maps/icons/vehicle/france-RenaultUE57.png";
       
+      public static const MAPS_ICONS_VEHICLE_FRANCE_RENAULT_G1R:String = "../maps/icons/vehicle/france-Renault_G1R.png";
+      
       public static const MAPS_ICONS_VEHICLE_FRANCE_S_35CA:String = "../maps/icons/vehicle/france-S_35CA.png";
+      
+      public static const MAPS_ICONS_VEHICLE_FRANCE_S_35CA_IGR:String = "../maps/icons/vehicle/france-S_35CA_IGR.png";
+      
+      public static const MAPS_ICONS_VEHICLE_FRANCE_SOMUA_S35:String = "../maps/icons/vehicle/france-Somua_S35.png";
       
       public static const MAPS_ICONS_VEHICLE_FRANCE_SOMUA_SAU_40:String = "../maps/icons/vehicle/france-Somua_Sau_40.png";
       
       public static const MAPS_ICONS_VEHICLE_FRANCE_105_LEFH18B2:String = "../maps/icons/vehicle/france-_105_leFH18B2.png";
       
+      public static const MAPS_ICONS_VEHICLE_FRANCE_105_LEFH18B2_IGR:String = "../maps/icons/vehicle/france-_105_leFH18B2_IGR.png";
+      
+      public static const MAPS_ICONS_VEHICLE_FRANCE_28_32PZ38HF:String = "../maps/icons/vehicle/france-_28_32Pz38Hf.png";
+      
+      public static const MAPS_ICONS_VEHICLE_FRANCE_2CBIS:String = "../maps/icons/vehicle/france-_2CBis.png";
+      
+      public static const MAPS_ICONS_VEHICLE_GERMANY_AGRIMOTOR:String = "../maps/icons/vehicle/germany-Agrimotor.png";
+      
       public static const MAPS_ICONS_VEHICLE_GERMANY_AUF_PANTHER:String = "../maps/icons/vehicle/germany-Auf_Panther.png";
       
       public static const MAPS_ICONS_VEHICLE_GERMANY_B_1BIS_CAPTURED:String = "../maps/icons/vehicle/germany-B-1bis_captured.png";
       
+      public static const MAPS_ICONS_VEHICLE_GERMANY_BW_RH:String = "../maps/icons/vehicle/germany-BW-Rh.png";
+      
       public static const MAPS_ICONS_VEHICLE_GERMANY_BISON_I:String = "../maps/icons/vehicle/germany-Bison_I.png";
+      
+      public static const MAPS_ICONS_VEHICLE_GERMANY_BRUMMBAR:String = "../maps/icons/vehicle/germany-Brummbar.png";
       
       public static const MAPS_ICONS_VEHICLE_GERMANY_DW_II:String = "../maps/icons/vehicle/germany-DW_II.png";
       
       public static const MAPS_ICONS_VEHICLE_GERMANY_DICKERMAX:String = "../maps/icons/vehicle/germany-DickerMax.png";
       
+      public static const MAPS_ICONS_VEHICLE_GERMANY_E_10:String = "../maps/icons/vehicle/germany-E-10.png";
+      
       public static const MAPS_ICONS_VEHICLE_GERMANY_E_100:String = "../maps/icons/vehicle/germany-E-100.png";
       
       public static const MAPS_ICONS_VEHICLE_GERMANY_E_25:String = "../maps/icons/vehicle/germany-E-25.png";
+      
+      public static const MAPS_ICONS_VEHICLE_GERMANY_E_25_IGR:String = "../maps/icons/vehicle/germany-E-25_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_GERMANY_E_50:String = "../maps/icons/vehicle/germany-E-50.png";
       
       public static const MAPS_ICONS_VEHICLE_GERMANY_E_75:String = "../maps/icons/vehicle/germany-E-75.png";
       
+      public static const MAPS_ICONS_VEHICLE_GERMANY_E10:String = "../maps/icons/vehicle/germany-E10.png";
+      
       public static const MAPS_ICONS_VEHICLE_GERMANY_E50_AUSF_M:String = "../maps/icons/vehicle/germany-E50_Ausf_M.png";
       
       public static const MAPS_ICONS_VEHICLE_GERMANY_FERDINAND:String = "../maps/icons/vehicle/germany-Ferdinand.png";
+      
+      public static const MAPS_ICONS_VEHICLE_GERMANY_FERDINAND_IGR:String = "../maps/icons/vehicle/germany-Ferdinand_IGR.png";
+      
+      public static const MAPS_ICONS_VEHICLE_GERMANY_G04_PZVI_TIGER_IA:String = "../maps/icons/vehicle/germany-G04_PzVI_Tiger_IA.png";
       
       public static const MAPS_ICONS_VEHICLE_GERMANY_G100_GTRAKTOR_KRUPP:String = "../maps/icons/vehicle/germany-G100_Gtraktor_Krupp.png";
       
@@ -5294,6 +6752,8 @@ package
       
       public static const MAPS_ICONS_VEHICLE_GERMANY_GRILLE:String = "../maps/icons/vehicle/germany-Grille.png";
       
+      public static const MAPS_ICONS_VEHICLE_GERMANY_GRILLE_IGR:String = "../maps/icons/vehicle/germany-Grille_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_GERMANY_H39_CAPTURED:String = "../maps/icons/vehicle/germany-H39_captured.png";
       
       public static const MAPS_ICONS_VEHICLE_GERMANY_HETZER:String = "../maps/icons/vehicle/germany-Hetzer.png";
@@ -5314,6 +6774,8 @@ package
       
       public static const MAPS_ICONS_VEHICLE_GERMANY_JAGDTIGER_SDKFZ_185:String = "../maps/icons/vehicle/germany-JagdTiger_SdKfz_185.png";
       
+      public static const MAPS_ICONS_VEHICLE_GERMANY_JAGDTIGER_SDKFZ_185_IGR:String = "../maps/icons/vehicle/germany-JagdTiger_SdKfz_185_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_GERMANY_LEOPARD1:String = "../maps/icons/vehicle/germany-Leopard1.png";
       
       public static const MAPS_ICONS_VEHICLE_GERMANY_LOWE:String = "../maps/icons/vehicle/germany-Lowe.png";
@@ -5324,9 +6786,15 @@ package
       
       public static const MAPS_ICONS_VEHICLE_GERMANY_MAUS:String = "../maps/icons/vehicle/germany-Maus.png";
       
+      public static const MAPS_ICONS_VEHICLE_GERMANY_MAUS_IGR:String = "../maps/icons/vehicle/germany-Maus_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_GERMANY_NASHORN:String = "../maps/icons/vehicle/germany-Nashorn.png";
       
+      public static const MAPS_ICONS_VEHICLE_GERMANY_NBFZ:String = "../maps/icons/vehicle/germany-NbFz.png";
+      
       public static const MAPS_ICONS_VEHICLE_GERMANY_PANTHER_II:String = "../maps/icons/vehicle/germany-Panther_II.png";
+      
+      public static const MAPS_ICONS_VEHICLE_GERMANY_PANTHER_II_IGR:String = "../maps/icons/vehicle/germany-Panther_II_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_GERMANY_PANTHER_M10:String = "../maps/icons/vehicle/germany-Panther_M10.png";
       
@@ -5368,11 +6836,19 @@ package
       
       public static const MAPS_ICONS_VEHICLE_GERMANY_PZVIB_TIGER_II:String = "../maps/icons/vehicle/germany-PzVIB_Tiger_II.png";
       
+      public static const MAPS_ICONS_VEHICLE_GERMANY_PZVIB_TIGER_II_IGR:String = "../maps/icons/vehicle/germany-PzVIB_Tiger_II_IGR.png";
+      
+      public static const MAPS_ICONS_VEHICLE_GERMANY_PZVI_IGR:String = "../maps/icons/vehicle/germany-PzVI_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_GERMANY_PZVI_TIGER_P:String = "../maps/icons/vehicle/germany-PzVI_Tiger_P.png";
+      
+      public static const MAPS_ICONS_VEHICLE_GERMANY_PZV_IGR:String = "../maps/icons/vehicle/germany-PzV_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_GERMANY_PZV_PZIV:String = "../maps/icons/vehicle/germany-PzV_PzIV.png";
       
       public static const MAPS_ICONS_VEHICLE_GERMANY_PZV_PZIV_AUSF_ALFA:String = "../maps/icons/vehicle/germany-PzV_PzIV_ausf_Alfa.png";
+      
+      public static const MAPS_ICONS_VEHICLE_GERMANY_PZ_BT742:String = "../maps/icons/vehicle/germany-Pz_BT742.png";
       
       public static const MAPS_ICONS_VEHICLE_GERMANY_PZ_II_AUSFG:String = "../maps/icons/vehicle/germany-Pz_II_AusfG.png";
       
@@ -5380,7 +6856,13 @@ package
       
       public static const MAPS_ICONS_VEHICLE_GERMANY_PZ_IV_AUSFD:String = "../maps/icons/vehicle/germany-Pz_IV_AusfD.png";
       
+      public static const MAPS_ICONS_VEHICLE_GERMANY_PZ_IV_AUSFGH:String = "../maps/icons/vehicle/germany-Pz_IV_AusfGH.png";
+      
       public static const MAPS_ICONS_VEHICLE_GERMANY_PZ_IV_AUSFH:String = "../maps/icons/vehicle/germany-Pz_IV_AusfH.png";
+      
+      public static const MAPS_ICONS_VEHICLE_GERMANY_PZ_IV_AUSFH_IGR:String = "../maps/icons/vehicle/germany-Pz_IV_AusfH_IGR.png";
+      
+      public static const MAPS_ICONS_VEHICLE_GERMANY_PZ_KV_1_756:String = "../maps/icons/vehicle/germany-Pz_KV-1_756.png";
       
       public static const MAPS_ICONS_VEHICLE_GERMANY_PZ_SFL_IVB:String = "../maps/icons/vehicle/germany-Pz_Sfl_IVb.png";
       
@@ -5388,9 +6870,15 @@ package
       
       public static const MAPS_ICONS_VEHICLE_GERMANY_RHB_WAFFENTRAGER:String = "../maps/icons/vehicle/germany-RhB_Waffentrager.png";
       
+      public static const MAPS_ICONS_VEHICLE_GERMANY_ROKET_STURMTIGER:String = "../maps/icons/vehicle/germany-Roket_Sturmtiger.png";
+      
       public static const MAPS_ICONS_VEHICLE_GERMANY_S35_CAPTURED:String = "../maps/icons/vehicle/germany-S35_captured.png";
       
+      public static const MAPS_ICONS_VEHICLE_GERMANY_STUGIIIH:String = "../maps/icons/vehicle/germany-StuGIIIH.png";
+      
       public static const MAPS_ICONS_VEHICLE_GERMANY_STUG_40_AUSFG:String = "../maps/icons/vehicle/germany-StuG_40_AusfG.png";
+      
+      public static const MAPS_ICONS_VEHICLE_GERMANY_STUG_40_AUSFG_IGR:String = "../maps/icons/vehicle/germany-StuG_40_AusfG_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_GERMANY_STURER_EMIL:String = "../maps/icons/vehicle/germany-Sturer_Emil.png";
       
@@ -5418,17 +6906,23 @@ package
       
       public static const MAPS_ICONS_VEHICLE_GERMANY_VK3601H:String = "../maps/icons/vehicle/germany-VK3601H.png";
       
+      public static const MAPS_ICONS_VEHICLE_GERMANY_VK3601H_IGR:String = "../maps/icons/vehicle/germany-VK3601H_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_GERMANY_VK4502A:String = "../maps/icons/vehicle/germany-VK4502A.png";
       
       public static const MAPS_ICONS_VEHICLE_GERMANY_VK4502P:String = "../maps/icons/vehicle/germany-VK4502P.png";
       
       public static const MAPS_ICONS_VEHICLE_GERMANY_VK7201:String = "../maps/icons/vehicle/germany-VK7201.png";
       
+      public static const MAPS_ICONS_VEHICLE_GERMANY_VICKERS_TYPEB:String = "../maps/icons/vehicle/germany-Vickers_typeB.png";
+      
       public static const MAPS_ICONS_VEHICLE_GERMANY_WAFFENTRAGER_E100:String = "../maps/icons/vehicle/germany-Waffentrager_E100.png";
       
       public static const MAPS_ICONS_VEHICLE_GERMANY_WAFFENTRAGER_IV:String = "../maps/icons/vehicle/germany-Waffentrager_IV.png";
       
       public static const MAPS_ICONS_VEHICLE_GERMANY_WESPE:String = "../maps/icons/vehicle/germany-Wespe.png";
+      
+      public static const MAPS_ICONS_VEHICLE_GERMANY_E50_AUSF_M_:String = "../maps/icons/vehicle/germany_E50_Ausf.M.png";
       
       public static const MAPS_ICONS_VEHICLE_JAPAN_CHI_HA:String = "../maps/icons/vehicle/japan-Chi_Ha.png";
       
@@ -5440,11 +6934,17 @@ package
       
       public static const MAPS_ICONS_VEHICLE_JAPAN_CHI_NU_KAI:String = "../maps/icons/vehicle/japan-Chi_Nu_Kai.png";
       
+      public static const MAPS_ICONS_VEHICLE_JAPAN_CHI_NU_KAI_IGR:String = "../maps/icons/vehicle/japan-Chi_Nu_Kai_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_JAPAN_CHI_RI:String = "../maps/icons/vehicle/japan-Chi_Ri.png";
+      
+      public static const MAPS_ICONS_VEHICLE_JAPAN_CHI_RI_IGR:String = "../maps/icons/vehicle/japan-Chi_Ri_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_JAPAN_CHI_TO:String = "../maps/icons/vehicle/japan-Chi_To.png";
       
       public static const MAPS_ICONS_VEHICLE_JAPAN_HA_GO:String = "../maps/icons/vehicle/japan-Ha_go.png";
+      
+      public static const MAPS_ICONS_VEHICLE_JAPAN_J18_STA_2_3:String = "../maps/icons/vehicle/japan-J18_STA_2_3.png";
       
       public static const MAPS_ICONS_VEHICLE_JAPAN_KE_HO:String = "../maps/icons/vehicle/japan-Ke_Ho.png";
       
@@ -5456,7 +6956,11 @@ package
       
       public static const MAPS_ICONS_VEHICLE_JAPAN_STA_1:String = "../maps/icons/vehicle/japan-STA_1.png";
       
+      public static const MAPS_ICONS_VEHICLE_JAPAN_STA_1_IGR:String = "../maps/icons/vehicle/japan-STA_1_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_JAPAN_ST_B1:String = "../maps/icons/vehicle/japan-ST_B1.png";
+      
+      public static const MAPS_ICONS_VEHICLE_JAPAN_ST_B1_IGR:String = "../maps/icons/vehicle/japan-ST_B1_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_JAPAN_TE_KE:String = "../maps/icons/vehicle/japan-Te_Ke.png";
       
@@ -5488,9 +6992,15 @@ package
       
       public static const MAPS_ICONS_VEHICLE_SMALL_CHINA_CH11_110:String = "../maps/icons/vehicle/small/china-Ch11_110.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_CHINA_CH11_110_IGR:String = "../maps/icons/vehicle/small/china-Ch11_110_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_CHINA_CH12_111_1_2_3:String = "../maps/icons/vehicle/small/china-Ch12_111_1_2_3.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_CHINA_CH13_111_4_5:String = "../maps/icons/vehicle/small/china-Ch13_111_4_5.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_CHINA_CH14_T34_3:String = "../maps/icons/vehicle/small/china-Ch14_T34_3.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_CHINA_CH14_T34_3_IGR:String = "../maps/icons/vehicle/small/china-Ch14_T34_3_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_CHINA_CH15_59_16:String = "../maps/icons/vehicle/small/china-Ch15_59_16.png";
       
@@ -5498,9 +7008,13 @@ package
       
       public static const MAPS_ICONS_VEHICLE_SMALL_CHINA_CH17_WZ131_1_WZ132:String = "../maps/icons/vehicle/small/china-Ch17_WZ131_1_WZ132.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_CHINA_CH17_WZ131_1_WZ132_IGR:String = "../maps/icons/vehicle/small/china-Ch17_WZ131_1_WZ132_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_CHINA_CH18_WZ_120:String = "../maps/icons/vehicle/small/china-Ch18_WZ-120.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_CHINA_CH19_121:String = "../maps/icons/vehicle/small/china-Ch19_121.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_CHINA_CH19_121_IGR:String = "../maps/icons/vehicle/small/china-Ch19_121_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_CHINA_CH20_TYPE58:String = "../maps/icons/vehicle/small/china-Ch20_Type58.png";
       
@@ -5511,6 +7025,14 @@ package
       public static const MAPS_ICONS_VEHICLE_SMALL_CHINA_CH23_112:String = "../maps/icons/vehicle/small/china-Ch23_112.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_CHINA_CH24_TYPE64:String = "../maps/icons/vehicle/small/china-Ch24_Type64.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_ACL135:String = "../maps/icons/vehicle/small/france-ACL135.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_AMC_35:String = "../maps/icons/vehicle/small/france-AMC_35.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_AMR_35:String = "../maps/icons/vehicle/small/france-AMR_35.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_AMR_P103:String = "../maps/icons/vehicle/small/france-AMR_P103.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_AMX38:String = "../maps/icons/vehicle/small/france-AMX38.png";
       
@@ -5524,23 +7046,39 @@ package
       
       public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_AMX_13F3AM:String = "../maps/icons/vehicle/small/france-AMX_13F3AM.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_AMX_13F3AM_IGR:String = "../maps/icons/vehicle/small/france-AMX_13F3AM_IGR.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_AMX_13FL11:String = "../maps/icons/vehicle/small/france-AMX_13FL11.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_AMX_13_75:String = "../maps/icons/vehicle/small/france-AMX_13_75.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_AMX_13_90:String = "../maps/icons/vehicle/small/france-AMX_13_90.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_AMX_13_90_IGR:String = "../maps/icons/vehicle/small/france-AMX_13_90_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_AMX_50FOSH_155:String = "../maps/icons/vehicle/small/france-AMX_50Fosh_155.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_AMX_50_100:String = "../maps/icons/vehicle/small/france-AMX_50_100.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_AMX_50_100_IGR:String = "../maps/icons/vehicle/small/france-AMX_50_100_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_AMX_50_120:String = "../maps/icons/vehicle/small/france-AMX_50_120.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_AMX_65T:String = "../maps/icons/vehicle/small/france-AMX_65t.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_AMX_AC_MLE1946:String = "../maps/icons/vehicle/small/france-AMX_AC_Mle1946.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_AMX_AC_MLE1948:String = "../maps/icons/vehicle/small/france-AMX_AC_Mle1948.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_AMX_AC_MLE1948_IGR:String = "../maps/icons/vehicle/small/france-AMX_AC_Mle1948_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_AMX_M4_1945:String = "../maps/icons/vehicle/small/france-AMX_M4_1945.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_AMX_M4_1948:String = "../maps/icons/vehicle/small/france-AMX_M4_1948.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_AMX_OB_AM105:String = "../maps/icons/vehicle/small/france-AMX_Ob_Am105.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_AMX_TRACTEURC40:String = "../maps/icons/vehicle/small/france-AMX_TracteurC40.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_ARL_44:String = "../maps/icons/vehicle/small/france-ARL_44.png";
       
@@ -5556,27 +7094,57 @@ package
       
       public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_BAT_CHATILLON25T:String = "../maps/icons/vehicle/small/france-Bat_Chatillon25t.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_BAT_CHATILLON25T_IGR:String = "../maps/icons/vehicle/small/france-Bat_Chatillon25t_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_D1:String = "../maps/icons/vehicle/small/france-D1.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_D2:String = "../maps/icons/vehicle/small/france-D2.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_ELC_AMX:String = "../maps/icons/vehicle/small/france-ELC_AMX.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_ELC_AMX_IGR:String = "../maps/icons/vehicle/small/france-ELC_AMX_IGR.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_F00_AMX_50FOCH_155:String = "../maps/icons/vehicle/small/france-F00_AMX_50Foch_155.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_F10_AMX_50B:String = "../maps/icons/vehicle/small/france-F10_AMX_50B.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_F68_AMX_CHASSEUR_DE_CHAR_46:String = "../maps/icons/vehicle/small/france-F68_AMX_Chasseur_de_char_46.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_F69_AMX13_57_100:String = "../maps/icons/vehicle/small/france-F69_AMX13_57_100.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_FCM2C:String = "../maps/icons/vehicle/small/france-FCM2C.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_FCM_36PAK40:String = "../maps/icons/vehicle/small/france-FCM_36Pak40.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_FCM_50T:String = "../maps/icons/vehicle/small/france-FCM_50t.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_FCM_50T_IGR:String = "../maps/icons/vehicle/small/france-FCM_50t_IGR.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_FCM_F1:String = "../maps/icons/vehicle/small/france-FCM_F1.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_G1L:String = "../maps/icons/vehicle/small/france-G1L.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_HOTCHKISS_H35:String = "../maps/icons/vehicle/small/france-Hotchkiss_H35.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_L6_40_CAPTURED:String = "../maps/icons/vehicle/small/france-L6_40_captured.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_LORRAINE155_50:String = "../maps/icons/vehicle/small/france-Lorraine155_50.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_LORRAINE155_51:String = "../maps/icons/vehicle/small/france-Lorraine155_51.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_LORRAINE37_L_AC:String = "../maps/icons/vehicle/small/france-Lorraine37_L_AC.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_LORRAINE39_L_AM:String = "../maps/icons/vehicle/small/france-Lorraine39_L_AM.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_LORRAINE40T:String = "../maps/icons/vehicle/small/france-Lorraine40t.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_M15_42_CAPTURED:String = "../maps/icons/vehicle/small/france-M15_42_captured.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_P40_CAPTURED:String = "../maps/icons/vehicle/small/france-P40_captured.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_PANZERJAGER35R:String = "../maps/icons/vehicle/small/france-Panzerjager35R.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_PONIATOWSKIG1P:String = "../maps/icons/vehicle/small/france-PoniatowskiG1P.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_RENAULTBS:String = "../maps/icons/vehicle/small/france-RenaultBS.png";
       
@@ -5584,35 +7152,63 @@ package
       
       public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_RENAULTFT_AC:String = "../maps/icons/vehicle/small/france-RenaultFT_AC.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_RENAULTR35:String = "../maps/icons/vehicle/small/france-RenaultR35.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_RENAULTUE57:String = "../maps/icons/vehicle/small/france-RenaultUE57.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_RENAULT_G1R:String = "../maps/icons/vehicle/small/france-Renault_G1R.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_S_35CA:String = "../maps/icons/vehicle/small/france-S_35CA.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_S_35CA_IGR:String = "../maps/icons/vehicle/small/france-S_35CA_IGR.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_SOMUA_S35:String = "../maps/icons/vehicle/small/france-Somua_S35.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_SOMUA_SAU_40:String = "../maps/icons/vehicle/small/france-Somua_Sau_40.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_105_LEFH18B2:String = "../maps/icons/vehicle/small/france-_105_leFH18B2.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_105_LEFH18B2_IGR:String = "../maps/icons/vehicle/small/france-_105_leFH18B2_IGR.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_28_32PZ38HF:String = "../maps/icons/vehicle/small/france-_28_32Pz38Hf.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_FRANCE_2CBIS:String = "../maps/icons/vehicle/small/france-_2CBis.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_AUF_PANTHER:String = "../maps/icons/vehicle/small/germany-Auf_Panther.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_B_1BIS_CAPTURED:String = "../maps/icons/vehicle/small/germany-B-1bis_captured.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_BW_RH:String = "../maps/icons/vehicle/small/germany-BW_Rh.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_BISON_I:String = "../maps/icons/vehicle/small/germany-Bison_I.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_BRUMMBAR:String = "../maps/icons/vehicle/small/germany-Brummbar.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_DW_II:String = "../maps/icons/vehicle/small/germany-DW_II.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_DICKERMAX:String = "../maps/icons/vehicle/small/germany-DickerMax.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_E_10:String = "../maps/icons/vehicle/small/germany-E-10.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_E_100:String = "../maps/icons/vehicle/small/germany-E-100.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_E_25:String = "../maps/icons/vehicle/small/germany-E-25.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_E_25_IGR:String = "../maps/icons/vehicle/small/germany-E-25_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_E_50:String = "../maps/icons/vehicle/small/germany-E-50.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_E_75:String = "../maps/icons/vehicle/small/germany-E-75.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_E10:String = "../maps/icons/vehicle/small/germany-E10.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_E50_AUSF_M:String = "../maps/icons/vehicle/small/germany-E50_Ausf_M.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_FERDINAND:String = "../maps/icons/vehicle/small/germany-Ferdinand.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_FERDINAND_IGR:String = "../maps/icons/vehicle/small/germany-Ferdinand_IGR.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_G04_PZVI_TIGER_IA:String = "../maps/icons/vehicle/small/germany-G04_PzVI_Tiger_IA.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_G100_GTRAKTOR_KRUPP:String = "../maps/icons/vehicle/small/germany-G100_Gtraktor_Krupp.png";
       
@@ -5642,6 +7238,8 @@ package
       
       public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_GRILLE:String = "../maps/icons/vehicle/small/germany-Grille.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_GRILLE_IGR:String = "../maps/icons/vehicle/small/germany-Grille_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_H39_CAPTURED:String = "../maps/icons/vehicle/small/germany-H39_captured.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_HETZER:String = "../maps/icons/vehicle/small/germany-Hetzer.png";
@@ -5662,6 +7260,8 @@ package
       
       public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_JAGDTIGER_SDKFZ_185:String = "../maps/icons/vehicle/small/germany-JagdTiger_SdKfz_185.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_JAGDTIGER_SDKFZ_185_IGR:String = "../maps/icons/vehicle/small/germany-JagdTiger_SdKfz_185_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_LEOPARD1:String = "../maps/icons/vehicle/small/germany-Leopard1.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_LOWE:String = "../maps/icons/vehicle/small/germany-Lowe.png";
@@ -5672,9 +7272,15 @@ package
       
       public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_MAUS:String = "../maps/icons/vehicle/small/germany-Maus.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_MAUS_IGR:String = "../maps/icons/vehicle/small/germany-Maus_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_NASHORN:String = "../maps/icons/vehicle/small/germany-Nashorn.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_NBFZ:String = "../maps/icons/vehicle/small/germany-NbFz.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_PANTHER_II:String = "../maps/icons/vehicle/small/germany-Panther_II.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_PANTHER_II_IGR:String = "../maps/icons/vehicle/small/germany-Panther_II_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_PANTHER_M10:String = "../maps/icons/vehicle/small/germany-Panther_M10.png";
       
@@ -5716,11 +7322,19 @@ package
       
       public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_PZVIB_TIGER_II:String = "../maps/icons/vehicle/small/germany-PzVIB_Tiger_II.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_PZVIB_TIGER_II_IGR:String = "../maps/icons/vehicle/small/germany-PzVIB_Tiger_II_IGR.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_PZVI_IGR:String = "../maps/icons/vehicle/small/germany-PzVI_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_PZVI_TIGER_P:String = "../maps/icons/vehicle/small/germany-PzVI_Tiger_P.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_PZV_IGR:String = "../maps/icons/vehicle/small/germany-PzV_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_PZV_PZIV:String = "../maps/icons/vehicle/small/germany-PzV_PzIV.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_PZV_PZIV_AUSF_ALFA:String = "../maps/icons/vehicle/small/germany-PzV_PzIV_ausf_Alfa.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_PZ_BT742:String = "../maps/icons/vehicle/small/germany-Pz_BT742.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_PZ_II_AUSFG:String = "../maps/icons/vehicle/small/germany-Pz_II_AusfG.png";
       
@@ -5728,7 +7342,13 @@ package
       
       public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_PZ_IV_AUSFD:String = "../maps/icons/vehicle/small/germany-Pz_IV_AusfD.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_PZ_IV_AUSFGH:String = "../maps/icons/vehicle/small/germany-Pz_IV_AusfGH.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_PZ_IV_AUSFH:String = "../maps/icons/vehicle/small/germany-Pz_IV_AusfH.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_PZ_IV_AUSFH_IGR:String = "../maps/icons/vehicle/small/germany-Pz_IV_AusfH_IGR.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_PZ_KV_1_756:String = "../maps/icons/vehicle/small/germany-Pz_KV-1_756.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_PZ_SFL_IVB:String = "../maps/icons/vehicle/small/germany-Pz_Sfl_IVb.png";
       
@@ -5736,9 +7356,13 @@ package
       
       public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_RHB_WAFFENTRAGER:String = "../maps/icons/vehicle/small/germany-RhB_Waffentrager.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_ROKET_STURMTIGER:String = "../maps/icons/vehicle/small/germany-Roket_Sturmtiger.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_S35_CAPTURED:String = "../maps/icons/vehicle/small/germany-S35_captured.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_STUG_40_AUSFG:String = "../maps/icons/vehicle/small/germany-StuG_40_AusfG.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_STUG_40_AUSFG_IGR:String = "../maps/icons/vehicle/small/germany-StuG_40_AusfG_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_STURER_EMIL:String = "../maps/icons/vehicle/small/germany-Sturer_Emil.png";
       
@@ -5766,17 +7390,25 @@ package
       
       public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_VK3601H:String = "../maps/icons/vehicle/small/germany-VK3601H.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_VK3601H_IGR:String = "../maps/icons/vehicle/small/germany-VK3601H_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_VK4502A:String = "../maps/icons/vehicle/small/germany-VK4502A.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_VK4502P:String = "../maps/icons/vehicle/small/germany-VK4502P.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_VK7201:String = "../maps/icons/vehicle/small/germany-VK7201.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_VICKERS_TYPEB:String = "../maps/icons/vehicle/small/germany-Vickers_typeB.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_WAFFENTRAGER_E100:String = "../maps/icons/vehicle/small/germany-Waffentrager_E100.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_WAFFENTRAGER_IV:String = "../maps/icons/vehicle/small/germany-Waffentrager_IV.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_WESPE:String = "../maps/icons/vehicle/small/germany-Wespe.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_MARDERIII:String = "../maps/icons/vehicle/small/germany-marderiii.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_GERMANY_E50_AUSF_M_:String = "../maps/icons/vehicle/small/germany_E50_Ausf.M.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_JAPAN_CHI_HA:String = "../maps/icons/vehicle/small/japan-Chi_Ha.png";
       
@@ -5788,11 +7420,17 @@ package
       
       public static const MAPS_ICONS_VEHICLE_SMALL_JAPAN_CHI_NU_KAI:String = "../maps/icons/vehicle/small/japan-Chi_Nu_Kai.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_JAPAN_CHI_NU_KAI_IGR:String = "../maps/icons/vehicle/small/japan-Chi_Nu_Kai_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_JAPAN_CHI_RI:String = "../maps/icons/vehicle/small/japan-Chi_Ri.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_JAPAN_CHI_RI_IGR:String = "../maps/icons/vehicle/small/japan-Chi_Ri_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_JAPAN_CHI_TO:String = "../maps/icons/vehicle/small/japan-Chi_To.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_JAPAN_HA_GO:String = "../maps/icons/vehicle/small/japan-Ha_go.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_JAPAN_J18_STA_2_3:String = "../maps/icons/vehicle/small/japan-J18_STA_2_3.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_JAPAN_KE_HO:String = "../maps/icons/vehicle/small/japan-Ke_Ho.png";
       
@@ -5804,7 +7442,11 @@ package
       
       public static const MAPS_ICONS_VEHICLE_SMALL_JAPAN_STA_1:String = "../maps/icons/vehicle/small/japan-STA_1.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_JAPAN_STA_1_IGR:String = "../maps/icons/vehicle/small/japan-STA_1_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_JAPAN_ST_B1:String = "../maps/icons/vehicle/small/japan-ST_B1.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_JAPAN_ST_B1_IGR:String = "../maps/icons/vehicle/small/japan-ST_B1_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_JAPAN_TE_KE:String = "../maps/icons/vehicle/small/japan-Te_Ke.png";
       
@@ -5813,6 +7455,8 @@ package
       public static const MAPS_ICONS_VEHICLE_SMALL_NOIMAGE:String = "../maps/icons/vehicle/small/noImage.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB01_MEDIUM_MARK_I:String = "../maps/icons/vehicle/small/uk-GB01_Medium_Mark_I.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB02_A7:String = "../maps/icons/vehicle/small/uk-GB02_A7.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB03_CRUISER_MK_I:String = "../maps/icons/vehicle/small/uk-GB03_Cruiser_Mk_I.png";
       
@@ -5826,23 +7470,45 @@ package
       
       public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB08_CHURCHILL_I:String = "../maps/icons/vehicle/small/uk-GB08_Churchill_I.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB08_CHURCHILL_I_IGR:String = "../maps/icons/vehicle/small/uk-GB08_Churchill_I_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB09_CHURCHILL_VII:String = "../maps/icons/vehicle/small/uk-GB09_Churchill_VII.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB10_BLACK_PRINCE:String = "../maps/icons/vehicle/small/uk-GB10_Black_Prince.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB11_CAERNARVON:String = "../maps/icons/vehicle/small/uk-GB11_Caernarvon.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB11_CAERNARVON_IGR:String = "../maps/icons/vehicle/small/uk-GB11_Caernarvon_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB12_CONQUEROR:String = "../maps/icons/vehicle/small/uk-GB12_Conqueror.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB13_FV215B:String = "../maps/icons/vehicle/small/uk-GB13_FV215b.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB13_FV215B_IGR:String = "../maps/icons/vehicle/small/uk-GB13_FV215b_IGR.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB14_M2:String = "../maps/icons/vehicle/small/uk-GB14_M2.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB15_STUART_I:String = "../maps/icons/vehicle/small/uk-GB15_Stuart_I.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB16_STUART_VI:String = "../maps/icons/vehicle/small/uk-GB16_Stuart_VI.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB17_GRANT_I:String = "../maps/icons/vehicle/small/uk-GB17_Grant_I.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB18_SHERMAN_II:String = "../maps/icons/vehicle/small/uk-GB18_Sherman_II.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB19_SHERMAN_FIREFLY:String = "../maps/icons/vehicle/small/uk-GB19_Sherman_Firefly.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB20_CRUSADER:String = "../maps/icons/vehicle/small/uk-GB20_Crusader.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB21_CROMWELL:String = "../maps/icons/vehicle/small/uk-GB21_Cromwell.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB21_CROMWELL_IGR:String = "../maps/icons/vehicle/small/uk-GB21_Cromwell_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB22_COMET:String = "../maps/icons/vehicle/small/uk-GB22_Comet.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB23_CENTURION:String = "../maps/icons/vehicle/small/uk-GB23_Centurion.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB23_CENTURION_IGR:String = "../maps/icons/vehicle/small/uk-GB23_Centurion_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB24_CENTURION_MK3:String = "../maps/icons/vehicle/small/uk-GB24_Centurion_Mk3.png";
       
@@ -5862,15 +7528,37 @@ package
       
       public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB32_TORTOISE:String = "../maps/icons/vehicle/small/uk-GB32_Tortoise.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB33_SENTINEL_AC_I:String = "../maps/icons/vehicle/small/uk-GB33_Sentinel_AC_I.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB34_RAM:String = "../maps/icons/vehicle/small/uk-GB34_RAM.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB35_SENTINEL_AC_IV:String = "../maps/icons/vehicle/small/uk-GB35_Sentinel_AC_IV.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB36_MATILDA_I:String = "../maps/icons/vehicle/small/uk-GB36_Matilda_I.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB37_VALLIANT:String = "../maps/icons/vehicle/small/uk-GB37_Valliant.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB39_UNIVERSAL_CARRIERQF2:String = "../maps/icons/vehicle/small/uk-GB39_Universal_CarrierQF2.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB40_GUN_CARRIER_CHURCHILL:String = "../maps/icons/vehicle/small/uk-GB40_Gun_Carrier_Churchill.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB41_CHALLENGER:String = "../maps/icons/vehicle/small/uk-GB41_Challenger.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB42_VALENTINE_AT:String = "../maps/icons/vehicle/small/uk-GB42_Valentine_AT.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB44_ARCHER:String = "../maps/icons/vehicle/small/uk-GB44_Archer.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB45_ACHILLES_IIC:String = "../maps/icons/vehicle/small/uk-GB45_Achilles_IIC.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB48_FV215B_183:String = "../maps/icons/vehicle/small/uk-GB48_FV215b_183.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB50_SHERMAN_III:String = "../maps/icons/vehicle/small/uk-GB50_Sherman_III.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB51_EXCELSIOR:String = "../maps/icons/vehicle/small/uk-GB51_Excelsior.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB51_EXCELSIOR_IGR:String = "../maps/icons/vehicle/small/uk-GB51_Excelsior_IGR.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB52_A45:String = "../maps/icons/vehicle/small/uk-GB52_A45.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB57_ALECTO:String = "../maps/icons/vehicle/small/uk-GB57_Alecto.png";
       
@@ -5888,9 +7576,15 @@ package
       
       public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB70_FV4202_105:String = "../maps/icons/vehicle/small/uk-GB70_FV4202_105.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB70_N_FV4202_105:String = "../maps/icons/vehicle/small/uk-GB70_N_FV4202_105.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB71_AT_15A:String = "../maps/icons/vehicle/small/uk-GB71_AT_15A.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB71_AT_15A_IGR:String = "../maps/icons/vehicle/small/uk-GB71_AT_15A_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB72_AT15:String = "../maps/icons/vehicle/small/uk-GB72_AT15.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB72_AT15_IGR:String = "../maps/icons/vehicle/small/uk-GB72_AT15_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB73_AT2:String = "../maps/icons/vehicle/small/uk-GB73_AT2.png";
       
@@ -5902,9 +7596,19 @@ package
       
       public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB77_FV304:String = "../maps/icons/vehicle/small/uk-GB77_FV304.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB77_FV304_IGR:String = "../maps/icons/vehicle/small/uk-GB77_FV304_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB78_SEXTON_I:String = "../maps/icons/vehicle/small/uk-GB78_Sexton_I.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB79_FV206:String = "../maps/icons/vehicle/small/uk-GB79_FV206.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB80_CHARIOTEER:String = "../maps/icons/vehicle/small/uk-GB80_Charioteer.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB81_FV4004:String = "../maps/icons/vehicle/small/uk-GB81_FV4004.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_UK_GB83_FV4005:String = "../maps/icons/vehicle/small/uk-GB83_FV4005.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_USA_A00_T110E5:String = "../maps/icons/vehicle/small/usa-A00_T110E5.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USA_A101_M56:String = "../maps/icons/vehicle/small/usa-A101_M56.png";
       
@@ -5912,9 +7616,21 @@ package
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USA_A104_M4A3E8A:String = "../maps/icons/vehicle/small/usa-A104_M4A3E8A.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_USA_A78_M4_IMPROVED:String = "../maps/icons/vehicle/small/usa-A78_M4_Improved.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_USA_A94_T37:String = "../maps/icons/vehicle/small/usa-A94_T37.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_USA_A97_M41_BULLDOG:String = "../maps/icons/vehicle/small/usa-A97_M41_Bulldog.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_USA_CHI_RI:String = "../maps/icons/vehicle/small/usa-Chi_Ri.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_USA_HA_GO:String = "../maps/icons/vehicle/small/usa-Ha_go.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_USA_M103:String = "../maps/icons/vehicle/small/usa-M103.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USA_M10_WOLVERINE:String = "../maps/icons/vehicle/small/usa-M10_Wolverine.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_USA_M10_WOLVERINE_IGR:String = "../maps/icons/vehicle/small/usa-M10_Wolverine_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USA_M12:String = "../maps/icons/vehicle/small/usa-M12.png";
       
@@ -5932,6 +7648,8 @@ package
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USA_M37:String = "../maps/icons/vehicle/small/usa-M37.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_USA_M3_A3:String = "../maps/icons/vehicle/small/usa-M3_A3.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_USA_M3_GRANT:String = "../maps/icons/vehicle/small/usa-M3_Grant.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USA_M3_STUART:String = "../maps/icons/vehicle/small/usa-M3_Stuart.png";
@@ -5944,15 +7662,27 @@ package
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USA_M44:String = "../maps/icons/vehicle/small/usa-M44.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_USA_M44_IGR:String = "../maps/icons/vehicle/small/usa-M44_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_USA_M46_PATTON:String = "../maps/icons/vehicle/small/usa-M46_Patton.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USA_M48A1:String = "../maps/icons/vehicle/small/usa-M48A1.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_USA_M48A1_IGR:String = "../maps/icons/vehicle/small/usa-M48A1_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_USA_M4A2E4:String = "../maps/icons/vehicle/small/usa-M4A2E4.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_USA_M4A2_USMC:String = "../maps/icons/vehicle/small/usa-M4A2_USMC.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USA_M4A3E8_SHERMAN:String = "../maps/icons/vehicle/small/usa-M4A3E8_Sherman.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_USA_M4_90V:String = "../maps/icons/vehicle/small/usa-M4_90V.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_USA_M4_IMPROVED:String = "../maps/icons/vehicle/small/usa-M4_Improved.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_USA_M4_SHERMAN:String = "../maps/icons/vehicle/small/usa-M4_Sherman.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_USA_M4_SHERMAN_IGR:String = "../maps/icons/vehicle/small/usa-M4_Sherman_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USA_M53_55:String = "../maps/icons/vehicle/small/usa-M53_55.png";
       
@@ -5972,11 +7702,23 @@ package
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USA_MTLS_1G14:String = "../maps/icons/vehicle/small/usa-MTLS-1G14.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_USA_MKVIII:String = "../maps/icons/vehicle/small/usa-MkVIII.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_USA_PERSHING:String = "../maps/icons/vehicle/small/usa-Pershing.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_USA_PERSHING_IGR:String = "../maps/icons/vehicle/small/usa-Pershing_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USA_RAM_II:String = "../maps/icons/vehicle/small/usa-Ram-II.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_USA_RAM_II_IGR:String = "../maps/icons/vehicle/small/usa-Ram-II_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_USA_SHERMAN_JUMBO:String = "../maps/icons/vehicle/small/usa-Sherman_Jumbo.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_USA_SHERMAN_JUMBO_IGR:String = "../maps/icons/vehicle/small/usa-Sherman_Jumbo_IGR.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_USA_SHINHOTO_CHI_HA:String = "../maps/icons/vehicle/small/usa-Shinhoto_Chi-Ha.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_USA_SUPERHELLCAT:String = "../maps/icons/vehicle/small/usa-SuperHellcat.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USA_T110:String = "../maps/icons/vehicle/small/usa-T110.png";
       
@@ -5992,6 +7734,8 @@ package
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USA_T1_E6:String = "../maps/icons/vehicle/small/usa-T1_E6.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_USA_T1_M1921:String = "../maps/icons/vehicle/small/usa-T1_M1921.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_USA_T1_HVY:String = "../maps/icons/vehicle/small/usa-T1_hvy.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USA_T20:String = "../maps/icons/vehicle/small/usa-T20.png";
@@ -5999,6 +7743,8 @@ package
       public static const MAPS_ICONS_VEHICLE_SMALL_USA_T21:String = "../maps/icons/vehicle/small/usa-T21.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USA_T23E3:String = "../maps/icons/vehicle/small/usa-T23E3.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_USA_T24:String = "../maps/icons/vehicle/small/usa-T24.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USA_T25_2:String = "../maps/icons/vehicle/small/usa-T25_2.png";
       
@@ -6012,15 +7758,23 @@ package
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USA_T29:String = "../maps/icons/vehicle/small/usa-T29.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_USA_T29_IGR:String = "../maps/icons/vehicle/small/usa-T29_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_USA_T2_LT:String = "../maps/icons/vehicle/small/usa-T2_lt.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USA_T2_MED:String = "../maps/icons/vehicle/small/usa-T2_med.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_USA_T3:String = "../maps/icons/vehicle/small/usa-T3.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_USA_T30:String = "../maps/icons/vehicle/small/usa-T30.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_USA_T31:String = "../maps/icons/vehicle/small/usa-T31.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USA_T32:String = "../maps/icons/vehicle/small/usa-T32.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USA_T34_HVY:String = "../maps/icons/vehicle/small/usa-T34_hvy.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_USA_T34_HVY_IGR:String = "../maps/icons/vehicle/small/usa-T34_hvy_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USA_T40:String = "../maps/icons/vehicle/small/usa-T40.png";
       
@@ -6028,27 +7782,47 @@ package
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USA_T54E1:String = "../maps/icons/vehicle/small/usa-T54E1.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_USA_T54_E2:String = "../maps/icons/vehicle/small/usa-T54_E2.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_USA_T57:String = "../maps/icons/vehicle/small/usa-T57.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USA_T57_58:String = "../maps/icons/vehicle/small/usa-T57_58.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USA_T67:String = "../maps/icons/vehicle/small/usa-T67.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_USA_T67_IGR:String = "../maps/icons/vehicle/small/usa-T67_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_USA_T69:String = "../maps/icons/vehicle/small/usa-T69.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_USA_T69_IGR:String = "../maps/icons/vehicle/small/usa-T69_IGR.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_USA_T6_M:String = "../maps/icons/vehicle/small/usa-T6_M.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_USA_T71:String = "../maps/icons/vehicle/small/usa-T71.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_USA_T71_IGR:String = "../maps/icons/vehicle/small/usa-T71_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USA_T7_COMBAT_CAR:String = "../maps/icons/vehicle/small/usa-T7_Combat_Car.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USA_T82:String = "../maps/icons/vehicle/small/usa-T82.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_USA_T88:String = "../maps/icons/vehicle/small/usa-T88.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_USA_T92:String = "../maps/icons/vehicle/small/usa-T92.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_USA_T92_LT:String = "../maps/icons/vehicle/small/usa-T92_LT.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USA_T95:String = "../maps/icons/vehicle/small/usa-T95.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USA_T95_E2:String = "../maps/icons/vehicle/small/usa-T95_E2.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USA_T95_E6:String = "../maps/icons/vehicle/small/usa-T95_E6.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_USA_T95_E7:String = "../maps/icons/vehicle/small/usa-T95_E7.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_USA_T96:String = "../maps/icons/vehicle/small/usa-T96.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_USSR_62A:String = "../maps/icons/vehicle/small/ussr-62A.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_A_20:String = "../maps/icons/vehicle/small/ussr-A-20.png";
       
@@ -6070,11 +7844,17 @@ package
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_GAZ_74B:String = "../maps/icons/vehicle/small/ussr-GAZ-74b.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_USSR_GAZ75:String = "../maps/icons/vehicle/small/ussr-GAZ75.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_IS_3:String = "../maps/icons/vehicle/small/ussr-IS-3.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_USSR_IS_3_IGR:String = "../maps/icons/vehicle/small/ussr-IS-3_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_IS_4:String = "../maps/icons/vehicle/small/ussr-IS-4.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_IS_7:String = "../maps/icons/vehicle/small/ussr-IS-7.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_USSR_IS_7_IGR:String = "../maps/icons/vehicle/small/ussr-IS-7_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_IS:String = "../maps/icons/vehicle/small/ussr-IS.png";
       
@@ -6082,9 +7862,15 @@ package
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_ISU_152:String = "../maps/icons/vehicle/small/ussr-ISU-152.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_USSR_ISU_152_IGR:String = "../maps/icons/vehicle/small/ussr-ISU-152_IGR.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_USSR_IT45:String = "../maps/icons/vehicle/small/ussr-IT45.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_KV_13:String = "../maps/icons/vehicle/small/ussr-KV-13.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_KV_1S:String = "../maps/icons/vehicle/small/ussr-KV-1s.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_USSR_KV_1S_IGR:String = "../maps/icons/vehicle/small/ussr-KV-1s_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_KV_220:String = "../maps/icons/vehicle/small/ussr-KV-220.png";
       
@@ -6094,15 +7880,21 @@ package
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_KV_5:String = "../maps/icons/vehicle/small/ussr-KV-5.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_USSR_KV_5_IGR:String = "../maps/icons/vehicle/small/ussr-KV-5_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_KV:String = "../maps/icons/vehicle/small/ussr-KV.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_KV1:String = "../maps/icons/vehicle/small/ussr-KV1.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_KV2:String = "../maps/icons/vehicle/small/ussr-KV2.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_USSR_KV2_IGR:String = "../maps/icons/vehicle/small/ussr-KV2_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_KV4:String = "../maps/icons/vehicle/small/ussr-KV4.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_LTP:String = "../maps/icons/vehicle/small/ussr-LTP.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_USSR_M3S:String = "../maps/icons/vehicle/small/ussr-M3S.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_M3_STUART_LL:String = "../maps/icons/vehicle/small/ussr-M3_Stuart_LL.png";
       
@@ -6111,6 +7903,8 @@ package
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_MT25:String = "../maps/icons/vehicle/small/ussr-MT25.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_MATILDA_II_LL:String = "../maps/icons/vehicle/small/ussr-Matilda_II_LL.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_USSR_OBJECT_261:String = "../maps/icons/vehicle/small/ussr-Object-261.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_OBJECT252:String = "../maps/icons/vehicle/small/ussr-Object252.png";
       
@@ -6124,19 +7918,35 @@ package
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_OBJECT_212:String = "../maps/icons/vehicle/small/ussr-Object_212.png";
       
-      public static const MAPS_ICONS_VEHICLE_SMALL_USSR_OBJECT_261:String = "../maps/icons/vehicle/small/ussr-Object_261.png";
+      public static const MAPS_ICONS_VEHICLE_SMALL_USSR_OBJECT_252:String = "../maps/icons/vehicle/small/ussr-Object_252.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_USSR_OBJECT_261_:String = "../maps/icons/vehicle/small/ussr-Object_261.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_OBJECT_430:String = "../maps/icons/vehicle/small/ussr-Object_430.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_OBJECT_704:String = "../maps/icons/vehicle/small/ussr-Object_704.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_USSR_OBJECT_730:String = "../maps/icons/vehicle/small/ussr-Object_730.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_OBJECT_907:String = "../maps/icons/vehicle/small/ussr-Object_907.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_OBSERVER:String = "../maps/icons/vehicle/small/ussr-Observer.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_USSR_PZIV_CAPT:String = "../maps/icons/vehicle/small/ussr-PzIV_capt.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_USSR_PZV_CAPT:String = "../maps/icons/vehicle/small/ussr-PzV_capt.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_USSR_R00_T_50_2:String = "../maps/icons/vehicle/small/ussr-R00_T_50_2.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_USSR_R04_T_34:String = "../maps/icons/vehicle/small/ussr-R04_T-34.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_USSR_R04_T_34_IGR:String = "../maps/icons/vehicle/small/ussr-R04_T-34_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_R104_OBJECT_430_II:String = "../maps/icons/vehicle/small/ussr-R104_Object_430_II.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_R106_KV85:String = "../maps/icons/vehicle/small/ussr-R106_KV85.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_USSR_R106_KV85_IGR:String = "../maps/icons/vehicle/small/ussr-R106_KV85_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_R107_LTB:String = "../maps/icons/vehicle/small/ussr-R107_LTB.png";
       
@@ -6146,17 +7956,29 @@ package
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_R110_OBJECT_260:String = "../maps/icons/vehicle/small/ussr-R110_Object_260.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_USSR_R111_ISU130:String = "../maps/icons/vehicle/small/ussr-R111_ISU130.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_USSR_R80_KV1:String = "../maps/icons/vehicle/small/ussr-R80_KV1.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_USSR_RBT_5:String = "../maps/icons/vehicle/small/ussr-RBT-5.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_S_51:String = "../maps/icons/vehicle/small/ussr-S-51.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_USSR_SG122:String = "../maps/icons/vehicle/small/ussr-SG122.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_ST_I:String = "../maps/icons/vehicle/small/ussr-ST_I.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_SU_100:String = "../maps/icons/vehicle/small/ussr-SU-100.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_USSR_SU_100_IGR:String = "../maps/icons/vehicle/small/ussr-SU-100_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_SU_101:String = "../maps/icons/vehicle/small/ussr-SU-101.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_SU_14:String = "../maps/icons/vehicle/small/ussr-SU-14.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_SU_152:String = "../maps/icons/vehicle/small/ussr-SU-152.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_USSR_SU_152_IGR:String = "../maps/icons/vehicle/small/ussr-SU-152_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_SU_18:String = "../maps/icons/vehicle/small/ussr-SU-18.png";
       
@@ -6182,11 +8004,19 @@ package
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_SU14_1:String = "../maps/icons/vehicle/small/ussr-SU14_1.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_USSR_SU76BM:String = "../maps/icons/vehicle/small/ussr-SU76BM.png";
+      
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_SU76I:String = "../maps/icons/vehicle/small/ussr-SU76I.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_USSR_SU_45:String = "../maps/icons/vehicle/small/ussr-SU_45.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_SU_85I:String = "../maps/icons/vehicle/small/ussr-SU_85I.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_T_127:String = "../maps/icons/vehicle/small/ussr-T-127.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_USSR_T_19:String = "../maps/icons/vehicle/small/ussr-T-19.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_USSR_T_24:String = "../maps/icons/vehicle/small/ussr-T-24.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_T_26:String = "../maps/icons/vehicle/small/ussr-T-26.png";
       
@@ -6197,6 +8027,10 @@ package
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_T_43:String = "../maps/icons/vehicle/small/ussr-T-43.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_T_44:String = "../maps/icons/vehicle/small/ussr-T-44.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_USSR_T_44_IGR:String = "../maps/icons/vehicle/small/ussr-T-44_IGR.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_USSR_T_46_5:String = "../maps/icons/vehicle/small/ussr-T-46-5.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_T_46:String = "../maps/icons/vehicle/small/ussr-T-46.png";
       
@@ -6209,6 +8043,8 @@ package
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_T_70:String = "../maps/icons/vehicle/small/ussr-T-70.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_T150:String = "../maps/icons/vehicle/small/ussr-T150.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_USSR_T35:String = "../maps/icons/vehicle/small/ussr-T35.png";
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_T44_122:String = "../maps/icons/vehicle/small/ussr-T44_122.png";
       
@@ -6224,7 +8060,15 @@ package
       
       public static const MAPS_ICONS_VEHICLE_SMALL_USSR_VALENTINE_LL:String = "../maps/icons/vehicle/small/ussr-Valentine_LL.png";
       
+      public static const MAPS_ICONS_VEHICLE_SMALL_USSR_VALENTINE_LL_IGR:String = "../maps/icons/vehicle/small/ussr-Valentine_LL_IGR.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_USSR_ZIS30:String = "../maps/icons/vehicle/small/ussr-ZIS30.png";
+      
+      public static const MAPS_ICONS_VEHICLE_SMALL_USSR_KV_220_BETA:String = "../maps/icons/vehicle/small/ussr-kv-220_beta.png";
+      
       public static const MAPS_ICONS_VEHICLE_UK_GB01_MEDIUM_MARK_I:String = "../maps/icons/vehicle/uk-GB01_Medium_Mark_I.png";
+      
+      public static const MAPS_ICONS_VEHICLE_UK_GB02_A7:String = "../maps/icons/vehicle/uk-GB02_A7.png";
       
       public static const MAPS_ICONS_VEHICLE_UK_GB03_CRUISER_MK_I:String = "../maps/icons/vehicle/uk-GB03_Cruiser_Mk_I.png";
       
@@ -6238,23 +8082,45 @@ package
       
       public static const MAPS_ICONS_VEHICLE_UK_GB08_CHURCHILL_I:String = "../maps/icons/vehicle/uk-GB08_Churchill_I.png";
       
+      public static const MAPS_ICONS_VEHICLE_UK_GB08_CHURCHILL_I_IGR:String = "../maps/icons/vehicle/uk-GB08_Churchill_I_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_UK_GB09_CHURCHILL_VII:String = "../maps/icons/vehicle/uk-GB09_Churchill_VII.png";
       
       public static const MAPS_ICONS_VEHICLE_UK_GB10_BLACK_PRINCE:String = "../maps/icons/vehicle/uk-GB10_Black_Prince.png";
       
       public static const MAPS_ICONS_VEHICLE_UK_GB11_CAERNARVON:String = "../maps/icons/vehicle/uk-GB11_Caernarvon.png";
       
+      public static const MAPS_ICONS_VEHICLE_UK_GB11_CAERNARVON_IGR:String = "../maps/icons/vehicle/uk-GB11_Caernarvon_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_UK_GB12_CONQUEROR:String = "../maps/icons/vehicle/uk-GB12_Conqueror.png";
       
       public static const MAPS_ICONS_VEHICLE_UK_GB13_FV215B:String = "../maps/icons/vehicle/uk-GB13_FV215b.png";
+      
+      public static const MAPS_ICONS_VEHICLE_UK_GB13_FV215B_IGR:String = "../maps/icons/vehicle/uk-GB13_FV215b_IGR.png";
+      
+      public static const MAPS_ICONS_VEHICLE_UK_GB14_M2:String = "../maps/icons/vehicle/uk-GB14_M2.png";
+      
+      public static const MAPS_ICONS_VEHICLE_UK_GB15_STUART_I:String = "../maps/icons/vehicle/uk-GB15_Stuart_I.png";
+      
+      public static const MAPS_ICONS_VEHICLE_UK_GB16_STUART_VI:String = "../maps/icons/vehicle/uk-GB16_Stuart_VI.png";
+      
+      public static const MAPS_ICONS_VEHICLE_UK_GB17_GRANT_I:String = "../maps/icons/vehicle/uk-GB17_Grant_I.png";
+      
+      public static const MAPS_ICONS_VEHICLE_UK_GB18_SHERMAN_II:String = "../maps/icons/vehicle/uk-GB18_Sherman_II.png";
+      
+      public static const MAPS_ICONS_VEHICLE_UK_GB19_SHERMAN_FIREFLY:String = "../maps/icons/vehicle/uk-GB19_Sherman_Firefly.png";
       
       public static const MAPS_ICONS_VEHICLE_UK_GB20_CRUSADER:String = "../maps/icons/vehicle/uk-GB20_Crusader.png";
       
       public static const MAPS_ICONS_VEHICLE_UK_GB21_CROMWELL:String = "../maps/icons/vehicle/uk-GB21_Cromwell.png";
       
+      public static const MAPS_ICONS_VEHICLE_UK_GB21_CROMWELL_IGR:String = "../maps/icons/vehicle/uk-GB21_Cromwell_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_UK_GB22_COMET:String = "../maps/icons/vehicle/uk-GB22_Comet.png";
       
       public static const MAPS_ICONS_VEHICLE_UK_GB23_CENTURION:String = "../maps/icons/vehicle/uk-GB23_Centurion.png";
+      
+      public static const MAPS_ICONS_VEHICLE_UK_GB23_CENTURION_IGR:String = "../maps/icons/vehicle/uk-GB23_Centurion_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_UK_GB24_CENTURION_MK3:String = "../maps/icons/vehicle/uk-GB24_Centurion_Mk3.png";
       
@@ -6274,15 +8140,37 @@ package
       
       public static const MAPS_ICONS_VEHICLE_UK_GB32_TORTOISE:String = "../maps/icons/vehicle/uk-GB32_Tortoise.png";
       
+      public static const MAPS_ICONS_VEHICLE_UK_GB33_SENTINEL_AC_I:String = "../maps/icons/vehicle/uk-GB33_Sentinel_AC_I.png";
+      
+      public static const MAPS_ICONS_VEHICLE_UK_GB34_RAM:String = "../maps/icons/vehicle/uk-GB34_RAM.png";
+      
+      public static const MAPS_ICONS_VEHICLE_UK_GB35_SENTINEL_AC_IV:String = "../maps/icons/vehicle/uk-GB35_Sentinel_AC_IV.png";
+      
+      public static const MAPS_ICONS_VEHICLE_UK_GB36_MATILDA_I:String = "../maps/icons/vehicle/uk-GB36_Matilda_I.png";
+      
+      public static const MAPS_ICONS_VEHICLE_UK_GB37_VALLIANT:String = "../maps/icons/vehicle/uk-GB37_Valliant.png";
+      
       public static const MAPS_ICONS_VEHICLE_UK_GB39_UNIVERSAL_CARRIERQF2:String = "../maps/icons/vehicle/uk-GB39_Universal_CarrierQF2.png";
       
       public static const MAPS_ICONS_VEHICLE_UK_GB40_GUN_CARRIER_CHURCHILL:String = "../maps/icons/vehicle/uk-GB40_Gun_Carrier_Churchill.png";
       
+      public static const MAPS_ICONS_VEHICLE_UK_GB41_CHALLENGER:String = "../maps/icons/vehicle/uk-GB41_Challenger.png";
+      
       public static const MAPS_ICONS_VEHICLE_UK_GB42_VALENTINE_AT:String = "../maps/icons/vehicle/uk-GB42_Valentine_AT.png";
+      
+      public static const MAPS_ICONS_VEHICLE_UK_GB44_ARCHER:String = "../maps/icons/vehicle/uk-GB44_Archer.png";
+      
+      public static const MAPS_ICONS_VEHICLE_UK_GB45_ACHILLES_IIC:String = "../maps/icons/vehicle/uk-GB45_Achilles_IIC.png";
       
       public static const MAPS_ICONS_VEHICLE_UK_GB48_FV215B_183:String = "../maps/icons/vehicle/uk-GB48_FV215b_183.png";
       
+      public static const MAPS_ICONS_VEHICLE_UK_GB50_SHERMAN_III:String = "../maps/icons/vehicle/uk-GB50_Sherman_III.png";
+      
       public static const MAPS_ICONS_VEHICLE_UK_GB51_EXCELSIOR:String = "../maps/icons/vehicle/uk-GB51_Excelsior.png";
+      
+      public static const MAPS_ICONS_VEHICLE_UK_GB51_EXCELSIOR_IGR:String = "../maps/icons/vehicle/uk-GB51_Excelsior_IGR.png";
+      
+      public static const MAPS_ICONS_VEHICLE_UK_GB52_A45:String = "../maps/icons/vehicle/uk-GB52_A45.png";
       
       public static const MAPS_ICONS_VEHICLE_UK_GB57_ALECTO:String = "../maps/icons/vehicle/uk-GB57_Alecto.png";
       
@@ -6300,9 +8188,15 @@ package
       
       public static const MAPS_ICONS_VEHICLE_UK_GB70_FV4202_105:String = "../maps/icons/vehicle/uk-GB70_FV4202_105.png";
       
+      public static const MAPS_ICONS_VEHICLE_UK_GB70_N_FV4202_105:String = "../maps/icons/vehicle/uk-GB70_N_FV4202_105.png";
+      
       public static const MAPS_ICONS_VEHICLE_UK_GB71_AT_15A:String = "../maps/icons/vehicle/uk-GB71_AT_15A.png";
       
+      public static const MAPS_ICONS_VEHICLE_UK_GB71_AT_15A_IGR:String = "../maps/icons/vehicle/uk-GB71_AT_15A_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_UK_GB72_AT15:String = "../maps/icons/vehicle/uk-GB72_AT15.png";
+      
+      public static const MAPS_ICONS_VEHICLE_UK_GB72_AT15_IGR:String = "../maps/icons/vehicle/uk-GB72_AT15_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_UK_GB73_AT2:String = "../maps/icons/vehicle/uk-GB73_AT2.png";
       
@@ -6314,9 +8208,39 @@ package
       
       public static const MAPS_ICONS_VEHICLE_UK_GB77_FV304:String = "../maps/icons/vehicle/uk-GB77_FV304.png";
       
+      public static const MAPS_ICONS_VEHICLE_UK_GB77_FV304_IGR:String = "../maps/icons/vehicle/uk-GB77_FV304_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_UK_GB78_SEXTON_I:String = "../maps/icons/vehicle/uk-GB78_Sexton_I.png";
       
       public static const MAPS_ICONS_VEHICLE_UK_GB79_FV206:String = "../maps/icons/vehicle/uk-GB79_FV206.png";
+      
+      public static const MAPS_ICONS_VEHICLE_UK_GB80_CHARIOTEER:String = "../maps/icons/vehicle/uk-GB80_Charioteer.png";
+      
+      public static const MAPS_ICONS_VEHICLE_UK_GB81_FV4004:String = "../maps/icons/vehicle/uk-GB81_FV4004.png";
+      
+      public static const MAPS_ICONS_VEHICLE_UK_GB83_FV4005:String = "../maps/icons/vehicle/uk-GB83_FV4005.png";
+      
+      public static const MAPS_ICONS_VEHICLE_UNIQUE_GERMANY_G104_STUG_IV:String = "../maps/icons/vehicle/unique/germany-G104_StuG_IV.png";
+      
+      public static const MAPS_ICONS_VEHICLE_UNIQUE_GERMANY_G105_T_55_NVA_DDR:String = "../maps/icons/vehicle/unique/germany-G105_T-55_NVA_DDR.png";
+      
+      public static const MAPS_ICONS_VEHICLE_UNIQUE_NORMAL_GERMANY_G104_STUG_IV:String = "../maps/icons/vehicle/unique/normal_germany-G104_StuG_IV.png";
+      
+      public static const MAPS_ICONS_VEHICLE_UNIQUE_NORMAL_GERMANY_G105_T_55_NVA_DDR:String = "../maps/icons/vehicle/unique/normal_germany-G105_T-55_NVA_DDR.png";
+      
+      public static const MAPS_ICONS_VEHICLE_UNIQUE_NORMAL_USA_A102_T28_CONCEPT:String = "../maps/icons/vehicle/unique/normal_usa-A102_T28_concept.png";
+      
+      public static const MAPS_ICONS_VEHICLE_UNIQUE_NORMAL_USA_T95_E2:String = "../maps/icons/vehicle/unique/normal_usa-T95_E2.png";
+      
+      public static const MAPS_ICONS_VEHICLE_UNIQUE_NORMAL_USSR_R110_OBJECT_260:String = "../maps/icons/vehicle/unique/normal_ussr-R110_Object_260.png";
+      
+      public static const MAPS_ICONS_VEHICLE_UNIQUE_USA_A102_T28_CONCEPT:String = "../maps/icons/vehicle/unique/usa-A102_T28_concept.png";
+      
+      public static const MAPS_ICONS_VEHICLE_UNIQUE_USA_T95_E2:String = "../maps/icons/vehicle/unique/usa-T95_E2.png";
+      
+      public static const MAPS_ICONS_VEHICLE_UNIQUE_USSR_R110_OBJECT_260:String = "../maps/icons/vehicle/unique/ussr-R110_Object_260.png";
+      
+      public static const MAPS_ICONS_VEHICLE_USA_A00_T110E5:String = "../maps/icons/vehicle/usa-A00_T110E5.png";
       
       public static const MAPS_ICONS_VEHICLE_USA_A101_M56:String = "../maps/icons/vehicle/usa-A101_M56.png";
       
@@ -6324,9 +8248,21 @@ package
       
       public static const MAPS_ICONS_VEHICLE_USA_A104_M4A3E8A:String = "../maps/icons/vehicle/usa-A104_M4A3E8A.png";
       
+      public static const MAPS_ICONS_VEHICLE_USA_A78_M4_IMPROVED:String = "../maps/icons/vehicle/usa-A78_M4_Improved.png";
+      
+      public static const MAPS_ICONS_VEHICLE_USA_A94_T37:String = "../maps/icons/vehicle/usa-A94_T37.png";
+      
+      public static const MAPS_ICONS_VEHICLE_USA_A97_M41_BULLDOG:String = "../maps/icons/vehicle/usa-A97_M41_Bulldog.png";
+      
+      public static const MAPS_ICONS_VEHICLE_USA_CHI_RI:String = "../maps/icons/vehicle/usa-Chi_Ri.png";
+      
+      public static const MAPS_ICONS_VEHICLE_USA_HA_GO:String = "../maps/icons/vehicle/usa-Ha_go.png";
+      
       public static const MAPS_ICONS_VEHICLE_USA_M103:String = "../maps/icons/vehicle/usa-M103.png";
       
       public static const MAPS_ICONS_VEHICLE_USA_M10_WOLVERINE:String = "../maps/icons/vehicle/usa-M10_Wolverine.png";
+      
+      public static const MAPS_ICONS_VEHICLE_USA_M10_WOLVERINE_IGR:String = "../maps/icons/vehicle/usa-M10_Wolverine_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_USA_M12:String = "../maps/icons/vehicle/usa-M12.png";
       
@@ -6344,6 +8280,8 @@ package
       
       public static const MAPS_ICONS_VEHICLE_USA_M37:String = "../maps/icons/vehicle/usa-M37.png";
       
+      public static const MAPS_ICONS_VEHICLE_USA_M3_A3:String = "../maps/icons/vehicle/usa-M3_A3.png";
+      
       public static const MAPS_ICONS_VEHICLE_USA_M3_GRANT:String = "../maps/icons/vehicle/usa-M3_Grant.png";
       
       public static const MAPS_ICONS_VEHICLE_USA_M3_STUART:String = "../maps/icons/vehicle/usa-M3_Stuart.png";
@@ -6356,15 +8294,27 @@ package
       
       public static const MAPS_ICONS_VEHICLE_USA_M44:String = "../maps/icons/vehicle/usa-M44.png";
       
+      public static const MAPS_ICONS_VEHICLE_USA_M44_IGR:String = "../maps/icons/vehicle/usa-M44_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_USA_M46_PATTON:String = "../maps/icons/vehicle/usa-M46_Patton.png";
       
       public static const MAPS_ICONS_VEHICLE_USA_M48A1:String = "../maps/icons/vehicle/usa-M48A1.png";
       
+      public static const MAPS_ICONS_VEHICLE_USA_M48A1_IGR:String = "../maps/icons/vehicle/usa-M48A1_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_USA_M4A2E4:String = "../maps/icons/vehicle/usa-M4A2E4.png";
+      
+      public static const MAPS_ICONS_VEHICLE_USA_M4A2_USMC:String = "../maps/icons/vehicle/usa-M4A2_USMC.png";
       
       public static const MAPS_ICONS_VEHICLE_USA_M4A3E8_SHERMAN:String = "../maps/icons/vehicle/usa-M4A3E8_Sherman.png";
       
+      public static const MAPS_ICONS_VEHICLE_USA_M4_90V:String = "../maps/icons/vehicle/usa-M4_90V.png";
+      
+      public static const MAPS_ICONS_VEHICLE_USA_M4_IMPROVED:String = "../maps/icons/vehicle/usa-M4_Improved.png";
+      
       public static const MAPS_ICONS_VEHICLE_USA_M4_SHERMAN:String = "../maps/icons/vehicle/usa-M4_Sherman.png";
+      
+      public static const MAPS_ICONS_VEHICLE_USA_M4_SHERMAN_IGR:String = "../maps/icons/vehicle/usa-M4_Sherman_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_USA_M53_55:String = "../maps/icons/vehicle/usa-M53_55.png";
       
@@ -6384,11 +8334,23 @@ package
       
       public static const MAPS_ICONS_VEHICLE_USA_MTLS_1G14:String = "../maps/icons/vehicle/usa-MTLS-1G14.png";
       
+      public static const MAPS_ICONS_VEHICLE_USA_MKVIII:String = "../maps/icons/vehicle/usa-MkVIII.png";
+      
       public static const MAPS_ICONS_VEHICLE_USA_PERSHING:String = "../maps/icons/vehicle/usa-Pershing.png";
+      
+      public static const MAPS_ICONS_VEHICLE_USA_PERSHING_IGR:String = "../maps/icons/vehicle/usa-Pershing_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_USA_RAM_II:String = "../maps/icons/vehicle/usa-Ram-II.png";
       
+      public static const MAPS_ICONS_VEHICLE_USA_RAM_II_IGR:String = "../maps/icons/vehicle/usa-Ram-II_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_USA_SHERMAN_JUMBO:String = "../maps/icons/vehicle/usa-Sherman_Jumbo.png";
+      
+      public static const MAPS_ICONS_VEHICLE_USA_SHERMAN_JUMBO_IGR:String = "../maps/icons/vehicle/usa-Sherman_Jumbo_IGR.png";
+      
+      public static const MAPS_ICONS_VEHICLE_USA_SHINHOTO_CHI_HA:String = "../maps/icons/vehicle/usa-Shinhoto_Chi-Ha.png";
+      
+      public static const MAPS_ICONS_VEHICLE_USA_SUPERHELLCAT:String = "../maps/icons/vehicle/usa-SuperHellcat.png";
       
       public static const MAPS_ICONS_VEHICLE_USA_T110:String = "../maps/icons/vehicle/usa-T110.png";
       
@@ -6404,6 +8366,8 @@ package
       
       public static const MAPS_ICONS_VEHICLE_USA_T1_E6:String = "../maps/icons/vehicle/usa-T1_E6.png";
       
+      public static const MAPS_ICONS_VEHICLE_USA_T1_M1921:String = "../maps/icons/vehicle/usa-T1_M1921.png";
+      
       public static const MAPS_ICONS_VEHICLE_USA_T1_HVY:String = "../maps/icons/vehicle/usa-T1_hvy.png";
       
       public static const MAPS_ICONS_VEHICLE_USA_T20:String = "../maps/icons/vehicle/usa-T20.png";
@@ -6411,6 +8375,8 @@ package
       public static const MAPS_ICONS_VEHICLE_USA_T21:String = "../maps/icons/vehicle/usa-T21.png";
       
       public static const MAPS_ICONS_VEHICLE_USA_T23E3:String = "../maps/icons/vehicle/usa-T23E3.png";
+      
+      public static const MAPS_ICONS_VEHICLE_USA_T24:String = "../maps/icons/vehicle/usa-T24.png";
       
       public static const MAPS_ICONS_VEHICLE_USA_T25_2:String = "../maps/icons/vehicle/usa-T25_2.png";
       
@@ -6424,15 +8390,23 @@ package
       
       public static const MAPS_ICONS_VEHICLE_USA_T29:String = "../maps/icons/vehicle/usa-T29.png";
       
+      public static const MAPS_ICONS_VEHICLE_USA_T29_IGR:String = "../maps/icons/vehicle/usa-T29_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_USA_T2_LT:String = "../maps/icons/vehicle/usa-T2_lt.png";
       
       public static const MAPS_ICONS_VEHICLE_USA_T2_MED:String = "../maps/icons/vehicle/usa-T2_med.png";
       
+      public static const MAPS_ICONS_VEHICLE_USA_T3:String = "../maps/icons/vehicle/usa-T3.png";
+      
       public static const MAPS_ICONS_VEHICLE_USA_T30:String = "../maps/icons/vehicle/usa-T30.png";
+      
+      public static const MAPS_ICONS_VEHICLE_USA_T31:String = "../maps/icons/vehicle/usa-T31.png";
       
       public static const MAPS_ICONS_VEHICLE_USA_T32:String = "../maps/icons/vehicle/usa-T32.png";
       
       public static const MAPS_ICONS_VEHICLE_USA_T34_HVY:String = "../maps/icons/vehicle/usa-T34_hvy.png";
+      
+      public static const MAPS_ICONS_VEHICLE_USA_T34_HVY_IGR:String = "../maps/icons/vehicle/usa-T34_hvy_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_USA_T40:String = "../maps/icons/vehicle/usa-T40.png";
       
@@ -6440,27 +8414,47 @@ package
       
       public static const MAPS_ICONS_VEHICLE_USA_T54E1:String = "../maps/icons/vehicle/usa-T54E1.png";
       
+      public static const MAPS_ICONS_VEHICLE_USA_T54_E2:String = "../maps/icons/vehicle/usa-T54_E2.png";
+      
       public static const MAPS_ICONS_VEHICLE_USA_T57:String = "../maps/icons/vehicle/usa-T57.png";
       
       public static const MAPS_ICONS_VEHICLE_USA_T57_58:String = "../maps/icons/vehicle/usa-T57_58.png";
       
       public static const MAPS_ICONS_VEHICLE_USA_T67:String = "../maps/icons/vehicle/usa-T67.png";
       
+      public static const MAPS_ICONS_VEHICLE_USA_T67_IGR:String = "../maps/icons/vehicle/usa-T67_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_USA_T69:String = "../maps/icons/vehicle/usa-T69.png";
       
+      public static const MAPS_ICONS_VEHICLE_USA_T69_IGR:String = "../maps/icons/vehicle/usa-T69_IGR.png";
+      
+      public static const MAPS_ICONS_VEHICLE_USA_T6_M:String = "../maps/icons/vehicle/usa-T6_M.png";
+      
       public static const MAPS_ICONS_VEHICLE_USA_T71:String = "../maps/icons/vehicle/usa-T71.png";
+      
+      public static const MAPS_ICONS_VEHICLE_USA_T71_IGR:String = "../maps/icons/vehicle/usa-T71_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_USA_T7_COMBAT_CAR:String = "../maps/icons/vehicle/usa-T7_Combat_Car.png";
       
       public static const MAPS_ICONS_VEHICLE_USA_T82:String = "../maps/icons/vehicle/usa-T82.png";
       
+      public static const MAPS_ICONS_VEHICLE_USA_T88:String = "../maps/icons/vehicle/usa-T88.png";
+      
       public static const MAPS_ICONS_VEHICLE_USA_T92:String = "../maps/icons/vehicle/usa-T92.png";
+      
+      public static const MAPS_ICONS_VEHICLE_USA_T92_LT:String = "../maps/icons/vehicle/usa-T92_LT.png";
       
       public static const MAPS_ICONS_VEHICLE_USA_T95:String = "../maps/icons/vehicle/usa-T95.png";
       
       public static const MAPS_ICONS_VEHICLE_USA_T95_E2:String = "../maps/icons/vehicle/usa-T95_E2.png";
       
       public static const MAPS_ICONS_VEHICLE_USA_T95_E6:String = "../maps/icons/vehicle/usa-T95_E6.png";
+      
+      public static const MAPS_ICONS_VEHICLE_USA_T95_E7:String = "../maps/icons/vehicle/usa-T95_E7.png";
+      
+      public static const MAPS_ICONS_VEHICLE_USA_T96:String = "../maps/icons/vehicle/usa-T96.png";
+      
+      public static const MAPS_ICONS_VEHICLE_USSR_62A:String = "../maps/icons/vehicle/ussr-62A.png";
       
       public static const MAPS_ICONS_VEHICLE_USSR_A_20:String = "../maps/icons/vehicle/ussr-A-20.png";
       
@@ -6482,11 +8476,17 @@ package
       
       public static const MAPS_ICONS_VEHICLE_USSR_GAZ_74B:String = "../maps/icons/vehicle/ussr-GAZ-74b.png";
       
+      public static const MAPS_ICONS_VEHICLE_USSR_GAZ75:String = "../maps/icons/vehicle/ussr-GAZ75.png";
+      
       public static const MAPS_ICONS_VEHICLE_USSR_IS_3:String = "../maps/icons/vehicle/ussr-IS-3.png";
+      
+      public static const MAPS_ICONS_VEHICLE_USSR_IS_3_IGR:String = "../maps/icons/vehicle/ussr-IS-3_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_USSR_IS_4:String = "../maps/icons/vehicle/ussr-IS-4.png";
       
       public static const MAPS_ICONS_VEHICLE_USSR_IS_7:String = "../maps/icons/vehicle/ussr-IS-7.png";
+      
+      public static const MAPS_ICONS_VEHICLE_USSR_IS_7_IGR:String = "../maps/icons/vehicle/ussr-IS-7_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_USSR_IS:String = "../maps/icons/vehicle/ussr-IS.png";
       
@@ -6494,9 +8494,15 @@ package
       
       public static const MAPS_ICONS_VEHICLE_USSR_ISU_152:String = "../maps/icons/vehicle/ussr-ISU-152.png";
       
+      public static const MAPS_ICONS_VEHICLE_USSR_ISU_152_IGR:String = "../maps/icons/vehicle/ussr-ISU-152_IGR.png";
+      
+      public static const MAPS_ICONS_VEHICLE_USSR_IT45:String = "../maps/icons/vehicle/ussr-IT45.png";
+      
       public static const MAPS_ICONS_VEHICLE_USSR_KV_13:String = "../maps/icons/vehicle/ussr-KV-13.png";
       
       public static const MAPS_ICONS_VEHICLE_USSR_KV_1S:String = "../maps/icons/vehicle/ussr-KV-1s.png";
+      
+      public static const MAPS_ICONS_VEHICLE_USSR_KV_1S_IGR:String = "../maps/icons/vehicle/ussr-KV-1s_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_USSR_KV_220:String = "../maps/icons/vehicle/ussr-KV-220.png";
       
@@ -6506,15 +8512,21 @@ package
       
       public static const MAPS_ICONS_VEHICLE_USSR_KV_5:String = "../maps/icons/vehicle/ussr-KV-5.png";
       
+      public static const MAPS_ICONS_VEHICLE_USSR_KV_5_IGR:String = "../maps/icons/vehicle/ussr-KV-5_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_USSR_KV:String = "../maps/icons/vehicle/ussr-KV.png";
       
       public static const MAPS_ICONS_VEHICLE_USSR_KV1:String = "../maps/icons/vehicle/ussr-KV1.png";
       
       public static const MAPS_ICONS_VEHICLE_USSR_KV2:String = "../maps/icons/vehicle/ussr-KV2.png";
       
+      public static const MAPS_ICONS_VEHICLE_USSR_KV2_IGR:String = "../maps/icons/vehicle/ussr-KV2_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_USSR_KV4:String = "../maps/icons/vehicle/ussr-KV4.png";
       
       public static const MAPS_ICONS_VEHICLE_USSR_LTP:String = "../maps/icons/vehicle/ussr-LTP.png";
+      
+      public static const MAPS_ICONS_VEHICLE_USSR_M3S:String = "../maps/icons/vehicle/ussr-M3S.png";
       
       public static const MAPS_ICONS_VEHICLE_USSR_M3_STUART_LL:String = "../maps/icons/vehicle/ussr-M3_Stuart_LL.png";
       
@@ -6523,6 +8535,8 @@ package
       public static const MAPS_ICONS_VEHICLE_USSR_MT25:String = "../maps/icons/vehicle/ussr-MT25.png";
       
       public static const MAPS_ICONS_VEHICLE_USSR_MATILDA_II_LL:String = "../maps/icons/vehicle/ussr-Matilda_II_LL.png";
+      
+      public static const MAPS_ICONS_VEHICLE_USSR_OBJECT_261:String = "../maps/icons/vehicle/ussr-Object-261.png";
       
       public static const MAPS_ICONS_VEHICLE_USSR_OBJECT252:String = "../maps/icons/vehicle/ussr-Object252.png";
       
@@ -6536,19 +8550,33 @@ package
       
       public static const MAPS_ICONS_VEHICLE_USSR_OBJECT_212:String = "../maps/icons/vehicle/ussr-Object_212.png";
       
-      public static const MAPS_ICONS_VEHICLE_USSR_OBJECT_261:String = "../maps/icons/vehicle/ussr-Object_261.png";
+      public static const MAPS_ICONS_VEHICLE_USSR_OBJECT_261_:String = "../maps/icons/vehicle/ussr-Object_261.png";
       
       public static const MAPS_ICONS_VEHICLE_USSR_OBJECT_430:String = "../maps/icons/vehicle/ussr-Object_430.png";
       
       public static const MAPS_ICONS_VEHICLE_USSR_OBJECT_704:String = "../maps/icons/vehicle/ussr-Object_704.png";
       
+      public static const MAPS_ICONS_VEHICLE_USSR_OBJECT_730:String = "../maps/icons/vehicle/ussr-Object_730.png";
+      
       public static const MAPS_ICONS_VEHICLE_USSR_OBJECT_907:String = "../maps/icons/vehicle/ussr-Object_907.png";
       
       public static const MAPS_ICONS_VEHICLE_USSR_OBSERVER:String = "../maps/icons/vehicle/ussr-Observer.png";
       
+      public static const MAPS_ICONS_VEHICLE_USSR_PZIV_CAPT:String = "../maps/icons/vehicle/ussr-PzIV_capt.png";
+      
+      public static const MAPS_ICONS_VEHICLE_USSR_PZV_CAPT:String = "../maps/icons/vehicle/ussr-PzV_capt.png";
+      
+      public static const MAPS_ICONS_VEHICLE_USSR_R00_T_50_2:String = "../maps/icons/vehicle/ussr-R00_T_50_2.png";
+      
+      public static const MAPS_ICONS_VEHICLE_USSR_R04_T_34:String = "../maps/icons/vehicle/ussr-R04_T-34.png";
+      
+      public static const MAPS_ICONS_VEHICLE_USSR_R04_T_34_IGR:String = "../maps/icons/vehicle/ussr-R04_T-34_IGR.png";
+      
       public static const MAPS_ICONS_VEHICLE_USSR_R104_OBJECT_430_II:String = "../maps/icons/vehicle/ussr-R104_Object_430_II.png";
       
       public static const MAPS_ICONS_VEHICLE_USSR_R106_KV85:String = "../maps/icons/vehicle/ussr-R106_KV85.png";
+      
+      public static const MAPS_ICONS_VEHICLE_USSR_R106_KV85_IGR:String = "../maps/icons/vehicle/ussr-R106_KV85_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_USSR_R107_LTB:String = "../maps/icons/vehicle/ussr-R107_LTB.png";
       
@@ -6558,17 +8586,29 @@ package
       
       public static const MAPS_ICONS_VEHICLE_USSR_R110_OBJECT_260:String = "../maps/icons/vehicle/ussr-R110_Object_260.png";
       
+      public static const MAPS_ICONS_VEHICLE_USSR_R111_ISU130:String = "../maps/icons/vehicle/ussr-R111_ISU130.png";
+      
+      public static const MAPS_ICONS_VEHICLE_USSR_R80_KV1:String = "../maps/icons/vehicle/ussr-R80_KV1.png";
+      
+      public static const MAPS_ICONS_VEHICLE_USSR_RBT_5:String = "../maps/icons/vehicle/ussr-RBT-5.png";
+      
       public static const MAPS_ICONS_VEHICLE_USSR_S_51:String = "../maps/icons/vehicle/ussr-S-51.png";
+      
+      public static const MAPS_ICONS_VEHICLE_USSR_SG122:String = "../maps/icons/vehicle/ussr-SG122.png";
       
       public static const MAPS_ICONS_VEHICLE_USSR_ST_I:String = "../maps/icons/vehicle/ussr-ST_I.png";
       
       public static const MAPS_ICONS_VEHICLE_USSR_SU_100:String = "../maps/icons/vehicle/ussr-SU-100.png";
+      
+      public static const MAPS_ICONS_VEHICLE_USSR_SU_100_IGR:String = "../maps/icons/vehicle/ussr-SU-100_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_USSR_SU_101:String = "../maps/icons/vehicle/ussr-SU-101.png";
       
       public static const MAPS_ICONS_VEHICLE_USSR_SU_14:String = "../maps/icons/vehicle/ussr-SU-14.png";
       
       public static const MAPS_ICONS_VEHICLE_USSR_SU_152:String = "../maps/icons/vehicle/ussr-SU-152.png";
+      
+      public static const MAPS_ICONS_VEHICLE_USSR_SU_152_IGR:String = "../maps/icons/vehicle/ussr-SU-152_IGR.png";
       
       public static const MAPS_ICONS_VEHICLE_USSR_SU_18:String = "../maps/icons/vehicle/ussr-SU-18.png";
       
@@ -6594,11 +8634,19 @@ package
       
       public static const MAPS_ICONS_VEHICLE_USSR_SU14_1:String = "../maps/icons/vehicle/ussr-SU14_1.png";
       
+      public static const MAPS_ICONS_VEHICLE_USSR_SU76BM:String = "../maps/icons/vehicle/ussr-SU76BM.png";
+      
       public static const MAPS_ICONS_VEHICLE_USSR_SU76I:String = "../maps/icons/vehicle/ussr-SU76I.png";
+      
+      public static const MAPS_ICONS_VEHICLE_USSR_SU_45:String = "../maps/icons/vehicle/ussr-SU_45.png";
       
       public static const MAPS_ICONS_VEHICLE_USSR_SU_85I:String = "../maps/icons/vehicle/ussr-SU_85I.png";
       
       public static const MAPS_ICONS_VEHICLE_USSR_T_127:String = "../maps/icons/vehicle/ussr-T-127.png";
+      
+      public static const MAPS_ICONS_VEHICLE_USSR_T_19:String = "../maps/icons/vehicle/ussr-T-19.png";
+      
+      public static const MAPS_ICONS_VEHICLE_USSR_T_24:String = "../maps/icons/vehicle/ussr-T-24.png";
       
       public static const MAPS_ICONS_VEHICLE_USSR_T_26:String = "../maps/icons/vehicle/ussr-T-26.png";
       
@@ -6609,6 +8657,10 @@ package
       public static const MAPS_ICONS_VEHICLE_USSR_T_43:String = "../maps/icons/vehicle/ussr-T-43.png";
       
       public static const MAPS_ICONS_VEHICLE_USSR_T_44:String = "../maps/icons/vehicle/ussr-T-44.png";
+      
+      public static const MAPS_ICONS_VEHICLE_USSR_T_44_IGR:String = "../maps/icons/vehicle/ussr-T-44_IGR.png";
+      
+      public static const MAPS_ICONS_VEHICLE_USSR_T_46_5:String = "../maps/icons/vehicle/ussr-T-46-5.png";
       
       public static const MAPS_ICONS_VEHICLE_USSR_T_46:String = "../maps/icons/vehicle/ussr-T-46.png";
       
@@ -6621,6 +8673,8 @@ package
       public static const MAPS_ICONS_VEHICLE_USSR_T_70:String = "../maps/icons/vehicle/ussr-T-70.png";
       
       public static const MAPS_ICONS_VEHICLE_USSR_T150:String = "../maps/icons/vehicle/ussr-T150.png";
+      
+      public static const MAPS_ICONS_VEHICLE_USSR_T35:String = "../maps/icons/vehicle/ussr-T35.png";
       
       public static const MAPS_ICONS_VEHICLE_USSR_T44_122:String = "../maps/icons/vehicle/ussr-T44_122.png";
       
@@ -6636,9 +8690,19 @@ package
       
       public static const MAPS_ICONS_VEHICLE_USSR_VALENTINE_LL:String = "../maps/icons/vehicle/ussr-Valentine_LL.png";
       
-      public static const MAPS_ICONS_BUTTONS_ENUM:Array = [MAPS_ICONS_BUTTONS_TANK_ICO,MAPS_ICONS_BUTTONS_BOOKMARK,MAPS_ICONS_BUTTONS_CALENDAR,MAPS_ICONS_BUTTONS_CLAN_LIST,MAPS_ICONS_BUTTONS_CLAN_STATS,MAPS_ICONS_BUTTONS_DESTROY,MAPS_ICONS_BUTTONS_ENTERWHITE,MAPS_ICONS_BUTTONS_EXP_GATHERING,MAPS_ICONS_BUTTONS_EXPLORE,MAPS_ICONS_BUTTONS_FILTER,MAPS_ICONS_BUTTONS_FOOTHOLD,MAPS_ICONS_BUTTONS_GOLD_EXCHANGING,MAPS_ICONS_BUTTONS_ICONDESTROY,MAPS_ICONS_BUTTONS_ICONUPGRADE,MAPS_ICONS_BUTTONS_LEVEL_UP,MAPS_ICONS_BUTTONS_MAINMENU,MAPS_ICONS_BUTTONS_MAITENANCE,MAPS_ICONS_BUTTONS_NEXTPAGE,MAPS_ICONS_BUTTONS_PREMIUM,MAPS_ICONS_BUTTONS_PREVIOUSPAGE,MAPS_ICONS_BUTTONS_REFILL_ACCOUNT,MAPS_ICONS_BUTTONS_REMOVE,MAPS_ICONS_BUTTONS_REMOVEGOLD,MAPS_ICONS_BUTTONS_SEARCH,MAPS_ICONS_BUTTONS_SETTINGS,MAPS_ICONS_BUTTONS_SMALLATTACKICON,MAPS_ICONS_BUTTONS_SOUND,MAPS_ICONS_BUTTONS_SWAP,MAPS_ICONS_BUTTONS_TAB_SORT_BUTTON_ASCPROFILESORTARROW,MAPS_ICONS_BUTTONS_TAB_SORT_BUTTON_ASCENDINGSORTARROW,MAPS_ICONS_BUTTONS_TAB_SORT_BUTTON_DAMAGE,MAPS_ICONS_BUTTONS_TAB_SORT_BUTTON_DESCPROFILESORTARROW,MAPS_ICONS_BUTTONS_TAB_SORT_BUTTON_DESCENDINGSORTARROW,MAPS_ICONS_BUTTONS_TAB_SORT_BUTTON_FRAG,MAPS_ICONS_BUTTONS_TAB_SORT_BUTTON_HEALTH,MAPS_ICONS_BUTTONS_TAB_SORT_BUTTON_LEVEL,MAPS_ICONS_BUTTONS_TAB_SORT_BUTTON_MEDAL,MAPS_ICONS_BUTTONS_TAB_SORT_BUTTON_NOTAVAILABLE,MAPS_ICONS_BUTTONS_TAB_SORT_BUTTON_NUT,MAPS_ICONS_BUTTONS_TAB_SORT_BUTTON_OK,MAPS_ICONS_BUTTONS_TAB_SORT_BUTTON_PLAYER,MAPS_ICONS_BUTTONS_TAB_SORT_BUTTON_SQUAD,MAPS_ICONS_BUTTONS_TAB_SORT_BUTTON_STAR,MAPS_ICONS_BUTTONS_TAB_SORT_BUTTON_STAR_RED,MAPS_ICONS_BUTTONS_TAB_SORT_BUTTON_TABLEHEADERBG,MAPS_ICONS_BUTTONS_TAB_SORT_BUTTON_TABLEHEADERSORTEDBG,MAPS_ICONS_BUTTONS_TAB_SORT_BUTTON_TANK,MAPS_ICONS_BUTTONS_TANKMAN_SKILLS_DROP,MAPS_ICONS_BUTTONS_TRANSPORTING,MAPS_ICONS_BUTTONS_TRANSPORTINGARROW,MAPS_ICONS_BUTTONS_TUNING];
+      public static const MAPS_ICONS_VEHICLE_USSR_VALENTINE_LL_IGR:String = "../maps/icons/vehicle/ussr-Valentine_LL_IGR.png";
+      
+      public static const MAPS_ICONS_VEHICLE_USSR_ZIS30:String = "../maps/icons/vehicle/ussr-ZIS30.png";
+      
+      public static const MAPS_ICONS_BUTTONS_ENUM:Array = [MAPS_ICONS_BUTTONS_TANK_ICO,MAPS_ICONS_BUTTONS_BOOKMARK,MAPS_ICONS_BUTTONS_CALENDAR,MAPS_ICONS_BUTTONS_CLAN_LIST,MAPS_ICONS_BUTTONS_CLAN_STATS,MAPS_ICONS_BUTTONS_DESTROY,MAPS_ICONS_BUTTONS_ENTERWHITE,MAPS_ICONS_BUTTONS_EXP_GATHERING,MAPS_ICONS_BUTTONS_EXPLORE,MAPS_ICONS_BUTTONS_FILTER,MAPS_ICONS_BUTTONS_FOOTHOLD,MAPS_ICONS_BUTTONS_GOLD_EXCHANGING,MAPS_ICONS_BUTTONS_ICONDESTROY,MAPS_ICONS_BUTTONS_ICONUPGRADE,MAPS_ICONS_BUTTONS_ICON_ARROW_FORMATION_LEFT,MAPS_ICONS_BUTTONS_ICON_ARROW_FORMATION_LEFT_DOUBLE,MAPS_ICONS_BUTTONS_ICON_ARROW_FORMATION_RIGHT,MAPS_ICONS_BUTTONS_ICON_ARROW_FORMATION_RIGHT_DOUBLE,MAPS_ICONS_BUTTONS_ICON_BUTTON_ARROW,MAPS_ICONS_BUTTONS_LEVEL_UP,MAPS_ICONS_BUTTONS_MAINMENU,MAPS_ICONS_BUTTONS_MAITENANCE,MAPS_ICONS_BUTTONS_NEXTPAGE,MAPS_ICONS_BUTTONS_PREMIUM,MAPS_ICONS_BUTTONS_PREVIOUSPAGE,MAPS_ICONS_BUTTONS_REFILL_ACCOUNT,MAPS_ICONS_BUTTONS_REMOVE,MAPS_ICONS_BUTTONS_REMOVEGOLD,MAPS_ICONS_BUTTONS_SEARCH,MAPS_ICONS_BUTTONS_SETTINGS,MAPS_ICONS_BUTTONS_SMALLATTACKICON,MAPS_ICONS_BUTTONS_SOCIAL_COLOR_FACEBOOK,MAPS_ICONS_BUTTONS_SOCIAL_COLOR_GOOGLE,MAPS_ICONS_BUTTONS_SOCIAL_COLOR_NAVER,MAPS_ICONS_BUTTONS_SOCIAL_COLOR_VKONTAKTE,MAPS_ICONS_BUTTONS_SOCIAL_COLOR_WG,MAPS_ICONS_BUTTONS_SOCIAL_COLOR_YAHOO,MAPS_ICONS_BUTTONS_SOCIAL_FACEBOOK,MAPS_ICONS_BUTTONS_SOCIAL_GOOGLE,MAPS_ICONS_BUTTONS_SOCIAL_NAVER,MAPS_ICONS_BUTTONS_SOCIAL_VKONTAKTE,MAPS_ICONS_BUTTONS_SOCIAL_WG,MAPS_ICONS_BUTTONS_SOCIAL_YAHOO,MAPS_ICONS_BUTTONS_SOUND,MAPS_ICONS_BUTTONS_SWAP,MAPS_ICONS_BUTTONS_TAB_SORT_BUTTON_ASCPROFILESORTARROW,MAPS_ICONS_BUTTONS_TAB_SORT_BUTTON_ASCENDINGSORTARROW,MAPS_ICONS_BUTTONS_TAB_SORT_BUTTON_DAMAGE,MAPS_ICONS_BUTTONS_TAB_SORT_BUTTON_DESCPROFILESORTARROW,MAPS_ICONS_BUTTONS_TAB_SORT_BUTTON_DESCENDINGSORTARROW,MAPS_ICONS_BUTTONS_TAB_SORT_BUTTON_FRAG,MAPS_ICONS_BUTTONS_TAB_SORT_BUTTON_HEALTH,MAPS_ICONS_BUTTONS_TAB_SORT_BUTTON_LEVEL,MAPS_ICONS_BUTTONS_TAB_SORT_BUTTON_MEDAL,MAPS_ICONS_BUTTONS_TAB_SORT_BUTTON_NOTAVAILABLE,MAPS_ICONS_BUTTONS_TAB_SORT_BUTTON_NUT,MAPS_ICONS_BUTTONS_TAB_SORT_BUTTON_OK,MAPS_ICONS_BUTTONS_TAB_SORT_BUTTON_PLAYER,MAPS_ICONS_BUTTONS_TAB_SORT_BUTTON_SQUAD,MAPS_ICONS_BUTTONS_TAB_SORT_BUTTON_STAR,MAPS_ICONS_BUTTONS_TAB_SORT_BUTTON_STAR_RED,MAPS_ICONS_BUTTONS_TAB_SORT_BUTTON_TABLEHEADERBG,MAPS_ICONS_BUTTONS_TAB_SORT_BUTTON_TABLEHEADERSORTEDBG,MAPS_ICONS_BUTTONS_TAB_SORT_BUTTON_TANK,MAPS_ICONS_BUTTONS_TANKMAN_SKILLS_DROP,MAPS_ICONS_BUTTONS_TRANSPORTING,MAPS_ICONS_BUTTONS_TRANSPORTINGARROW,MAPS_ICONS_BUTTONS_TUNING];
       
       public static const MAPS_ICONS_QUESTS_TILES_ENUM:Array = [MAPS_ICONS_QUESTS_TILES_TILE_1_1_COLOR_OVER,MAPS_ICONS_QUESTS_TILES_TILE_1_1_COLOR_UP,MAPS_ICONS_QUESTS_TILES_TILE_1_1_GRAY_OVER,MAPS_ICONS_QUESTS_TILES_TILE_1_1_GRAY_UP,MAPS_ICONS_QUESTS_TILES_TILE_1_2_COLOR_OVER,MAPS_ICONS_QUESTS_TILES_TILE_1_2_COLOR_UP,MAPS_ICONS_QUESTS_TILES_TILE_1_2_GRAY_OVER,MAPS_ICONS_QUESTS_TILES_TILE_1_2_GRAY_UP,MAPS_ICONS_QUESTS_TILES_TILE_1_3_COLOR_OVER,MAPS_ICONS_QUESTS_TILES_TILE_1_3_COLOR_UP,MAPS_ICONS_QUESTS_TILES_TILE_1_3_GRAY_OVER,MAPS_ICONS_QUESTS_TILES_TILE_1_3_GRAY_UP,MAPS_ICONS_QUESTS_TILES_TILE_1_4_COLOR_OVER,MAPS_ICONS_QUESTS_TILES_TILE_1_4_COLOR_UP,MAPS_ICONS_QUESTS_TILES_TILE_1_4_GRAY_OVER,MAPS_ICONS_QUESTS_TILES_TILE_1_4_GRAY_UP];
+      
+      public static const MAPS_ICONS_BUTTONS_SOCIAL_ENUM:Array = [MAPS_ICONS_BUTTONS_SOCIAL_FACEBOOK,MAPS_ICONS_BUTTONS_SOCIAL_GOOGLE,MAPS_ICONS_BUTTONS_SOCIAL_NAVER,MAPS_ICONS_BUTTONS_SOCIAL_VKONTAKTE,MAPS_ICONS_BUTTONS_SOCIAL_WG,MAPS_ICONS_BUTTONS_SOCIAL_YAHOO];
+      
+      public static const MAPS_ICONS_BUTTONS_SOCIAL_COLOR_ENUM:Array = [MAPS_ICONS_BUTTONS_SOCIAL_COLOR_FACEBOOK,MAPS_ICONS_BUTTONS_SOCIAL_COLOR_GOOGLE,MAPS_ICONS_BUTTONS_SOCIAL_COLOR_NAVER,MAPS_ICONS_BUTTONS_SOCIAL_COLOR_VKONTAKTE,MAPS_ICONS_BUTTONS_SOCIAL_COLOR_WG,MAPS_ICONS_BUTTONS_SOCIAL_COLOR_YAHOO];
+      
+      public static const MAPS_ICONS_VEHICLE_UNIQUE_ENUM:Array = [MAPS_ICONS_VEHICLE_UNIQUE_GERMANY_G104_STUG_IV,MAPS_ICONS_VEHICLE_UNIQUE_GERMANY_G105_T_55_NVA_DDR,MAPS_ICONS_VEHICLE_UNIQUE_NORMAL_GERMANY_G104_STUG_IV,MAPS_ICONS_VEHICLE_UNIQUE_NORMAL_GERMANY_G105_T_55_NVA_DDR,MAPS_ICONS_VEHICLE_UNIQUE_NORMAL_USA_A102_T28_CONCEPT,MAPS_ICONS_VEHICLE_UNIQUE_NORMAL_USA_T95_E2,MAPS_ICONS_VEHICLE_UNIQUE_NORMAL_USSR_R110_OBJECT_260,MAPS_ICONS_VEHICLE_UNIQUE_USA_A102_T28_CONCEPT,MAPS_ICONS_VEHICLE_UNIQUE_USA_T95_E2,MAPS_ICONS_VEHICLE_UNIQUE_USSR_R110_OBJECT_260];
       
       public static function maps_icons_buttons(param1:String) : String
       {
@@ -6661,6 +8725,30 @@ package
             DebugUtils.LOG_WARNING("[maps_icons_quests_tiles]:locale key \"" + _loc2_ + "\" was not found");
             return null;
          }
+         return _loc2_;
+      }
+      
+      public static function maps_icons_buttons_social(param1:String) : String
+      {
+         var _loc2_:String = null;
+         _loc2_ = "../maps/icons/buttons/social/" + param1;
+         App.utils.asserter.assert(!(MAPS_ICONS_BUTTONS_SOCIAL_ENUM.indexOf(_loc2_) == -1),"locale key \"" + _loc2_ + "\" was not found");
+         return _loc2_;
+      }
+      
+      public static function maps_icons_buttons_social_color(param1:String) : String
+      {
+         var _loc2_:String = null;
+         _loc2_ = "../maps/icons/buttons/social/color/" + param1;
+         App.utils.asserter.assert(!(MAPS_ICONS_BUTTONS_SOCIAL_COLOR_ENUM.indexOf(_loc2_) == -1),"locale key \"" + _loc2_ + "\" was not found");
+         return _loc2_;
+      }
+      
+      public static function maps_icons_vehicle_unique(param1:String) : String
+      {
+         var _loc2_:String = null;
+         _loc2_ = "../maps/icons/vehicle/unique/" + param1;
+         App.utils.asserter.assert(!(MAPS_ICONS_VEHICLE_UNIQUE_ENUM.indexOf(_loc2_) == -1),"locale key \"" + _loc2_ + "\" was not found");
          return _loc2_;
       }
    }

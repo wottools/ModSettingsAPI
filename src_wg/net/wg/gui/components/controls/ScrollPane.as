@@ -196,7 +196,6 @@ package net.wg.gui.components.controls
       override protected function onDispose() : void
       {
          var _loc1_:DisplayObject = null;
-         this._isScrollBarHaveToBeShown = null;
          super.onDispose();
          this.thumbOffset = null;
          if(this._scrollBar)

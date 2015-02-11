@@ -3,7 +3,7 @@ package net.wg.app
    import net.wg.infrastructure.base.meta.IApplicationMeta;
    import flash.display.Stage;
    import flash.display.DisplayObjectContainer;
-   import net.wg.infrastructure.base.meta.IGlobalVarsMgrMeta;
+   import net.wg.infrastructure.managers.IGlobalVarsManager;
    import net.wg.infrastructure.managers.ISoundManager;
    import net.wg.infrastructure.managers.ITooltipMgr;
    import net.wg.infrastructure.managers.IWaitingView;
@@ -17,14 +17,13 @@ package net.wg.app
    import net.wg.infrastructure.managers.IVoiceChatManager;
    import net.wg.utils.IGameInputManager;
    import net.wg.infrastructure.managers.IEventLogManager;
+   import net.wg.infrastructure.managers.ILoaderManager;
+   import net.wg.infrastructure.managers.ICacheManager;
    import net.wg.utils.IUtils;
    import net.wg.utils.ITweenManager;
-   import net.wg.infrastructure.helpers.ILibraryLoader;
    
    public interface IApplication extends IApplicationMeta
    {
-      
-      function onLangBarResize(param1:Number, param2:Number) : void;
       
       function get appWidth() : Number;
       
@@ -34,7 +33,7 @@ package net.wg.app
       
       function get systemMessages() : DisplayObjectContainer;
       
-      function get globalVarsMgr() : IGlobalVarsMgrMeta;
+      function get globalVarsMgr() : IGlobalVarsManager;
       
       function get soundMgr() : ISoundManager;
       
@@ -62,12 +61,16 @@ package net.wg.app
       
       function get eventLogManager() : IEventLogManager;
       
+      function get loaderMgr() : ILoaderManager;
+      
+      function get cacheMgr() : ICacheManager;
+      
       function get utils() : IUtils;
       
       function get tweenMgr() : ITweenManager;
       
       function get browserBgClass() : Class;
       
-      function get libraryLoader() : ILibraryLoader;
+      function get altBrowserBgClass() : Class;
    }
 }

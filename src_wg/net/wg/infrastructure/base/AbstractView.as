@@ -86,9 +86,12 @@ package net.wg.infrastructure.base
             this.setLastFocusedElement(null);
             dispose();
             dispatchEvent(new LifeCycleEvent(LifeCycleEvent.ON_AFTER_DISPOSE));
-            this.assertNotNull(this.loader,"loader` in " + getQualifiedClassName(this) + "(" + this.as_alias + "alias)");
-            this._loader.unloadAndStop();
-            this._loader = null;
+            if(!this.as_config.cached)
+            {
+               this.assertNotNull(this.loader,"loader` in " + getQualifiedClassName(this) + "(" + this.as_alias + "alias)");
+               this._loader.unloadAndStop();
+               this._loader = null;
+            }
             App.utils.commons.releaseReferences(this);
             this._disposed = true;
          }
@@ -218,7 +221,6 @@ package net.wg.infrastructure.base
       
       public function set loader(param1:Loader) : void
       {
-         this.assertNotNull(param1,"value");
          this._loader = param1;
       }
       

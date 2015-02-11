@@ -116,6 +116,7 @@ package net.wg.gui.components.controls
          if(!(_label == null) && !(textField == null))
          {
             textField.htmlText = _label;
+            invalidate(this.INVALIDATION_TEXT_FIELD_HEIGHT);
          }
       }
       
@@ -320,6 +321,7 @@ package net.wg.gui.components.controls
                _loc1_.leading = this._textLineSpacing;
                textField.setTextFormat(_loc1_);
                textField.alpha = enabled?1:this._disabledTextAlpha;
+               invalidate(this.INVALIDATION_TEXT_FIELD_HEIGHT);
             }
          }
          if(isInvalid(this.INFO_INV))

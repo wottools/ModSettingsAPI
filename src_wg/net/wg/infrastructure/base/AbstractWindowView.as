@@ -2,7 +2,6 @@ package net.wg.infrastructure.base
 {
    import net.wg.infrastructure.base.meta.impl.WindowViewMeta;
    import net.wg.infrastructure.base.interfaces.IAbstractWindowView;
-   import net.wg.gui.components.common.waiting.Waiting;
    import net.wg.infrastructure.base.interfaces.IWindow;
    import net.wg.infrastructure.base.interfaces.IWindowGeometry;
    import flash.display.DisplayObject;
@@ -32,12 +31,6 @@ package net.wg.infrastructure.base
       private static const BG_ENABLED:String = "enable";
       
       private static const BG_DISABLED:String = "disable";
-      
-      private var _waiting:Waiting;
-      
-      private var waitingMessage:String;
-      
-      private var _showWaiting:Boolean;
       
       private var _window:IWindow;
       
@@ -94,17 +87,6 @@ package net.wg.infrastructure.base
          {
             onWindowCloseS();
          }
-      }
-      
-      public function as_showWaiting(param1:String, param2:Object) : void
-      {
-         this.waitingMessage = param1;
-         this.showWaiting = true;
-      }
-      
-      public function as_hideWaiting() : void
-      {
-         this.showWaiting = false;
       }
       
       public function as_getGeometry() : Array
@@ -252,20 +234,6 @@ package net.wg.infrastructure.base
          this._showWindowBg = param1;
       }
       
-      public function get showWaiting() : Boolean
-      {
-         return this._showWaiting;
-      }
-      
-      public function set showWaiting(param1:Boolean) : void
-      {
-         if(this._showWaiting != param1)
-         {
-            this._showWaiting = param1;
-            invalidate(WindowViewInvalidationType.WAITING_INVALID);
-         }
-      }
-      
       public function get geometry() : IWindowGeometry
       {
          return this._geometry;
@@ -288,11 +256,6 @@ package net.wg.infrastructure.base
       public function set isSourceTracked(param1:Boolean) : void
       {
          this._isSourceTracked = param1;
-      }
-      
-      public function get waiting() : Waiting
-      {
-         return this._waiting;
       }
       
       public function get wrapperLinkage() : String
@@ -338,15 +301,6 @@ package net.wg.infrastructure.base
       
       override protected function onDispose() : void
       {
-         if(this._waiting)
-         {
-            this._waiting.dispose();
-            if(this._waiting.parent)
-            {
-               this._waiting.parent.removeChild(this._waiting);
-            }
-            this._waiting = null;
-         }
          if(this._window)
          {
             this._window.removeEventListener(InputEvent.INPUT,this.handleInput);
@@ -360,41 +314,11 @@ package net.wg.infrastructure.base
       
       override protected function draw() : void
       {
-         if(isInvalid(WindowViewInvalidationType.WAITING_INVALID))
-         {
-            this.applyWaitingChanges();
-         }
          super.draw();
          if((this.geometry) && (this._window) && (isInvalid(WindowViewInvalidationType.POSITION_INVALID)))
          {
             this.geometry.setPosition(this._window);
             this.checkAppBounds();
-         }
-      }
-      
-      protected function applyWaitingChanges() : void
-      {
-         if(this._showWaiting)
-         {
-            if(!this._waiting)
-            {
-               this._waiting = new Waiting();
-               addChild(this._waiting);
-               this._waiting.setSize(width,height);
-               this._waiting.validateNow();
-            }
-            this._waiting.setMessage(this.waitingMessage);
-         }
-         if(this._waiting)
-         {
-            if(this._showWaiting)
-            {
-               this._waiting.show();
-            }
-            else
-            {
-               this._waiting.hide();
-            }
          }
       }
       

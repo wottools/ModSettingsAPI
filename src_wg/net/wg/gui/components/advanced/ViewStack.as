@@ -13,8 +13,8 @@ package net.wg.gui.components.advanced
    import net.wg.infrastructure.exceptions.ArgumentException;
    import net.wg.gui.events.ViewStackContentEvent;
    import net.wg.infrastructure.events.LifeCycleEvent;
-   import flash.utils.getDefinitionByName;
    import net.wg.gui.events.ViewStackEvent;
+   import flash.utils.getDefinitionByName;
    import net.wg.infrastructure.exceptions.InfrastructureException;
    
    public class ViewStack extends UIComponent
@@ -243,6 +243,10 @@ package net.wg.gui.components.advanced
             this._currentView.addEventListener(LifeCycleEvent.ON_AFTER_DISPOSE,this.onDisposeSubViewHandler);
          }
          this._currentLinkage = param2;
+         if((this._currentView) && (this._currentLinkage))
+         {
+            dispatchEvent(new ViewStackEvent(ViewStackEvent.VIEW_CHANGED,IViewStackContent(this._currentView),this._currentLinkage));
+         }
       }
       
       private function createView(param1:String) : UIComponent
@@ -276,7 +280,6 @@ package net.wg.gui.components.advanced
                this.cachedViews[param1] = _loc2_;
             }
          }
-         dispatchEvent(new ViewStackEvent(ViewStackEvent.VIEW_CHANGED,IViewStackContent(_loc2_),param1));
          return _loc2_;
       }
       

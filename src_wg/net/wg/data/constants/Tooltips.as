@@ -10,6 +10,8 @@ package net.wg.data.constants
       
       public static const TANKMAN:String = "tankman";
       
+      public static const CONTACT:String = "contact";
+      
       public static const BATTLE_STATS_ACHIEVS:String = "battleStatsAchievementData";
       
       public static const ACHIEVEMENT:String = "achievement";
@@ -84,6 +86,8 @@ package net.wg.data.constants
       
       public static const FORT_WRONG_TIME:String = "fortWrongTime";
       
+      public static const FORT_CONSUMABLE_ORDER:String = "fortConsumableOrder";
+      
       public static const TYPE_WARNING:String = "WARNING";
       
       public static const TYPE_INFO:String = "INFO";
@@ -92,7 +96,7 @@ package net.wg.data.constants
       
       public static const CYBER_SPORT_SLOT:String = "cyberSportSlot";
       
-      public static const CYBER_SPORT_AUTOSEARCH_VEHICLES:String = "cyberSportAutoSearchVehicles";
+      public static const CYBER_SPORT_SELECTED_VEHICLE:String = "cyberSportSelectedVehicle";
       
       public static const CYBER_SPORT_SLOT_SELECTED:String = "cyberSportSlotSelected";
       

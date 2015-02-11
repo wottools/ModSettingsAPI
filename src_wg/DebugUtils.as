@@ -40,6 +40,18 @@ package
          }
       }
       
+      public static function LOG_OBJECT(param1:Object) : void
+      {
+         var _loc2_:String = null;
+         LOG_DEBUG("----------------------------------------------------------------");
+         LOG_DEBUG(String(param1) + " contains next fields:");
+         for(_loc2_ in param1)
+         {
+            LOG_DEBUG(_loc2_,param1[_loc2_]);
+         }
+         LOG_DEBUG("----------------------------------------------------------------");
+      }
+      
       public static function LOG_ERROR(... rest) : void
       {
          rest.unshift("ERROR");
