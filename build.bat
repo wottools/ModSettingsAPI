@@ -19,6 +19,7 @@ call setEnv
 
 
 REM cleaning up
+rm -rf "tmp"
 rm -f "bin\SettingsWindowC-0.abc"
 rm -rf "bin\SettingsWindowC-0"
 rm -f "bin\SettingsWindow.pyc"
