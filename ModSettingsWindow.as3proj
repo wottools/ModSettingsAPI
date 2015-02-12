@@ -16,7 +16,6 @@
   </output>
   <!-- Other classes to be compiled into your SWF -->
   <classpaths>
-    <class path="src_wg" />
     <class path="src" />
   </classpaths>
   <!-- Build options -->
@@ -79,6 +78,8 @@
   <!-- Paths to exclude from the Project Explorer tree -->
   <hiddenPaths>
     <hidden path="obj" />
+    <hidden path="originalFiles" />
+    <hidden path="RABCDAsm" />
   </hiddenPaths>
   <!-- Executed before build -->
   <preBuildCommand />
