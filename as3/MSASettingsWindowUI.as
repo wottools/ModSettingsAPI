@@ -23,6 +23,7 @@ package
 		public function MSASettingsWindowUI()
 		{
 			//
+			var t:int = 5;
 		}
 	}
 }

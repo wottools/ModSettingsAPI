@@ -15,12 +15,37 @@ echo
 echo Setting Envoirement Variables
 call setEnv
 
+REM FLASH
 
-
-REM export own compilate
+REM export own compilate.
 echo extracting MSAClasses.swf
 RABCDAsm\abcexport tmp\MSAClasses.swf
 RABCDasm\RABCDAsm tmp\MSAClasses-0.abc
+rm tmp\MSAClasses-0.abc
 
+REM export vanilla file.
+echo extracting settingsWindow.swf
+copy as3\settingsWindow.swf tmp\settingsWindow.swf
+RABCDAsm\abcexport tmp\settingsWindow.swf
+RABCDasm\RABCDAsm tmp\settingsWindow-0.abc
+rm tmp\settingsWindow-0.abc
+
+REM move and include class
+patch tmp\settingsWindow-0\settingsWindow-0.main.asasm as3\sw.patch
+copy tmp\MSAClasses-0\MSASettingsWindowUI.script.asasm tmp\settingsWindow-0\MSASettingsWindowUI.script.asasm
+copy tmp\MSAClasses-0\MSASettingsWindowUI.class.asasm tmp\settingsWindow-0\MSASettingsWindowUI.class.asasm
+
+REM merge class into hierarchy
+patch tmp\settingsWindow-0\SettingsWindowUI.class.asasm as3\SWUI.patch
+
+REM re-assemble settingsWindow.swf
+echo assembling settingsWindow.swf
+RABCDasm\RABCAsm tmp\settingsWindow-0\settingsWindow-0.main.asasm
+RABCDasm\abcreplace tmp\settingsWindow.swf 0 tmp\settingsWindow-0\settingsWindow-0.main.abc
+
+REM PYTHON
+
+
+REM APIS
 
 echo Build finished.

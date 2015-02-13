@@ -65,5 +65,7 @@ obj/
 *.opensdf
 
 
+# MSA stuff
 RABCDAsm
 tmp
+apache-flex-sdk-4.14.0-src

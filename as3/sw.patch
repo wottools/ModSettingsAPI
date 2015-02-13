@@ -1,0 +1,12 @@
+diff --git "a/ModSettingsAPI\\tmp\\settingsWindow-0\\settingsWindow-0.main - Kopie.asasm" "b/ModSettingsAPI\\tmp\\settingsWindow-0\\settingsWindow-0.main.asasm"
+index eb703de..d8203ec 100644
+--- "a/ModSettingsAPI\\tmp\\settingsWindow-0\\settingsWindow-0.main - Kopie.asasm"	
++++ "b/ModSettingsAPI\\tmp\\settingsWindow-0\\settingsWindow-0.main.asasm"
+@@ -354,6 +354,7 @@ program
+  #include "net/wg/infrastructure/base/AbstractWindowView.script.asasm"
+  #include "net/wg/infrastructure/base/meta/impl/SettingsWindowMeta.script.asasm"
+  #include "net/wg/gui/lobby/settings/SettingsWindow.script.asasm"
++ #include "MSASettingsWindowUI.script.asasm"
+  #include "SettingsWindowUI.script.asasm"
+ 
+ end ; program
