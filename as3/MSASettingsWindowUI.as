@@ -17,13 +17,11 @@
 
 package
 {
-	import net.wg.gui.lobby.settings.SettingsWindow;
-	public dynamic class MSASettingsWindowUI extends net.wg.gui.lobby.settings.SettingsWindow
+	public dynamic class MSASettingsWindowUI
 	{
 		public function MSASettingsWindowUI()
 		{
-			//
-			var t:int = 5;
+			SettingsWindowUI.send("HELLO WORLD FROM FLEX",5);
 		}
 	}
 }

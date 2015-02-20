@@ -1,0 +1,13 @@
+diff --git a/MSASettingsWindowUI.class - Kopie.asasm b/MSASettingsWindowUI.class.asasm
+index e6af612..959a797 100644
+--- a/MSASettingsWindowUI.class - Kopie.asasm	
++++ b/MSASettingsWindowUI.class.asasm
+@@ -1,7 +1,7 @@
+ class
+  refid "MSASettingsWindowUI"
+  instance QName(PackageNamespace(""), "MSASettingsWindowUI")
+-  extends QName(PackageNamespace(""), "Object")
++  extends QName(PackageNamespace("net.wg.gui.lobby.settings"), "SettingsWindow")
+   flag PROTECTEDNS
+   protectedns ProtectedNamespace("MSASettingsWindowUI")
+   iinit

@@ -31,12 +31,13 @@ RABCDasm\RABCDAsm tmp\settingsWindow-0.abc
 rm tmp\settingsWindow-0.abc
 
 REM move and include class
-patch tmp\settingsWindow-0\settingsWindow-0.main.asasm as3\sw.patch
+patch tmp\settingsWindow-0\settingsWindow-0.main.asasm as3\settingsWindow-0.main.asasm.patch
 copy tmp\MSAClasses-0\MSASettingsWindowUI.script.asasm tmp\settingsWindow-0\MSASettingsWindowUI.script.asasm
 copy tmp\MSAClasses-0\MSASettingsWindowUI.class.asasm tmp\settingsWindow-0\MSASettingsWindowUI.class.asasm
 
 REM merge class into hierarchy
-patch tmp\settingsWindow-0\SettingsWindowUI.class.asasm as3\SWUI.patch
+patch tmp\settingsWindow-0\SettingsWindowUI.class.asasm as3\SettingsWindowUI.class.asasm.patch
+patch tmp\settingsWindow-0\MSASettingsWIndowUI.class.asasm as3\MSASettingsWindowUI.class.asasm.patch
 
 REM re-assemble settingsWindow.swf
 echo assembling settingsWindow.swf
